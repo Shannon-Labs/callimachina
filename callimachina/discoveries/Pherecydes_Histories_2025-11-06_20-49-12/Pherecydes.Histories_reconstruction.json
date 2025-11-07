@@ -1,0 +1,35 @@
+{
+  "work_id": "Pherecydes.Histories",
+  "metadata": {
+    "author": "Pherecydes",
+    "title": "Histories",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5610319417696301,
+    "std": 0.1249270742198641,
+    "ci_lower": 0.3157381990971069,
+    "ci_upper": 0.799625727648654,
+    "median": 0.5625663375635118
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Pherecydes.Histories describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Pherecydes.Histories describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0252,
+    "citation_density": 0.0,
+    "confidence_stability": 0.875072925780136,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.452813402619199
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.008
+  }
+}

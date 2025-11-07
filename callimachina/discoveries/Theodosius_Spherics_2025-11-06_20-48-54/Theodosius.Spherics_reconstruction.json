@@ -1,0 +1,35 @@
+{
+  "work_id": "Theodosius.Spherics",
+  "metadata": {
+    "author": "Theodosius",
+    "title": "Spherics",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550814028966589,
+    "std": 0.12692716557965905,
+    "ci_lower": 0.31082666793888164,
+    "ci_upper": 0.7991320702742697,
+    "median": 0.5550819970191005
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Theodosius.Spherics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Theodosius.Spherics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8730728344203409,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45011317793403094
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

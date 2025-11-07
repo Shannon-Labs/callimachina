@@ -1,0 +1,35 @@
+{
+  "work_id": "Euclid.Data",
+  "metadata": {
+    "author": "Euclid",
+    "title": "Data",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5564347210709774,
+    "std": 0.1263729503709363,
+    "ci_lower": 0.30739800421273955,
+    "ci_upper": 0.7939436929571819,
+    "median": 0.5590414745625527
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Euclid.Data describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Euclid.Data with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.025,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8736270496290637,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4507699267246307
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.0
+  }
+}

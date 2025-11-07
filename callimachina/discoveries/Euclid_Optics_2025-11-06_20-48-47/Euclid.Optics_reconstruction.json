@@ -1,0 +1,35 @@
+{
+  "work_id": "Euclid.Optics",
+  "metadata": {
+    "author": "Euclid",
+    "title": "Optics",
+    "genre": "philosophy",
+    "century": -3
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5489773054552395,
+    "std": 0.1306300950256148,
+    "ci_lower": 0.2956177774730437,
+    "ci_upper": 0.7866351676065253,
+    "median": 0.5506446245883028
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Euclid.Optics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Euclid.Optics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0224,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8693699049743853,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44658124601286764
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.8960000000000001
+  }
+}

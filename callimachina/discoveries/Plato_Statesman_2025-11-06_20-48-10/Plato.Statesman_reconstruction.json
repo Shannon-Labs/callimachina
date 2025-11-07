@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Statesman",
+  "metadata": {
+    "author": "Plato",
+    "title": "Statesman",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6284271309848964,
+    "std": 0.1265606578453571,
+    "ci_lower": 0.37042931436145016,
+    "ci_upper": 0.8479031591992849,
+    "median": 0.6389442750945311
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.Statesman describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.Statesman describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0232,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8734393421546429,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47900811994275616
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9279999999999999
+  }
+}

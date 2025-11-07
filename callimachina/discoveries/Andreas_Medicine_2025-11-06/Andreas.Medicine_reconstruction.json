@@ -1,0 +1,35 @@
+{
+  "work_id": "Andreas.Medicine",
+  "metadata": {
+    "author": "Andreas",
+    "title": "Medicine",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5491229365453307,
+    "std": 0.13213335214964553,
+    "ci_lower": 0.2902444491117177,
+    "ci_upper": 0.8040570531766528,
+    "median": 0.5483225818111978
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Andreas.Medicine describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Andreas.Medicine with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8678666478503545,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44786917273650106
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

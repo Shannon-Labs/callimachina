@@ -1,0 +1,35 @@
+{
+  "work_id": "Stesichorus.Oresteia",
+  "metadata": {
+    "author": "Stesichorus",
+    "title": "Oresteia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5581948480671894,
+    "std": 0.130290129229778,
+    "ci_lower": 0.30070471597588355,
+    "ci_upper": 0.8071646749621388,
+    "median": 0.5619253340367147
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Stesichorus.Oresteia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Stesichorus.Oresteia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.869709870770222,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45216225963723133
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

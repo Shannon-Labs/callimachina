@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Meno",
+  "metadata": {
+    "author": "Plato",
+    "title": "Meno",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6293213250661788,
+    "std": 0.12569610745632562,
+    "ci_lower": 0.3684928293807569,
+    "ci_upper": 0.8476621379124016,
+    "median": 0.6400392917813895
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Plato.Meno describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Plato.Meno with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0246,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8743038925436744,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4798722526141722
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.984
+  }
+}

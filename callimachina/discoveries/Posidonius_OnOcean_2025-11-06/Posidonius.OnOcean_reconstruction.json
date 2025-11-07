@@ -1,0 +1,35 @@
+{
+  "work_id": "Posidonius.OnOcean",
+  "metadata": {
+    "author": "Posidonius",
+    "title": "OnOcean",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5607034280302106,
+    "std": 0.12888694138430826,
+    "ci_lower": 0.30564063769392036,
+    "ci_upper": 0.7960502586274817,
+    "median": 0.5685918452434148
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Posidonius.OnOcean describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Posidonius.OnOcean with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8711130586156918,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45306601040698674
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

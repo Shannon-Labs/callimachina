@@ -1,0 +1,36 @@
+{
+  "work_id": "Aristotle",
+  "metadata": {
+    "author": "Unknown",
+    "title": "Aristotle",
+    "genre": "citation_gap",
+    "century": -2,
+    "recoverability_score": 0.1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.49431473898672745,
+    "std": 0.13286167306400232,
+    "ci_lower": 0.24266635893840047,
+    "ci_upper": 0.7582588700796146,
+    "median": 0.49462002380097947
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "In the Aristotle, the author argues that being is predicated of all existing things... [confidence: 80.0%]",
+    "2": "According to the doctrine presented in Aristotle, the soul possesses three distinct faculties... [confidence: 85.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0364,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8671383269359977,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4286930616216241
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.456
+  }
+}

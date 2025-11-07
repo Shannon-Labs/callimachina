@@ -1,0 +1,35 @@
+{
+  "work_id": "Melissus.OnNature",
+  "metadata": {
+    "author": "Melissus",
+    "title": "OnNature",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5562303529088135,
+    "std": 0.13272863695775497,
+    "ci_lower": 0.28678050283950424,
+    "ci_upper": 0.7984417257208977,
+    "median": 0.5593994697339235
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Melissus.OnNature describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Melissus.OnNature with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8672713630422451,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4507726108010833
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

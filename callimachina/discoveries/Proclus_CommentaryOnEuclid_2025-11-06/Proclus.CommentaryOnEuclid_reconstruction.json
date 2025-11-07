@@ -1,0 +1,35 @@
+{
+  "work_id": "Proclus.CommentaryOnEuclid",
+  "metadata": {
+    "author": "Proclus",
+    "title": "CommentaryOnEuclid",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5614771685178027,
+    "std": 0.13027272717953772,
+    "ci_lower": 0.3049038627174599,
+    "ci_upper": 0.8108919856768882,
+    "median": 0.5680398692729491
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Proclus.CommentaryOnEuclid describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Proclus.CommentaryOnEuclid with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8697272728204622,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45419692802250067
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

@@ -1,0 +1,40 @@
+ghosts_confirmed: 1
+lost_works:
+- citation_count: 4
+  citations:
+  - citation_type: direct_quote
+    date_range: c. 64 BCE-24 CE
+    discovered: '2025-11-06T19:24:53.932667'
+    independence_score: 0.8
+    language: greek
+    location: 2.5.7
+    source: Strabo
+  - citation_type: paraphrase
+    date_range: c. 1st century CE
+    discovered: '2025-11-06T19:24:53.932669'
+    independence_score: 0.8
+    language: greek
+    location: '1.7'
+    source: Cleomedes
+  - citation_type: citation
+    date_range: c. 100-170 CE
+    discovered: '2025-11-06T19:24:53.932671'
+    independence_score: 0.8
+    language: greek
+    location: Almagest 1.10
+    source: Ptolemy
+  - citation_type: fragment
+    date_range: c. 5th century CE
+    discovered: '2025-11-06T19:24:53.932672'
+    independence_score: 0.8
+    language: greek
+    location: '1.22'
+    source: Stobaeus
+  confidence: 0.95
+  last_triangulated: '2025-11-06T19:24:53.932686'
+  priority_score: 98
+  status: lost_confirmed
+  survival_paths:
+  - greek_direct
+  title: Eratosthenes Geographika
+triangulation_timestamp: '2025-11-06T19:24:53.932855'

@@ -1,0 +1,77 @@
+alerts_issued: 0
+enhanced_alerts: 4
+enhanced_confidences: 4
+fragments_found: 5
+ghosts_confirmed: 4
+networks_built: 1
+phases_completed:
+- papyrus_hunt
+- citation_triangulation
+- reconstruction
+- stylometry
+- translation_hunt
+- network_building
+- confidence_enhancement
+- alert_generation
+pipeline_timestamp: '2025-11-06T19:41:27.588947'
+reconstructions_completed: 4
+stylometric_analyses: 2
+translation_discoveries: 9
+works_processed:
+- alert_issued: true
+  base_reconstruction_confidence: 0.63
+  citation_confidence: 0.95
+  citation_count: 4
+  confidence_level: very_high
+  enhanced_confidence: 0.9961361383163477
+  fragments_mapped: 4
+  priority_score: 98
+  status: reconstructed
+  survival_paths:
+  - greek_direct
+  translation_chains: 4
+  translations_found: 4
+  work_title: Eratosthenes Geographika
+- alert_issued: true
+  base_reconstruction_confidence: 0.56
+  citation_confidence: 0.65
+  citation_count: 2
+  confidence_level: very_high
+  enhanced_confidence: 0.9855308560390234
+  fragments_mapped: 2
+  priority_score: 66
+  status: reconstructed
+  survival_paths:
+  - greek_direct
+  - arabic_translation
+  translation_chains: 0
+  translations_found: 5
+  work_title: Hippolytus On Heraclitus
+- alert_issued: true
+  base_reconstruction_confidence: 0.48
+  citation_confidence: 0.7
+  citation_count: 2
+  confidence_level: very_high
+  enhanced_confidence: 0.9649722010687267
+  fragments_mapped: 2
+  priority_score: 60
+  status: reconstructed
+  survival_paths:
+  - greek_direct
+  translation_chains: 0
+  translations_found: 0
+  work_title: Posidippus Epigrams
+- alert_issued: true
+  base_reconstruction_confidence: 0.48
+  citation_confidence: 0.65
+  citation_count: 2
+  confidence_level: very_high
+  enhanced_confidence: 0.9585111823543394
+  fragments_mapped: 2
+  priority_score: 61
+  status: reconstructed
+  survival_paths:
+  - greek_direct
+  translation_chains: 0
+  translations_found: 0
+  work_title: Callimachus Aetia

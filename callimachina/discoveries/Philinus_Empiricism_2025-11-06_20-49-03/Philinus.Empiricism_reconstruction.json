@@ -1,0 +1,35 @@
+{
+  "work_id": "Philinus.Empiricism",
+  "metadata": {
+    "author": "Philinus",
+    "title": "Empiricism",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5531764733377577,
+    "std": 0.12627617140108807,
+    "ci_lower": 0.3036746268526242,
+    "ci_upper": 0.7931651884428251,
+    "median": 0.551981953077974
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Philinus.Empiricism describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Philinus.Empiricism describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.873723828598912,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4494163055283276
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

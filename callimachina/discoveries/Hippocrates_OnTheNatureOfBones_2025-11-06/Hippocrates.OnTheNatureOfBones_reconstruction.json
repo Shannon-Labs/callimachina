@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnTheNatureOfBones",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnTheNatureOfBones",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5559920396270972,
+    "std": 0.1321672965570866,
+    "ci_lower": 0.2913816822092667,
+    "ci_upper": 0.7909873890737419,
+    "median": 0.5638514430434026
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hippocrates.OnTheNatureOfBones describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hippocrates.OnTheNatureOfBones with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0326,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8678327034429134,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4522934195284636
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.3040000000000003
+  }
+}

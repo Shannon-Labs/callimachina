@@ -1,0 +1,35 @@
+{
+  "work_id": "Antisthenes.Ajax",
+  "metadata": {
+    "author": "Antisthenes",
+    "title": "Ajax",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5590611930004135,
+    "std": 0.12563979800987227,
+    "ci_lower": 0.31428362673946414,
+    "ci_upper": 0.7838875753927463,
+    "median": 0.5624592672162667
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Antisthenes.Ajax describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Antisthenes.Ajax describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8743602019901278,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45147383073251146
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

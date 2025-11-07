@@ -1,0 +1,35 @@
+{
+  "work_id": "Pindar.Paeans",
+  "metadata": {
+    "author": "Pindar",
+    "title": "Paeans",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5580055949379786,
+    "std": 0.1266835978622783,
+    "ci_lower": 0.318294437083647,
+    "ci_upper": 0.7854599529844675,
+    "median": 0.5589720524110542
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Pindar.Paeans describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Pindar.Paeans with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0258,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8733164021377217,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45160721152229694
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.032
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Cicero.TusculanDisputations",
+  "metadata": {
+    "author": "Cicero",
+    "title": "TusculanDisputations",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5552240655660753,
+    "std": 0.12342411305428504,
+    "ci_lower": 0.30939973145902233,
+    "ci_upper": 0.7861415357772678,
+    "median": 0.5600037043004389
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Cicero.TusculanDisputations describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Cicero.TusculanDisputations describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.028,
+    "citation_density": 0.0,
+    "confidence_stability": 0.876575886945715,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.451480548254335
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1199999999999999
+  }
+}

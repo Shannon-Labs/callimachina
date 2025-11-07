@@ -1,0 +1,35 @@
+{
+  "work_id": "Polybius.OnTactics",
+  "metadata": {
+    "author": "Polybius",
+    "title": "OnTactics",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5540549370012638,
+    "std": 0.13255999059174706,
+    "ci_lower": 0.2968656163089701,
+    "ci_upper": 0.7999511138923027,
+    "median": 0.5583989982607318
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Polybius.OnTactics describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Polybius.OnTactics with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8674400094082529,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45003930907466416
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Mimnermus.Smyrneis",
+  "metadata": {
+    "author": "Mimnermus",
+    "title": "Smyrneis",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5601999294577985,
+    "std": 0.1302487902520652,
+    "ci_lower": 0.3074569591260432,
+    "ci_upper": 0.8072704332572856,
+    "median": 0.5613187731753189
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Mimnermus.Smyrneis describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Mimnermus.Smyrneis describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0244,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8697512097479347,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45170842609124623
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.976
+  }
+}

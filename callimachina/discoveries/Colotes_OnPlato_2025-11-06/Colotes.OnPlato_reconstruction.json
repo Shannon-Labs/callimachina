@@ -1,0 +1,35 @@
+{
+  "work_id": "Colotes.OnPlato",
+  "metadata": {
+    "author": "Colotes",
+    "title": "OnPlato",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5651316837733501,
+    "std": 0.12915474899006446,
+    "ci_lower": 0.30938048572405225,
+    "ci_upper": 0.7994749728392528,
+    "median": 0.5678248301988852
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Colotes.OnPlato describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Colotes.OnPlato with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8708452510099356,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45445053194366697
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

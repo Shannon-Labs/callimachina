@@ -1,0 +1,35 @@
+{
+  "work_id": "Charon.OnCities",
+  "metadata": {
+    "author": "Charon",
+    "title": "OnCities",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5613535364161023,
+    "std": 0.12751344604268755,
+    "ci_lower": 0.30824160110399496,
+    "ci_upper": 0.8069653074136964,
+    "median": 0.5598606296663742
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Charon.OnCities describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Charon.OnCities with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8724865539573124,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45310340329550547
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

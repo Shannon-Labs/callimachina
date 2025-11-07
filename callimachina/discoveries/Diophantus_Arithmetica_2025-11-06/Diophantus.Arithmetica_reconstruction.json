@@ -1,0 +1,35 @@
+{
+  "work_id": "Diophantus.Arithmetica",
+  "metadata": {
+    "author": "Diophantus",
+    "title": "Arithmetica",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5629207757872624,
+    "std": 0.12670237879996699,
+    "ci_lower": 0.31595472875460123,
+    "ci_upper": 0.806056849969233,
+    "median": 0.5646545785362624
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Diophantus.Arithmetica describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Diophantus.Arithmetica with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0294,
+    "citation_density": 0.0,
+    "confidence_stability": 0.873297621200033,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4546514057682416
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1760000000000002
+  }
+}

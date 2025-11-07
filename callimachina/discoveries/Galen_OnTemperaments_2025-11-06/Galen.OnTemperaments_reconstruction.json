@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnTemperaments",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnTemperaments",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6245138052384518,
+    "std": 0.12422656970152131,
+    "ci_lower": 0.36914474561624727,
+    "ci_upper": 0.8463068995504741,
+    "median": 0.6299691940559193
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Galen.OnTemperaments describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Galen.OnTemperaments with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8757734302984787,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.479296198458562
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

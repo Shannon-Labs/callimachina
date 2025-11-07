@@ -1,0 +1,2 @@
+target,type,recoverability_score,fragments_found,network_centrality,translation_paths,imaging_feasibility,priority_score,search_strategy,status
+Aristotle,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted

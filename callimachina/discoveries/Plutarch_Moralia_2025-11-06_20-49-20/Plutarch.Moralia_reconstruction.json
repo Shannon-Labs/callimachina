@@ -1,0 +1,35 @@
+{
+  "work_id": "Plutarch.Moralia",
+  "metadata": {
+    "author": "Plutarch",
+    "title": "Moralia",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5666932159333854,
+    "std": 0.1305123342995896,
+    "ci_lower": 0.2980691593401839,
+    "ci_upper": 0.8019828264867382,
+    "median": 0.5734944044353137
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plutarch.Moralia describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plutarch.Moralia describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8694876657004104,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4540393862767285
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

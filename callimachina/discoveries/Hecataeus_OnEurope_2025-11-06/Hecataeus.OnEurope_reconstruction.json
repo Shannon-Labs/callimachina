@@ -1,0 +1,35 @@
+{
+  "work_id": "Hecataeus.OnEurope",
+  "metadata": {
+    "author": "Hecataeus",
+    "title": "OnEurope",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5630847674324057,
+    "std": 0.12783654999762833,
+    "ci_lower": 0.3110716435840915,
+    "ci_upper": 0.7926836199959093,
+    "median": 0.5643064496461441
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hecataeus.OnEurope describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hecataeus.OnEurope with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8721634500023716,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4541235853065328
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

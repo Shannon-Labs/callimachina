@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Euthydemus",
+  "metadata": {
+    "author": "Plato",
+    "title": "Euthydemus",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6254729970529915,
+    "std": 0.12558667662448475,
+    "ci_lower": 0.37223753953052086,
+    "ci_upper": 0.8420868517144114,
+    "median": 0.6319997479222359
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.Euthydemus describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.Euthydemus describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8744133233755153,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4780438644920814
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Theon.CommentaryOnAlmagest",
+  "metadata": {
+    "author": "Theon",
+    "title": "CommentaryOnAlmagest",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5579949038548205,
+    "std": 0.13157628182211004,
+    "ci_lower": 0.2961042001710823,
+    "ci_upper": 0.7946816558562917,
+    "median": 0.5646405259544616
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theon.CommentaryOnAlmagest describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theon.CommentaryOnAlmagest with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.86842371817789,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45267366669305054
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

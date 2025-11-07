@@ -1,0 +1,35 @@
+{
+  "work_id": "Hellanicus.OnInventions",
+  "metadata": {
+    "author": "Hellanicus",
+    "title": "OnInventions",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5643820959223846,
+    "std": 0.1279441202005787,
+    "ci_lower": 0.31045888454503157,
+    "ci_upper": 0.8007889373597342,
+    "median": 0.5659567021528189
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hellanicus.OnInventions describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hellanicus.OnInventions with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0298,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8720558797994213,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4552317596822294
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1920000000000002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Gorgias.OnNonExistence",
+  "metadata": {
+    "author": "Gorgias",
+    "title": "OnNonExistence",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5615678829473386,
+    "std": 0.1256151365952194,
+    "ci_lower": 0.32022352052586966,
+    "ci_upper": 0.7934100106720938,
+    "median": 0.5620413055114065
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Gorgias.OnNonExistence describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Gorgias.OnNonExistence describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.026,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8743848634047806,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45319897285274685
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.04
+  }
+}

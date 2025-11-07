@@ -1,0 +1,36 @@
+{
+  "work_id": "Hippocrates",
+  "metadata": {
+    "author": "Unknown",
+    "title": "Hippocrates",
+    "genre": "citation_gap",
+    "century": -4,
+    "priority_score": 0.2
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.5310085170397956,
+    "std": 0.11943692904145242,
+    "ci_lower": 0.29602883379961753,
+    "ci_upper": 0.7578455234869458,
+    "median": 0.5344595990875407
+  },
+  "fragments_used": 2,
+  "citations_used": 1,
+  "reconstruction": {
+    "1": "In the Hippocrates, the author demonstrates that being is predicated of all existing things... [confidence: 80.0%]",
+    "2": "The Hippocrates contains arguments against the atomist position... [confidence: 85.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.032,
+    "citation_density": 0.5,
+    "confidence_stability": 0.8805630709585476,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4433930472451063
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 1,
+    "total_weight": 1.98
+  }
+}

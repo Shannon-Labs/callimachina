@@ -1,0 +1,35 @@
+{
+  "work_id": "Mimnermus.Nanno",
+  "metadata": {
+    "author": "Mimnermus",
+    "title": "Nanno",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5620757297828124,
+    "std": 0.12616155053607542,
+    "ci_lower": 0.30114098499138164,
+    "ci_upper": 0.7991229190188064,
+    "median": 0.5678799818618032
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Mimnermus.Nanno describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Mimnermus.Nanno with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8738384494639246,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4535274701928507
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

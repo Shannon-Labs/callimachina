@@ -1,0 +1,35 @@
+{
+  "work_id": "Eratosthenes.Geography",
+  "metadata": {
+    "author": "Eratosthenes",
+    "title": "Geography",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5553841660651888,
+    "std": 0.12982584479709333,
+    "ci_lower": 0.29752270021892263,
+    "ci_upper": 0.7978195339012091,
+    "median": 0.556091715493672
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Eratosthenes.Geography describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Eratosthenes.Geography with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0294,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8701741552029066,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4513244152796995
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1760000000000002
+  }
+}

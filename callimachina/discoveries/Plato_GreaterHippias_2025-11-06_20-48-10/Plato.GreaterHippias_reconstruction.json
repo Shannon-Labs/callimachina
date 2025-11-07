@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.GreaterHippias",
+  "metadata": {
+    "author": "Plato",
+    "title": "GreaterHippias",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6255508525814341,
+    "std": 0.1244496918705638,
+    "ci_lower": 0.36302906961458364,
+    "ci_upper": 0.850431655554473,
+    "median": 0.6321821653363593
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.GreaterHippias describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.GreaterHippias describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0252,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8755503081294362,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4786687051788506
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.008
+  }
+}

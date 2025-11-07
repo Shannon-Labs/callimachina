@@ -1,0 +1,36 @@
+{
+  "work_id": "Archestratus",
+  "metadata": {
+    "author": "Unknown",
+    "title": "Archestratus",
+    "genre": "citation_gap",
+    "century": -3,
+    "priority_score": 0.1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.5301624536164172,
+    "std": 0.12256923582441744,
+    "ci_lower": 0.2950300390734089,
+    "ci_upper": 0.7678524220908656,
+    "median": 0.5271881666192357
+  },
+  "fragments_used": 2,
+  "citations_used": 1,
+  "reconstruction": {
+    "1": "In the Archestratus, the author demonstrates that being is predicated of all existing things... [confidence: 80.0%]",
+    "2": "The Archestratus contains arguments against the atomist position... [confidence: 85.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0324,
+    "citation_density": 0.5,
+    "confidence_stability": 0.8774307641755825,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4428613911974585
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 1,
+    "total_weight": 1.996
+  }
+}

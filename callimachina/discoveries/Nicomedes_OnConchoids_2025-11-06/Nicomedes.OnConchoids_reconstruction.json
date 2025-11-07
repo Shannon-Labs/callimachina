@@ -1,0 +1,35 @@
+{
+  "work_id": "Nicomedes.OnConchoids",
+  "metadata": {
+    "author": "Nicomedes",
+    "title": "OnConchoids",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550218378862275,
+    "std": 0.1258472205712682,
+    "ci_lower": 0.3092199581072202,
+    "ci_upper": 0.7813048176534259,
+    "median": 0.558800121629488
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Nicomedes.OnConchoids describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Nicomedes.OnConchoids with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8741527794287318,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45145734643069757
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

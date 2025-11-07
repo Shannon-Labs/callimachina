@@ -1,0 +1,35 @@
+{
+  "work_id": "Erasistratus.OnHemorrhage",
+  "metadata": {
+    "author": "Erasistratus",
+    "title": "OnHemorrhage",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5630784444771945,
+    "std": 0.1282239490017986,
+    "ci_lower": 0.3065474391756295,
+    "ci_upper": 0.7883743082751274,
+    "median": 0.5662709031257465
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Erasistratus.OnHemorrhage describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Erasistratus.OnHemorrhage describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0272,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8717760509982014,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45390231622403127
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.088
+  }
+}

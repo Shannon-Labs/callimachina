@@ -1,0 +1,35 @@
+{
+  "work_id": "Thales.Astronomy",
+  "metadata": {
+    "author": "Thales",
+    "title": "Astronomy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5601270145223525,
+    "std": 0.12365304567881412,
+    "ci_lower": 0.3085076464675816,
+    "ci_upper": 0.7937310249984313,
+    "median": 0.5701979748911035
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Thales.Astronomy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Thales.Astronomy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8763469543211859,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4531188345743929
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

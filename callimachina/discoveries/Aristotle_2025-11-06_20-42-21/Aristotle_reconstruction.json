@@ -1,0 +1,36 @@
+{
+  "work_id": "Aristotle",
+  "metadata": {
+    "author": "Unknown",
+    "title": "Aristotle",
+    "genre": "citation_gap",
+    "century": -4,
+    "priority_score": 0.1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.5600125860283607,
+    "std": 0.12032288921018895,
+    "ci_lower": 0.32697871297877773,
+    "ci_upper": 0.7816989223500705,
+    "median": 0.5583985626137511
+  },
+  "fragments_used": 2,
+  "citations_used": 2,
+  "reconstruction": {
+    "1": "In the Aristotle, the author demonstrates that being is predicated of all existing things... [confidence: 80.0%]",
+    "2": "The Aristotle contains arguments against the atomist position... [confidence: 85.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0312,
+    "citation_density": 1.0,
+    "confidence_stability": 0.879677110789811,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4546660788236587
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 2,
+    "total_weight": 2.448
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Epicurus.OnGods",
+  "metadata": {
+    "author": "Epicurus",
+    "title": "OnGods",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.562234765762536,
+    "std": 0.131077583517601,
+    "ci_lower": 0.30203021104248046,
+    "ci_upper": 0.7994298113376661,
+    "median": 0.5688711046527785
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Epicurus.OnGods describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Epicurus.OnGods with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.868922416482399,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45309948128658756
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

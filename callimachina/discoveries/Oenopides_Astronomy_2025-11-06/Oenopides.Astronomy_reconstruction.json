@@ -1,0 +1,35 @@
+{
+  "work_id": "Oenopides.Astronomy",
+  "metadata": {
+    "author": "Oenopides",
+    "title": "Astronomy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5601110590470461,
+    "std": 0.1303553468829706,
+    "ci_lower": 0.30304164189088123,
+    "ci_upper": 0.8011697318820566,
+    "median": 0.5647450396632465
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Oenopides.Astronomy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Oenopides.Astronomy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0282,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8696446531170294,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4528022222638547
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.128
+  }
+}

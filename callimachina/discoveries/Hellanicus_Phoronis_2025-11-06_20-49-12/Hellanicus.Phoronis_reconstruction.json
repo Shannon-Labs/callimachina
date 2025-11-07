@@ -1,0 +1,35 @@
+{
+  "work_id": "Hellanicus.Phoronis",
+  "metadata": {
+    "author": "Hellanicus",
+    "title": "Phoronis",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5534148058795678,
+    "std": 0.13182235204987178,
+    "ci_lower": 0.28865867239612275,
+    "ci_upper": 0.7973940703936409,
+    "median": 0.5568623431761057
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hellanicus.Phoronis describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hellanicus.Phoronis describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8681776479501282,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4489570204801733
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

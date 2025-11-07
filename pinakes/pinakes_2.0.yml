@@ -1,0 +1,38 @@
+alerts_issued: 0
+entries:
+- confidence: 0.95
+  fragments: 4
+  last_updated: '2025-11-06T19:24:53.932686'
+  priority_score: 98
+  reconstruction_confidence: 0.63
+  status: lost_confirmed
+  survival_paths:
+  - greek_direct
+  title: Eratosthenes Geographika
+fragment_sources:
+  inscriptions: 0
+  openiti: 0
+  papyri_info: 0
+  patrologia: 0
+  perseus: 0
+  scholia_db: 0
+  tlg: 0
+meta_catalog:
+  last_updated: '2025-11-06T19:24:53.934717'
+  priority_threshold: 100
+  schema_version: '2.0'
+  total_entries: 1
+reconstruction_status:
+  completed: 1
+  disputed: 0
+  in_progress: 0
+  not_started: 0
+survival_paths:
+  arabic_translation: 0
+  armenian_translation: 0
+  greek_direct: 1
+  greek_indirect: 0
+  latin_translation: 0
+  palimpsest: 0
+  papyrus: 0
+  syriac_translation: 0

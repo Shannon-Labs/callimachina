@@ -1,0 +1,35 @@
+{
+  "work_id": "Boethus.OnNature",
+  "metadata": {
+    "author": "Boethus",
+    "title": "OnNature",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5475599757902425,
+    "std": 0.12410265220075628,
+    "ci_lower": 0.30591066208064327,
+    "ci_upper": 0.7882130074714992,
+    "median": 0.5477245424905473
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Boethus.OnNature describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Boethus.OnNature describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8758973477992438,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44702705842935475
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

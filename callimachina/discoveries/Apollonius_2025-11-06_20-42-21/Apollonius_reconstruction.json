@@ -1,0 +1,36 @@
+{
+  "work_id": "Apollonius",
+  "metadata": {
+    "author": "Unknown",
+    "title": "Apollonius",
+    "genre": "citation_gap",
+    "century": -2,
+    "priority_score": 0.1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.5267846008148654,
+    "std": 0.12715283314403572,
+    "ci_lower": 0.2716384172318905,
+    "ci_upper": 0.7548071049660124,
+    "median": 0.534325819837552
+  },
+  "fragments_used": 2,
+  "citations_used": 1,
+  "reconstruction": {
+    "1": "In the Apollonius, the author demonstrates that being is predicated of all existing things... [confidence: 80.0%]",
+    "2": "The Apollonius contains arguments against the atomist position... [confidence: 85.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0316,
+    "citation_density": 0.5,
+    "confidence_stability": 0.8728471668559643,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.440811890344876
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 1,
+    "total_weight": 1.964
+  }
+}

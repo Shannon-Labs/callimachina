@@ -1,0 +1,35 @@
+{
+  "work_id": "Aristotle.Eudemus",
+  "metadata": {
+    "author": "Aristotle",
+    "title": "Eudemus",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6173749364146508,
+    "std": 0.12408290383327192,
+    "ci_lower": 0.3697550393114956,
+    "ci_upper": 0.8421537132907059,
+    "median": 0.6217909775013513
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aristotle.Eudemus describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aristotle.Eudemus describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8759170961667281,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47507501751586645
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

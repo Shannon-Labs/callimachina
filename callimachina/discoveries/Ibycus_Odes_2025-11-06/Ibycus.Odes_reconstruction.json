@@ -1,0 +1,35 @@
+{
+  "work_id": "Ibycus.Odes",
+  "metadata": {
+    "author": "Ibycus",
+    "title": "Odes",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5567398836235936,
+    "std": 0.13061117629564561,
+    "ci_lower": 0.307521496029736,
+    "ci_upper": 0.808654447518927,
+    "median": 0.5557722438736485
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Ibycus.Odes describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Ibycus.Odes with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.025,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8693888237043543,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45046816915320625
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.0
+  }
+}

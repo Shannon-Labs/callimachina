@@ -1,0 +1,35 @@
+{
+  "work_id": "Sappho.Epithalamia",
+  "metadata": {
+    "author": "Sappho",
+    "title": "Epithalamia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5541049409444603,
+    "std": 0.1259783339780614,
+    "ci_lower": 0.31164070732782906,
+    "ci_upper": 0.7953514145296958,
+    "median": 0.560092601692511
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Sappho.Epithalamia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Sappho.Epithalamia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8740216660219386,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4507174763133113
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

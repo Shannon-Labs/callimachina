@@ -1,0 +1,35 @@
+{
+  "work_id": "Leucippus.OnMind",
+  "metadata": {
+    "author": "Leucippus",
+    "title": "OnMind",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.55854693484816,
+    "std": 0.1273964295740888,
+    "ci_lower": 0.31579933993376763,
+    "ci_upper": 0.7945743179671247,
+    "median": 0.561863818048268
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Leucippus.OnMind describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Leucippus.OnMind with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8726035704259112,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4521124643151884
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

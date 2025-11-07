@@ -1,0 +1,35 @@
+{
+  "work_id": "Hipparchus.OnTheLengthOfYear",
+  "metadata": {
+    "author": "Hipparchus",
+    "title": "OnTheLengthOfYear",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5527125729949157,
+    "std": 0.13409104221063123,
+    "ci_lower": 0.29243594902070075,
+    "ci_upper": 0.7928755833693433,
+    "median": 0.5502659569089159
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hipparchus.OnTheLengthOfYear describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hipparchus.OnTheLengthOfYear with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0318,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8659089577893688,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4505492583102365
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2720000000000002
+  }
+}

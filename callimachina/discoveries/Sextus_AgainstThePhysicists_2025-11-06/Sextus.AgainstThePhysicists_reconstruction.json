@@ -1,0 +1,35 @@
+{
+  "work_id": "Sextus.AgainstThePhysicists",
+  "metadata": {
+    "author": "Sextus",
+    "title": "AgainstThePhysicists",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5561993565043322,
+    "std": 0.12831075928016522,
+    "ci_lower": 0.2965221815929736,
+    "ci_upper": 0.7976783829599532,
+    "median": 0.5610088780764193
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Sextus.AgainstThePhysicists describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Sextus.AgainstThePhysicists with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0314,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8716892407198348,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45240200000704966
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2560000000000002
+  }
+}

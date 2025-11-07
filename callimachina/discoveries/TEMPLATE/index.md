@@ -1,0 +1,198 @@
+# RECONSTRUCTION TEMPLATE
+
+**Work ID**: `[WORK_ID]`  
+**Author**: `[AUTHOR]`  
+**Title**: `[TITLE]`  
+**Genre**: `[GENRE]`  
+**Century**: `[CENTURY]` BCE/CE  
+**Status**: `[DRAFT|REVIEW|PUBLISHED]`  
+**Confidence**: `[XX.X%]`  
+
+---
+
+## EXECUTIVE SUMMARY
+
+**What we found**: [One-sentence summary of the discovery]  
+**Why it matters**: [Significance for classical scholarship]  
+**Confidence level**: [XX.X%]  
+**Key fragments**: [Number] fragments from [Sources]  
+
+---
+
+## RECONSTRUCTED TEXT
+
+### Fragment 1 (Position X.X)
+```
+[Reconstructed text with LACUNA markers]
+```
+**Source**: [Papyri ID or manuscript]  
+**Confidence**: [XX%]  
+**Notes**: [Context, translation issues, etc.]
+
+### Fragment 2 (Position X.X)
+```
+[Reconstructed text with LACUNA markers]
+```
+**Source**: [Papyri ID or manuscript]  
+**Confidence**: [XX%]  
+**Notes**: [Context, translation issues, etc.]
+
+---
+
+## EVIDENCE BASE
+
+### Primary Fragments
+| ID | Source | Text | Confidence | Date |
+|----|--------|------|------------|------|
+| 001 | papyri.info | [snippet] | 0.XX | 200 CE |
+| 002 | Oxyrhynchus | [snippet] | 0.XX | 150 CE |
+
+### Citation Network
+**Direct citations**: [N] ancient authors cite this work  
+**Load-bearing citations**: [List critical authors]  
+**Network centrality**: [X.XX] (top [X]% of classical texts)  
+
+### Translation Chain
+- **Greek original**: [Manuscript tradition]
+- **Syriac intermediary**: [Translator, date, manuscripts]
+- **Arabic translation**: [Translator, date, manuscripts]  
+- **Latin reception**: [Translation route]
+
+---
+
+## BAYESIAN CONFIDENCE ANALYSIS
+
+### Prior: [XX%]
+**Basis**: [Genre survival rates, author popularity, etc.]
+
+### Evidence Weights
+| Evidence Type | Pieces | Weight | Impact |
+|---------------|--------|--------|--------|
+| Direct fragments | N | 0.XX | +XX% |
+| Ancient citations | N | 0.XX | +XX% |
+| Arabic translation | Y/N | 0.XX | +XX% |
+| Syriac intermediary | Y/N | 0.XX | +XX% |
+
+### Posterior: [XX.X%] ± [X.X%]
+**Credible interval**: [XX% - XX%]  
+**Convergence**: [Diagnostics]  
+
+---
+
+## STYLOMETRIC FINGERPRINTING
+
+### Author Consistency Score: [XX%]
+**Lexical signature**: [Top 5 characteristic words/phrases]  
+**Syntactic patterns**: [Characteristic constructions]  
+**Morphological markers**: [Language-specific features]  
+
+### Comparison with Authentic Works
+| Work | Similarity | Z-Score | Verdict |
+|------|------------|---------|---------|
+| [Known work 1] | XX% | X.XX | Consistent |
+| [Known work 2] | XX% | X.XX | Consistent |
+
+---
+
+## CROSS-LINGUAL TRANSMISSION
+
+### Translation Center Analysis
+**Primary center**: [Baghdad/Toledo/Edessa/etc.]  
+**Translation score**: [0.XX]  
+**Manuscripts preserved**: [N] at [Centers]  
+
+### Arabic Echoes
+**Key manuscripts**: [List with shelfmarks]  
+**Translator attribution**: [Name, confidence]  
+**Translation date**: [XX century]  
+
+### Syriac Intermediary
+**Syriac manuscripts**: [List]  
+**Translation pathway**: [Greek→Syriac→Arabic]  
+**Confidence**: [XX%]  
+
+---
+
+## RECOVERABILITY ASSESSMENT
+
+### Priority Score: [X.XX/10]
+**Fragments found**: [N] / estimated [N]  
+**Network centrality**: [X.XX] (percentile)  
+**Translation paths**: [N] routes  
+**Imaging feasibility**: [High/Medium/Low]  
+
+### Search Strategy
+**Next steps**: [Specific archives, papyri collections, manuscript libraries]  
+**Estimated success probability**: [XX%]  
+**Timeline**: [Short-term/Medium-term/Long-term]  
+
+---
+
+## SCHOLARLY CONTEXT
+
+### Relationship to Extant Works
+**Predecessors**: [Earlier works in genre]  
+**Successors**: [Later works influenced by this]  
+**Unique contribution**: [What this work adds]  
+
+### Historical Significance
+**Intellectual context**: [School/tradition]  
+**Reception history**: [How it was used/cited]  
+**Modern relevance**: [Why this matters today]  
+
+---
+
+## LIMITATIONS & UNCERTAINTIES
+
+### Known Issues
+- **[Issue 1]**: [Description and impact]
+- **[Issue 2]**: [Description and impact]
+
+### Lacunae
+**Major gaps**: [Positions X-Y, Z-W]  
+**Estimated missing text**: [XX%]  
+
+### Confidence Limitations
+**Weakest evidence**: [Type of evidence]  
+**Needed improvements**: [What would increase confidence]  
+
+---
+
+## PUBLICATION STATUS
+
+**Target journal**: [Journal name]  
+**Review stage**: [Not submitted/Under review/Revise & resubmit/Accepted]  
+**Preprint**: [Link to arXiv/GitHub]  
+**Data availability**: [Link to repository]  
+
+---
+
+## VERSION HISTORY
+
+| Version | Date | Changes | Author |
+|---------|------|---------|--------|
+| v0.1 | YYYY-MM-DD | Initial reconstruction | [Name] |
+| v0.2 | YYYY-MM-DD | Added fragments 3-5 | [Name] |
+| v1.0 | YYYY-MM-DD | Submitted for review | [Name] |
+
+---
+
+## HOW TO CITE
+
+```bibtex
+@misc{callimachina_[WORK_ID],
+  title = {Reconstruction of [AUTHOR], [TITLE]},
+  author = {[Your Name]},
+  year = {2025},
+  howpublished = {CALLIMACHINA v3.0 Discovery},
+  url = {https://github.com/Shannon-Labs/callimachina/discoveries/[WORK_ID]}
+}
+```
+
+---
+
+**Generated by**: CALLIMACHINA v3.0  
+**Confidence Engine**: Bayesian Reconstructor with PyMC  
+**Network Analysis**: NetworkX citation networks  
+**Stylometric Engine**: Scikit-learn author fingerprinting  
+**Last updated**: YYYY-MM-DD

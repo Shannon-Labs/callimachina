@@ -1,0 +1,35 @@
+{
+  "work_id": "Philo.OnThePulse",
+  "metadata": {
+    "author": "Philo",
+    "title": "OnThePulse",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5618024557592264,
+    "std": 0.1280190827543837,
+    "ci_lower": 0.31114463485496047,
+    "ci_upper": 0.7967495764303566,
+    "median": 0.5610210850510531
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Philo.OnThePulse describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Philo.OnThePulse with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8719809172456163,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45335240736158555
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

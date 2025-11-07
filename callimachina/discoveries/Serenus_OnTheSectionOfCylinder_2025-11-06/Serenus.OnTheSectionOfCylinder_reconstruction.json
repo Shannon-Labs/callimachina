@@ -1,0 +1,35 @@
+{
+  "work_id": "Serenus.OnTheSectionOfCylinder",
+  "metadata": {
+    "author": "Serenus",
+    "title": "OnTheSectionOfCylinder",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5514974634925377,
+    "std": 0.1262787288192504,
+    "ci_lower": 0.2982103199854621,
+    "ci_upper": 0.780631560789468,
+    "median": 0.5560820752123957
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Serenus.OnTheSectionOfCylinder describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Serenus.OnTheSectionOfCylinder with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0326,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8737212711807496,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4510844458484234
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.3040000000000003
+  }
+}

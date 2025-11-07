@@ -1,0 +1,35 @@
+{
+  "work_id": "Suetonius.LivesOfTheCaesars",
+  "metadata": {
+    "author": "Suetonius",
+    "title": "LivesOfTheCaesars",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5564725973460216,
+    "std": 0.13039629691537485,
+    "ci_lower": 0.3026337951145821,
+    "ci_upper": 0.8057525872171998,
+    "median": 0.5584460627595069
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Suetonius.LivesOfTheCaesars describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Suetonius.LivesOfTheCaesars with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0314,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8696037030846251,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45230274258020453
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2560000000000002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnSurgery",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnSurgery",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5710708060494387,
+    "std": 0.13155030018775354,
+    "ci_lower": 0.30726417181582516,
+    "ci_upper": 0.8057701848291894,
+    "median": 0.5810700883057809
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hippocrates.OnSurgery describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hippocrates.OnSurgery describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0256,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8684496998122464,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4562866257343335
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.024
+  }
+}

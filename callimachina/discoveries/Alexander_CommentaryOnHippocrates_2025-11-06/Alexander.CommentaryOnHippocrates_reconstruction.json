@@ -1,0 +1,35 @@
+{
+  "work_id": "Alexander.CommentaryOnHippocrates",
+  "metadata": {
+    "author": "Alexander",
+    "title": "CommentaryOnHippocrates",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5501036831553544,
+    "std": 0.13005560756168627,
+    "ci_lower": 0.29152857463718673,
+    "ci_upper": 0.7921057606403635,
+    "median": 0.5468074264733878
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Alexander.CommentaryOnHippocrates describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Alexander.CommentaryOnHippocrates with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0338,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8699443924383137,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45050924583930646
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.352
+  }
+}

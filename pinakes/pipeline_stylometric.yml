@@ -1,0 +1,65 @@
+alerts_issued: 0
+confidence_threshold: 0.7
+features_analyzed:
+- lexical (vocabulary richness, word length)
+- syntactic (sentence length, punctuation)
+- character n-grams (weighted 2-8)
+- phonetic patterns (vowel/consonant ratios)
+- function word profiles
+- affix patterns (prefixes/suffixes)
+fragments_analyzed: 2
+methodology: Enhanced Burrows Delta with multi-feature weighting
+report_timestamp: '2025-11-06T19:41:28.538915'
+results:
+- analyzed: '2025-11-06T19:41:28.538797'
+  candidates:
+  - author: Posidippus
+    composite_score: -0.06790643274853803
+    confidence: 0.45
+    confidence_level: very_low
+  - author: Sophocles
+    composite_score: -0.06790643274853803
+    confidence: 0.45
+    confidence_level: very_low
+  - author: Theocritus
+    composite_score: -0.06852181736392264
+    confidence: 0.45
+    confidence_level: very_low
+  composite_score: -0.06790643274853803
+  confidence: 0.45
+  confidence_level: very_low
+  feature_breakdown:
+    character: 0.0
+    function_words: 0.0
+    lexical: -1.1111111111111112
+    phonetic: 0.3
+    syntactic: 0.47157894736842104
+  fragment_id: papyri.oxy.1.1
+  text_preview: '...the poet speaks of the Nile and its annual flooding...'
+  top_attribution: Posidippus
+- analyzed: '2025-11-06T19:41:28.538913'
+  candidates:
+  - author: Posidippus
+    composite_score: -0.23943434343434342
+    confidence: 0.45
+    confidence_level: very_low
+  - author: Sophocles
+    composite_score: -0.23943434343434342
+    confidence: 0.45
+    confidence_level: very_low
+  - author: Theocritus
+    composite_score: -0.23986511266511265
+    confidence: 0.45
+    confidence_level: very_low
+  composite_score: -0.23943434343434342
+  confidence: 0.45
+  confidence_level: very_low
+  feature_breakdown:
+    character: 0.0
+    function_words: 0.0
+    lexical: -1.9444444444444444
+    phonetic: 0.3
+    syntactic: 0.44727272727272727
+  fragment_id: papyri.herc.1.1
+  text_preview: '...the nature of poetic composition requires harmony...'
+  top_attribution: Posidippus

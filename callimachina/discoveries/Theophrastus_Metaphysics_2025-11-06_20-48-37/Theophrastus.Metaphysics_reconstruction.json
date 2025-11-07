@@ -1,0 +1,35 @@
+{
+  "work_id": "Theophrastus.Metaphysics",
+  "metadata": {
+    "author": "Theophrastus",
+    "title": "Metaphysics",
+    "genre": "philosophy",
+    "century": -3
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5591054861803839,
+    "std": 0.12702278366295933,
+    "ci_lower": 0.3087215506336502,
+    "ci_upper": 0.7943861193483879,
+    "median": 0.5623768626272696
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Theophrastus.Metaphysics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Theophrastus.Metaphysics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0268,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8729772163370406,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.452313249439191
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.072
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Suetonius.OnGrammarians",
+  "metadata": {
+    "author": "Suetonius",
+    "title": "OnGrammarians",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5522470472445613,
+    "std": 0.13193603951660404,
+    "ci_lower": 0.29031170655171434,
+    "ci_upper": 0.7893596096791172,
+    "median": 0.5575652946356731
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Suetonius.OnGrammarians describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Suetonius.OnGrammarians with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0298,
+    "citation_density": 0.0,
+    "confidence_stability": 0.868063960483396,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44997854827949746
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1920000000000002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Aristippus.OnEducation",
+  "metadata": {
+    "author": "Aristippus",
+    "title": "OnEducation",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5552541232643731,
+    "std": 0.1267173039508287,
+    "ci_lower": 0.3016994282817805,
+    "ci_upper": 0.7883243636659627,
+    "median": 0.5623279125361322
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aristippus.OnEducation describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aristippus.OnEducation describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.026,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8732826960491713,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45056325224399973
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.04
+  }
+}

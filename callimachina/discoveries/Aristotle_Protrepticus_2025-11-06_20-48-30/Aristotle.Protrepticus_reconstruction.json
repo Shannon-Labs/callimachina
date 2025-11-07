@@ -1,0 +1,35 @@
+{
+  "work_id": "Aristotle.Protrepticus",
+  "metadata": {
+    "author": "Aristotle",
+    "title": "Protrepticus",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6184701316116827,
+    "std": 0.12810382564710146,
+    "ci_lower": 0.35681125601919295,
+    "ci_upper": 0.8537207893883995,
+    "median": 0.6236009272754288
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aristotle.Protrepticus describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aristotle.Protrepticus describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.026,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8718961743528986,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4757110034132963
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.04
+  }
+}

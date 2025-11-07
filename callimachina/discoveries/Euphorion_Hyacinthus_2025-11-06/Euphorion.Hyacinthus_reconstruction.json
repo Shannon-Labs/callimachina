@@ -1,0 +1,35 @@
+{
+  "work_id": "Euphorion.Hyacinthus",
+  "metadata": {
+    "author": "Euphorion",
+    "title": "Hyacinthus",
+    "genre": "unknown",
+    "century": -1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.5007947952447341,
+    "std": 0.12907393882936768,
+    "ci_lower": 0.2545648641145218,
+    "ci_upper": 0.7491276472920217,
+    "median": 0.4975246272274927
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Euphorion.Hyacinthus mentioning key concepts. [confidence: 80.0%]",
+    "2": "Another fragment of Euphorion.Hyacinthus with citations. [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0226,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8709260611706323,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.42752385754829025
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.904
+  }
+}

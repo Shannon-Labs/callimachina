@@ -1,0 +1,35 @@
+{
+  "work_id": "Unknown.TragicPoet1",
+  "metadata": {
+    "author": "Unknown",
+    "title": "TragicPoet1",
+    "genre": "unknown",
+    "century": -1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.4957286204977142,
+    "std": 0.13048310461024729,
+    "ci_lower": 0.23254174402804106,
+    "ci_upper": 0.7393911002311914,
+    "median": 0.49994970138074735
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Unknown.TragicPoet1 mentioning key concepts. [confidence: 80.0%]",
+    "2": "Another fragment of Unknown.TragicPoet1 with citations. [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0222,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8695168953897527,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4252364710713943
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.8880000000000001
+  }
+}

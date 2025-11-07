@@ -1,0 +1,35 @@
+{
+  "work_id": "Theophrastus.Characters",
+  "metadata": {
+    "author": "Theophrastus",
+    "title": "Characters",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550962342930363,
+    "std": 0.12991326424746288,
+    "ci_lower": 0.3014175998671714,
+    "ci_upper": 0.7899491162470198,
+    "median": 0.5624561829785093
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theophrastus.Characters describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theophrastus.Characters with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0298,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8700867357525371,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4513205006258016
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1920000000000002
+  }
+}

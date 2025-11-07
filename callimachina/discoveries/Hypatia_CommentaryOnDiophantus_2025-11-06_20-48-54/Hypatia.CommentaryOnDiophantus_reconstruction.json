@@ -1,0 +1,35 @@
+{
+  "work_id": "Hypatia.CommentaryOnDiophantus",
+  "metadata": {
+    "author": "Hypatia",
+    "title": "CommentaryOnDiophantus",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5522406260777273,
+    "std": 0.1342800246902901,
+    "ci_lower": 0.2842441335876928,
+    "ci_upper": 0.7948021420058008,
+    "median": 0.5524287698439756
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hypatia.CommentaryOnDiophantus describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hypatia.CommentaryOnDiophantus describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0292,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8657199753097099,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44956158129539525
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.168
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnRegimen",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnRegimen",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5635298183742304,
+    "std": 0.13046673087746896,
+    "ci_lower": 0.3089156126084332,
+    "ci_upper": 0.8073539222740892,
+    "median": 0.5704182692866359
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hippocrates.OnRegimen describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hippocrates.OnRegimen with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.869533269122531,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4543985875952786
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Bacchylides.Paeans",
+  "metadata": {
+    "author": "Bacchylides",
+    "title": "Paeans",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5517645419968432,
+    "std": 0.13057252767677605,
+    "ci_lower": 0.29521044726067325,
+    "ci_upper": 0.8013745827420804,
+    "median": 0.5511653064419412
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Bacchylides.Paeans describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Bacchylides.Paeans with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8694274723232239,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.449321897364393
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

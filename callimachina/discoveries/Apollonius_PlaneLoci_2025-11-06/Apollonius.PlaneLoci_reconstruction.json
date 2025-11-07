@@ -1,0 +1,35 @@
+{
+  "work_id": "Apollonius.PlaneLoci",
+  "metadata": {
+    "author": "Apollonius",
+    "title": "PlaneLoci",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5493352879416413,
+    "std": 0.12688192346295368,
+    "ci_lower": 0.291104509441727,
+    "ci_upper": 0.7910995314048114,
+    "median": 0.5503737975726812
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Apollonius.PlaneLoci describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Apollonius.PlaneLoci with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8731180765370463,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4489592561636945
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

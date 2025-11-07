@@ -1,0 +1,35 @@
+{
+  "work_id": "Chrysippus.OnEthics",
+  "metadata": {
+    "author": "Chrysippus",
+    "title": "OnEthics",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5549743888449452,
+    "std": 0.12724015231462374,
+    "ci_lower": 0.29290614009300064,
+    "ci_upper": 0.800303939032327,
+    "median": 0.5582217560471614
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Chrysippus.OnEthics describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Chrysippus.OnEthics with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0282,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8727598476853763,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45105907363984904
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.128
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Eumelus.Corinthiaca",
+  "metadata": {
+    "author": "Eumelus",
+    "title": "Corinthiaca",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5514246996588147,
+    "std": 0.12786232719047586,
+    "ci_lower": 0.3021573820734328,
+    "ci_upper": 0.7937706012481547,
+    "median": 0.5562257749027457
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Eumelus.Corinthiaca describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Eumelus.Corinthiaca describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8721376728095241,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4485569804778117
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

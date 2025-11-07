@@ -1,0 +1,35 @@
+{
+  "work_id": "Hellanicus.Atlantis",
+  "metadata": {
+    "author": "Hellanicus",
+    "title": "Atlantis",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5565236572480766,
+    "std": 0.12992861134368325,
+    "ci_lower": 0.2875746611519332,
+    "ci_upper": 0.7971647658701367,
+    "median": 0.561581948952649
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hellanicus.Atlantis describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hellanicus.Atlantis with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0282,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8700713886563167,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45140993509819566
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.128
+  }
+}

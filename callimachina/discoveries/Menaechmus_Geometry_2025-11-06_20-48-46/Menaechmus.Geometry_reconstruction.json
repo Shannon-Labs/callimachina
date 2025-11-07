@@ -1,0 +1,35 @@
+{
+  "work_id": "Menaechmus.Geometry",
+  "metadata": {
+    "author": "Menaechmus",
+    "title": "Geometry",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550399929888555,
+    "std": 0.12596617255703035,
+    "ci_lower": 0.29970666936491364,
+    "ci_upper": 0.7949786767015524,
+    "median": 0.5542175894206439
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Menaechmus.Geometry describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Menaechmus.Geometry describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8740338274429696,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4501927132731725
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

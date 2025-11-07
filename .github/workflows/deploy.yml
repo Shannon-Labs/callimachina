@@ -1,0 +1,122 @@
+name: Deploy CALLIMACHINA Website
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml requests
+    
+    - name: Run integration test
+      run: |
+        python3 -c "
+        import sys
+        sys.path.append('/home/runner/work/callimachina/callimachina/pinakes')
+        from integration_engine import IntegrationEngine
+        
+        print('Testing CALLIMACHINA pipeline...')
+        engine = IntegrationEngine()
+        
+        # Quick test with Eratosthenes
+        results = engine.run_full_pipeline(
+            target_works=['Eratosthenes Geographika'],
+            enable_stylometry=True,
+            enable_translations=True,
+            enable_network=True
+        )
+        
+        print(f'✓ Test completed: {len(results[\"phases_completed\"])} phases executed')
+        print(f'✓ Reconstructions: {results[\"reconstructions_completed\"]}')
+        print(f'✓ Confidence: {results[\"enhanced_confidence\"]:.1%}')
+        "
+    
+    - name: Validate outputs
+      run: |
+        test -f pinakes/reconstructions/eratosthenes_geographika_*.yml
+        test -f pinakes/networks/citation_network_*.gexf
+        test -f pinakes/fragments/pipeline_batch.yml
+        echo "✓ All output files generated successfully"
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml requests
+    
+    - name: Generate full reconstruction set
+      run: |
+        python3 -c "
+        import sys
+        sys.path.append('/home/runner/work/callimachina/callimachina/pinakes')
+        from integration_engine import IntegrationEngine
+        
+        print('Running full CALLIMACHINA reconstruction pipeline...')
+        engine = IntegrationEngine()
+        
+        # Process all high-priority works
+        high_priority_works = [
+            'Eratosthenes Geographika',
+            'Hippolytus On Heraclitus',
+            'Posidippus Epigrams',
+            'Callimachus Aetia'
+        ]
+        
+        results = engine.run_full_pipeline(
+            target_works=high_priority_works,
+            enable_stylometry=True,
+            enable_translations=True,
+            enable_network=True
+        )
+        
+        print(f'✓ Pipeline completed successfully')
+        print(f'✓ Reconstructions: {results[\"reconstructions_completed\"]}')
+        print(f'✓ Average confidence: {results[\"enhanced_confidence\"]:.1%}')
+        print(f'✓ Alerts generated: {results[\"enhanced_alerts\"]}')
+        "
+    
+    - name: Setup GitHub Pages
+      uses: actions/configure-pages@v3
+    
+    - name: Build website
+      run: |
+        mkdir -p website/data
+        cp pinakes/reconstructions/*.yml website/data/
+        cp pinakes/fragments/*.yml website/data/
+        cp pinakes/networks/*.json website/data/
+    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: 'website'
+    
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2

@@ -1,0 +1,35 @@
+{
+  "work_id": "Aristotle.OnIdeas",
+  "metadata": {
+    "author": "Aristotle",
+    "title": "OnIdeas",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6245257117110118,
+    "std": 0.12684370407143064,
+    "ci_lower": 0.3591719047728969,
+    "ci_upper": 0.848408509276862,
+    "median": 0.6326652938962665
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Aristotle.OnIdeas describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Aristotle.OnIdeas with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8731562959285694,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47867924761059494
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

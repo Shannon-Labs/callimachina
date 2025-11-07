@@ -1,0 +1,35 @@
+{
+  "work_id": "Deinostratus.Quadratrix",
+  "metadata": {
+    "author": "Deinostratus",
+    "title": "Quadratrix",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5498505273663592,
+    "std": 0.13151370060667655,
+    "ci_lower": 0.3011384398664628,
+    "ci_upper": 0.7959931079056382,
+    "median": 0.5450914260297566
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Deinostratus.Quadratrix describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Deinostratus.Quadratrix describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0264,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8684862993933234,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4480421742192094
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.056
+  }
+}

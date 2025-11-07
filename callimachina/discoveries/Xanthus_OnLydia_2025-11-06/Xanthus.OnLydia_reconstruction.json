@@ -1,0 +1,35 @@
+{
+  "work_id": "Xanthus.OnLydia",
+  "metadata": {
+    "author": "Xanthus",
+    "title": "OnLydia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5617194945823264,
+    "std": 0.13196457785190388,
+    "ci_lower": 0.2993074686047294,
+    "ci_upper": 0.7976839437178078,
+    "median": 0.5736420424899813
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Xanthus.OnLydia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Xanthus.OnLydia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8680354221480961,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4528046733810735
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

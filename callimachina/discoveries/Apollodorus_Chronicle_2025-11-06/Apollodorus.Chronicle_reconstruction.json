@@ -1,0 +1,35 @@
+{
+  "work_id": "Apollodorus.Chronicle",
+  "metadata": {
+    "author": "Apollodorus",
+    "title": "Chronicle",
+    "genre": "unknown",
+    "century": -1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.49895503450146383,
+    "std": 0.13180209210866453,
+    "ci_lower": 0.23518286278102518,
+    "ci_upper": 0.7457174458482844,
+    "median": 0.501655694662763
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Apollodorus.Chronicle mentioning key concepts. [confidence: 80.0%]",
+    "2": "Another fragment of Apollodorus.Chronicle with citations. [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.023,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8681979078913354,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4266351379230524
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9199999999999999
+  }
+}

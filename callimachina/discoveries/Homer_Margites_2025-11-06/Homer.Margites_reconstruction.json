@@ -1,0 +1,35 @@
+{
+  "work_id": "Homer.Margites",
+  "metadata": {
+    "author": "Homer",
+    "title": "Margites",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6268134473550411,
+    "std": 0.12407839377308956,
+    "ci_lower": 0.3759832005713078,
+    "ci_upper": 0.8454228815120065,
+    "median": 0.6341696459731903
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Homer.Margites describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Homer.Margites with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8759216062269104,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47951087289804084
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

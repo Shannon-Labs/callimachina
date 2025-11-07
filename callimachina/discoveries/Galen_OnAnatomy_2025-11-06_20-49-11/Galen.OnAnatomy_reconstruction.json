@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnAnatomy",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnAnatomy",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.72,
+  "posterior_confidence": {
+    "mean": 0.7269025700067152,
+    "std": 0.11645096339140018,
+    "ci_lower": 0.4730528904548235,
+    "ci_upper": 0.9181865776168564,
+    "median": 0.7379420819232296
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Galen.OnAnatomy describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Galen.OnAnatomy describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0232,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8835490366085998,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.5194092649968794
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9279999999999999
+  }
+}

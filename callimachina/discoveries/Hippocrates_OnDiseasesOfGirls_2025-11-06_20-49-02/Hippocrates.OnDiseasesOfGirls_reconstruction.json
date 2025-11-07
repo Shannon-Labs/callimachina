@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnDiseasesOfGirls",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnDiseasesOfGirls",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5570194074016045,
+    "std": 0.12591677199475618,
+    "ci_lower": 0.30564962023815656,
+    "ci_upper": 0.7926043564202132,
+    "median": 0.5560507067108471
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hippocrates.OnDiseasesOfGirls describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hippocrates.OnDiseasesOfGirls describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0288,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8740832280052439,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45218941909449956
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.152
+  }
+}

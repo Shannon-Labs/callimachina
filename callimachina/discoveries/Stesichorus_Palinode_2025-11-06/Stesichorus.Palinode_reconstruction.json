@@ -1,0 +1,35 @@
+{
+  "work_id": "Stesichorus.Palinode",
+  "metadata": {
+    "author": "Stesichorus",
+    "title": "Palinode",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5520577407973463,
+    "std": 0.12779736494455599,
+    "ci_lower": 0.3042170936931411,
+    "ci_upper": 0.7896309692286935,
+    "median": 0.5534295007654421
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Stesichorus.Palinode describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Stesichorus.Palinode with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.872202635055444,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4499566931578162
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

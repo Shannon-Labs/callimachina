@@ -1,0 +1,35 @@
+{
+  "work_id": "Zeno.OnNature",
+  "metadata": {
+    "author": "Zeno",
+    "title": "OnNature",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5529844855630198,
+    "std": 0.12614763498472362,
+    "ci_lower": 0.3142289106383962,
+    "ci_upper": 0.7923864518211887,
+    "median": 0.5529914433816969
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Zeno.OnNature describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Zeno.OnNature with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0258,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8738523650152764,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4496523640600689
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.032
+  }
+}

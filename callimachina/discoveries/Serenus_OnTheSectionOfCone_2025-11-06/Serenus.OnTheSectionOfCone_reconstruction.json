@@ -1,0 +1,35 @@
+{
+  "work_id": "Serenus.OnTheSectionOfCone",
+  "metadata": {
+    "author": "Serenus",
+    "title": "OnTheSectionOfCone",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5560848990939206,
+    "std": 0.12417032618882218,
+    "ci_lower": 0.31567125634888016,
+    "ci_upper": 0.7872992579286304,
+    "median": 0.5643490208156523
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Serenus.OnTheSectionOfCone describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Serenus.OnTheSectionOfCone with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8758296738111778,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4526502603520194
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

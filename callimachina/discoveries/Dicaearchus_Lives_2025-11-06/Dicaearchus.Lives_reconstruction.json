@@ -1,0 +1,35 @@
+{
+  "work_id": "Dicaearchus.Lives",
+  "metadata": {
+    "author": "Dicaearchus",
+    "title": "Lives",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5570086875853941,
+    "std": 0.13031010713848468,
+    "ci_lower": 0.2955844464529996,
+    "ci_upper": 0.7951377102264087,
+    "median": 0.5602604924587151
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Dicaearchus.Lives describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Dicaearchus.Lives with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8696898928615153,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4513257976536425
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Pindar.Dithyrambs",
+  "metadata": {
+    "author": "Pindar",
+    "title": "Dithyrambs",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5650789063001478,
+    "std": 0.12419966985009052,
+    "ci_lower": 0.30745349010400125,
+    "ci_upper": 0.8087433384069496,
+    "median": 0.5677294181159845
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Pindar.Dithyrambs describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Pindar.Dithyrambs with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8758003301499094,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45516492886838344
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

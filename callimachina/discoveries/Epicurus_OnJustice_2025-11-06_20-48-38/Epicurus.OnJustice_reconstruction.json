@@ -1,0 +1,35 @@
+{
+  "work_id": "Epicurus.OnJustice",
+  "metadata": {
+    "author": "Epicurus",
+    "title": "OnJustice",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5500361305556493,
+    "std": 0.12410295488015514,
+    "ci_lower": 0.30523334245564193,
+    "ci_upper": 0.7863437109474496,
+    "median": 0.5455036780254061
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Epicurus.OnJustice describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Epicurus.OnJustice describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0244,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8758970451198449,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44825749006757754
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.976
+  }
+}

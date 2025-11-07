@@ -1,0 +1,36 @@
+{
+  "work_id": "Theophrastus",
+  "metadata": {
+    "author": "Unknown",
+    "title": "Theophrastus",
+    "genre": "citation_gap",
+    "century": -3,
+    "priority_score": 0.1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.5340989665679724,
+    "std": 0.1239226725269612,
+    "ci_lower": 0.28327648461639504,
+    "ci_upper": 0.7601077230431925,
+    "median": 0.5395265483211646
+  },
+  "fragments_used": 2,
+  "citations_used": 1,
+  "reconstruction": {
+    "1": "In the Theophrastus, the author demonstrates that being is predicated of all existing things... [confidence: 80.0%]",
+    "2": "The Theophrastus contains arguments against the atomist position... [confidence: 85.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0324,
+    "citation_density": 0.5,
+    "confidence_stability": 0.8760773274730388,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4443006527078262
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 1,
+    "total_weight": 1.996
+  }
+}

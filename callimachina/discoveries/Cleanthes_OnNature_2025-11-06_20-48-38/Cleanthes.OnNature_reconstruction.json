@@ -1,0 +1,35 @@
+{
+  "work_id": "Cleanthes.OnNature",
+  "metadata": {
+    "author": "Cleanthes",
+    "title": "OnNature",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5554602526723261,
+    "std": 0.12870445847604525,
+    "ci_lower": 0.3085163459242164,
+    "ci_upper": 0.7988491980648372,
+    "median": 0.5617635879224967
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Cleanthes.OnNature describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Cleanthes.OnNature describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0244,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8712955415239547,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4499669885546593
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.976
+  }
+}

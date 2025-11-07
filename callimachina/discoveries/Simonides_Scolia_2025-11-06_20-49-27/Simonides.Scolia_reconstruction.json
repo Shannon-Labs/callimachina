@@ -1,0 +1,35 @@
+{
+  "work_id": "Simonides.Scolia",
+  "metadata": {
+    "author": "Simonides",
+    "title": "Scolia",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5582833101217963,
+    "std": 0.13157637109956663,
+    "ci_lower": 0.2910216550034673,
+    "ci_upper": 0.8070655433315512,
+    "median": 0.5656833841289985
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Simonides.Scolia describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Simonides.Scolia describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8684236289004333,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4505690202720952
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

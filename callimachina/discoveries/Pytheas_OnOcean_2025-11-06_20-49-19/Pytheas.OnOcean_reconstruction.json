@@ -1,0 +1,35 @@
+{
+  "work_id": "Pytheas.OnOcean",
+  "metadata": {
+    "author": "Pytheas",
+    "title": "OnOcean",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5669742823741721,
+    "std": 0.12911437357430527,
+    "ci_lower": 0.3002265066028479,
+    "ci_upper": 0.7960684515156133,
+    "median": 0.5767936364513632
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Pytheas.OnOcean describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Pytheas.OnOcean describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0232,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8708856264256948,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4541716089255717
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9279999999999999
+  }
+}

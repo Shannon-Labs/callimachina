@@ -1,0 +1,35 @@
+{
+  "work_id": "Eudemus.HistoryOfMedicine",
+  "metadata": {
+    "author": "Eudemus",
+    "title": "HistoryOfMedicine",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5572942446926251,
+    "std": 0.12534510766702603,
+    "ci_lower": 0.30150984598086505,
+    "ci_upper": 0.7962886874911381,
+    "median": 0.5620579918365352
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Eudemus.HistoryOfMedicine describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Eudemus.HistoryOfMedicine describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0272,
+    "citation_density": 0.0,
+    "confidence_stability": 0.874654892332974,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4518765204436808
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.088
+  }
+}

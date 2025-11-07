@@ -1,0 +1,35 @@
+{
+  "work_id": "Eratosthenes.Chronographies",
+  "metadata": {
+    "author": "Eratosthenes",
+    "title": "Chronographies",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5528936727004955,
+    "std": 0.12726640221677402,
+    "ci_lower": 0.30450492342114716,
+    "ci_upper": 0.7928878627170953,
+    "median": 0.5583643327465009
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Eratosthenes.Chronographies describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Eratosthenes.Chronographies describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.028,
+    "citation_density": 0.0,
+    "confidence_stability": 0.872733597783226,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4501641621918542
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1199999999999999
+  }
+}

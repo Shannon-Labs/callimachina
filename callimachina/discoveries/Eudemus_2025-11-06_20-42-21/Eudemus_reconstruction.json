@@ -1,0 +1,36 @@
+{
+  "work_id": "Eudemus",
+  "metadata": {
+    "author": "Unknown",
+    "title": "Eudemus",
+    "genre": "citation_gap",
+    "century": -3,
+    "priority_score": 0.1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.5302087927315017,
+    "std": 0.1258035937353893,
+    "ci_lower": 0.2879552721980509,
+    "ci_upper": 0.7635005044436824,
+    "median": 0.532220540377929
+  },
+  "fragments_used": 2,
+  "citations_used": 1,
+  "reconstruction": {
+    "1": "In the Eudemus, the author demonstrates that being is predicated of all existing things... [confidence: 80.0%]",
+    "2": "The Eudemus contains arguments against the atomist position... [confidence: 85.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0304,
+    "citation_density": 0.5,
+    "confidence_stability": 0.8741964062646107,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44195649105239504
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 1,
+    "total_weight": 1.916
+  }
+}

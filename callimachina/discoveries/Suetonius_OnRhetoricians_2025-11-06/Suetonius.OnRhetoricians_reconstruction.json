@@ -1,0 +1,35 @@
+{
+  "work_id": "Suetonius.OnRhetoricians",
+  "metadata": {
+    "author": "Suetonius",
+    "title": "OnRhetoricians",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5544492003264372,
+    "std": 0.1289888207696857,
+    "ci_lower": 0.2987556117466572,
+    "ci_upper": 0.7993149106508887,
+    "median": 0.5565668198118747
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Suetonius.OnRhetoricians describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Suetonius.OnRhetoricians with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0302,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8710111792303143,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45127413138693967
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2080000000000002
+  }
+}

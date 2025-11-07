@@ -1,0 +1,35 @@
+{
+  "work_id": "Corinna.Epic",
+  "metadata": {
+    "author": "Corinna",
+    "title": "Epic",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5518114396076638,
+    "std": 0.12557908620288127,
+    "ci_lower": 0.30912066892195994,
+    "ci_upper": 0.7922711551809735,
+    "median": 0.5496895260401906
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Corinna.Epic describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Corinna.Epic describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.022,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8744209137971187,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4481000005561107
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.8800000000000001
+  }
+}

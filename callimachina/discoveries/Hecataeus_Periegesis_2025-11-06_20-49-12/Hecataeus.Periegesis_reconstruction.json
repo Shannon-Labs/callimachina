@@ -1,0 +1,35 @@
+{
+  "work_id": "Hecataeus.Periegesis",
+  "metadata": {
+    "author": "Hecataeus",
+    "title": "Periegesis",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5586503899284336,
+    "std": 0.1296752317790448,
+    "ci_lower": 0.30515735052151316,
+    "ci_upper": 0.7950006169011782,
+    "median": 0.5605905981977519
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hecataeus.Periegesis describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hecataeus.Periegesis describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0252,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8703247682209552,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4513859661268023
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.008
+  }
+}

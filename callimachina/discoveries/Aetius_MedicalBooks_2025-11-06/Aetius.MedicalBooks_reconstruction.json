@@ -1,0 +1,35 @@
+{
+  "work_id": "Aetius.MedicalBooks",
+  "metadata": {
+    "author": "Aetius",
+    "title": "MedicalBooks",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5517578581615553,
+    "std": 0.1296877491638659,
+    "ci_lower": 0.29190399942162304,
+    "ci_upper": 0.792027395473579,
+    "median": 0.5577374630363103
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Aetius.MedicalBooks describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Aetius.MedicalBooks with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0282,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8703122508361341,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44952770168156886
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.128
+  }
+}

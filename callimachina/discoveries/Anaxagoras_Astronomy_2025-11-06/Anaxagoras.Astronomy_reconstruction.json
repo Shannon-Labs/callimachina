@@ -1,0 +1,35 @@
+{
+  "work_id": "Anaxagoras.Astronomy",
+  "metadata": {
+    "author": "Anaxagoras",
+    "title": "Astronomy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5609695977995692,
+    "std": 0.12735748894317542,
+    "ci_lower": 0.2982127172265838,
+    "ci_upper": 0.7952673264444492,
+    "median": 0.5677219809233203
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Anaxagoras.Astronomy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Anaxagoras.Astronomy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8726425110568246,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45356542355884355
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

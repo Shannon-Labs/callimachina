@@ -1,0 +1,110 @@
+ghosts_confirmed: 4
+lost_works:
+- citation_count: 4
+  citations:
+  - citation_type: direct_quote
+    date_range: c. 64 BCE-24 CE
+    discovered: '2025-11-06T19:41:28.510022'
+    independence_score: 0.8
+    language: greek
+    location: 2.5.7
+    source: Strabo
+  - citation_type: paraphrase
+    date_range: c. 1st century CE
+    discovered: '2025-11-06T19:41:28.510062'
+    independence_score: 0.8
+    language: greek
+    location: '1.7'
+    source: Cleomedes
+  - citation_type: citation
+    date_range: c. 100-170 CE
+    discovered: '2025-11-06T19:41:28.510068'
+    independence_score: 0.8
+    language: greek
+    location: Almagest 1.10
+    source: Ptolemy
+  - citation_type: fragment
+    date_range: c. 5th century CE
+    discovered: '2025-11-06T19:41:28.510069'
+    independence_score: 0.8
+    language: greek
+    location: '1.22'
+    source: Stobaeus
+  confidence: 0.95
+  last_triangulated: '2025-11-06T19:41:28.510142'
+  priority_score: 98
+  status: lost_confirmed
+  survival_paths:
+  - greek_direct
+  title: Eratosthenes Geographika
+- citation_count: 2
+  citations:
+  - citation_type: extensive_paraphrase
+    date_range: unknown
+    discovered: '2025-11-06T19:41:28.510158'
+    independence_score: 0.8
+    language: greek
+    location: 9.8-10
+    source: Refutation
+  - citation_type: translation
+    date_range: unknown
+    discovered: '2025-11-06T19:41:28.510160'
+    independence_score: 0.8
+    language: arabic
+    location: unidentified
+    source: Arabic Commentary
+  confidence: 0.65
+  last_triangulated: '2025-11-06T19:41:28.510170'
+  priority_score: 66
+  status: lost_confirmed
+  survival_paths:
+  - greek_direct
+  - arabic_translation
+  title: Hippolytus On Heraclitus
+- citation_count: 2
+  citations:
+  - citation_type: citation
+    date_range: c. 200 CE
+    discovered: '2025-11-06T19:41:28.510178'
+    independence_score: 0.8
+    language: greek
+    location: Deipnosophistae 11.64
+    source: Athenaeus
+  - citation_type: possible_attribution
+    date_range: unknown
+    discovered: '2025-11-06T19:41:28.510179'
+    independence_score: 0.8
+    language: greek
+    location: '7.235'
+    source: Palatine Anthology
+  confidence: 0.7
+  last_triangulated: '2025-11-06T19:41:28.510185'
+  priority_score: 60
+  status: lost_confirmed
+  survival_paths:
+  - greek_direct
+  title: Posidippus Epigrams
+- citation_count: 2
+  citations:
+  - citation_type: papyrus_fragment
+    date_range: unknown
+    discovered: '2025-11-06T19:41:28.510190'
+    independence_score: 0.8
+    language: greek
+    location: P.Oxy. 11.1362
+    source: Oxyrhynchus Papyrus
+  - citation_type: scholium
+    date_range: unknown
+    discovered: '2025-11-06T19:41:28.510191'
+    independence_score: 0.8
+    language: greek
+    location: to Apollonius
+    source: Scholia
+  confidence: 0.65
+  last_triangulated: '2025-11-06T19:41:28.510195'
+  priority_score: 61
+  status: lost_confirmed
+  survival_paths:
+  - greek_direct
+  title: Callimachus Aetia
+triangulation_timestamp: '2025-11-06T19:41:28.510283'

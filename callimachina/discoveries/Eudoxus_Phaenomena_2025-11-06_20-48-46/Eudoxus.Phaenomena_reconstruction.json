@@ -1,0 +1,35 @@
+{
+  "work_id": "Eudoxus.Phaenomena",
+  "metadata": {
+    "author": "Eudoxus",
+    "title": "Phaenomena",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5531014325837408,
+    "std": 0.12877536061202452,
+    "ci_lower": 0.30523307807524536,
+    "ci_upper": 0.7991227042445168,
+    "median": 0.5562675580998014
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Eudoxus.Phaenomena describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Eudoxus.Phaenomena describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0244,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8712246393879755,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44901637030562713
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.976
+  }
+}

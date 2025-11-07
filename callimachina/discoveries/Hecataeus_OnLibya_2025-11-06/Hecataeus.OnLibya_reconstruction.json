@@ -1,0 +1,35 @@
+{
+  "work_id": "Hecataeus.OnLibya",
+  "metadata": {
+    "author": "Hecataeus",
+    "title": "OnLibya",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5560740431456748,
+    "std": 0.12458046945418465,
+    "ci_lower": 0.31572387478589586,
+    "ci_upper": 0.7964539991689381,
+    "median": 0.5546176855065303
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hecataeus.OnLibya describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hecataeus.OnLibya with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8754195305458153,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4515249036461848
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

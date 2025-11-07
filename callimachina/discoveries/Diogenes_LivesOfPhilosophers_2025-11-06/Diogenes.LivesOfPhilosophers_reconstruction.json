@@ -1,0 +1,35 @@
+{
+  "work_id": "Diogenes.LivesOfPhilosophers",
+  "metadata": {
+    "author": "Diogenes",
+    "title": "LivesOfPhilosophers",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5575069973662141,
+    "std": 0.125670776714357,
+    "ci_lower": 0.30639281950261105,
+    "ci_upper": 0.7935240172508776,
+    "median": 0.5596843389973929
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Diogenes.LivesOfPhilosophers describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Diogenes.LivesOfPhilosophers with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0318,
+    "citation_density": 0.0,
+    "confidence_stability": 0.874329223285643,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4533090546083833
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2720000000000002
+  }
+}

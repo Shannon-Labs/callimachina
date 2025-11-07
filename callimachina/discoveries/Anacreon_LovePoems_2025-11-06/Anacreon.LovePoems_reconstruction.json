@@ -1,0 +1,35 @@
+{
+  "work_id": "Anacreon.LovePoems",
+  "metadata": {
+    "author": "Anacreon",
+    "title": "LovePoems",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5603673637716622,
+    "std": 0.13314004864523554,
+    "ci_lower": 0.29521391256273183,
+    "ci_upper": 0.8141167701399245,
+    "median": 0.5629539563364098
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Anacreon.LovePoems describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Anacreon.LovePoems with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8668599513547645,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45250627397747467
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

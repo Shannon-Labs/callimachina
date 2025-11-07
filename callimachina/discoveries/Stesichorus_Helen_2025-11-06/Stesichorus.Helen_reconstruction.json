@@ -1,0 +1,35 @@
+{
+  "work_id": "Stesichorus.Helen",
+  "metadata": {
+    "author": "Stesichorus",
+    "title": "Helen",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5584769729770952,
+    "std": 0.12535148750251254,
+    "ci_lower": 0.3123493292614703,
+    "ci_upper": 0.784167318014777,
+    "median": 0.5618468784809764
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Stesichorus.Helen describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Stesichorus.Helen with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8746485124974874,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45240897377392014
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

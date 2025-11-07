@@ -1,0 +1,35 @@
+{
+  "work_id": "Sphaerus.OnTheSoul",
+  "metadata": {
+    "author": "Sphaerus",
+    "title": "OnTheSoul",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5655484714183974,
+    "std": 0.12924190526294435,
+    "ci_lower": 0.3065438715347803,
+    "ci_upper": 0.7973469229254988,
+    "median": 0.5704395273758223
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Sphaerus.OnTheSoul describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Sphaerus.OnTheSoul with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8707580947370557,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45496853137439786
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

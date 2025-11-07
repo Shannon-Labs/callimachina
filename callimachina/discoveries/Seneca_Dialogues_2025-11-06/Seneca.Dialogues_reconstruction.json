@@ -1,0 +1,35 @@
+{
+  "work_id": "Seneca.Dialogues",
+  "metadata": {
+    "author": "Seneca",
+    "title": "Dialogues",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550178183331641,
+    "std": 0.13024181429324483,
+    "ci_lower": 0.28639676118835267,
+    "ci_upper": 0.8025289581703984,
+    "median": 0.5565807064864181
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Seneca.Dialogues describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Seneca.Dialogues with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8697581857067551,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45041627923727445
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

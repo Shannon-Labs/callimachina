@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnAncientMedicine",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnAncientMedicine",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5481558733211184,
+    "std": 0.12573624382941387,
+    "ci_lower": 0.2928396211298825,
+    "ci_upper": 0.7814695226480827,
+    "median": 0.5525767997461839
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hippocrates.OnAncientMedicine describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hippocrates.OnAncientMedicine describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0288,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8742637561705862,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4486620582788393
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.152
+  }
+}

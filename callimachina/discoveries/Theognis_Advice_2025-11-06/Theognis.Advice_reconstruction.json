@@ -1,0 +1,35 @@
+{
+  "work_id": "Theognis.Advice",
+  "metadata": {
+    "author": "Theognis",
+    "title": "Advice",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5616005661081165,
+    "std": 0.12867383359602713,
+    "ci_lower": 0.3009878290516214,
+    "ci_upper": 0.802292561978002,
+    "median": 0.5652092243217234
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theognis.Advice describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theognis.Advice with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8713261664039729,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45308617641697724
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

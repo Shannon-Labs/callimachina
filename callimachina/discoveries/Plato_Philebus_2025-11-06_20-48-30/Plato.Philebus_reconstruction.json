@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Philebus",
+  "metadata": {
+    "author": "Plato",
+    "title": "Philebus",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6244670657107496,
+    "std": 0.12372226703777334,
+    "ci_lower": 0.3705333346412704,
+    "ci_upper": 0.8478862461037647,
+    "median": 0.6330954952854974
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.Philebus describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.Philebus describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0228,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8762777329622267,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4775879329138559
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9119999999999999
+  }
+}

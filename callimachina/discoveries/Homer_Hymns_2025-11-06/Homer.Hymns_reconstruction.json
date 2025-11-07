@@ -1,0 +1,35 @@
+{
+  "work_id": "Homer.Hymns",
+  "metadata": {
+    "author": "Homer",
+    "title": "Hymns",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.628514161115199,
+    "std": 0.12558465762285423,
+    "ci_lower": 0.37072689842182355,
+    "ci_upper": 0.856600369553066,
+    "median": 0.6370964805678132
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Homer.Hymns describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Homer.Hymns with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.025,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8744153423771458,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47968053201712757
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.0
+  }
+}

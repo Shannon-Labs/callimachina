@@ -1,0 +1,35 @@
+{
+  "work_id": "Ptolemy.Almagest",
+  "metadata": {
+    "author": "Ptolemy",
+    "title": "Almagest",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.6,
+  "posterior_confidence": {
+    "mean": 0.6435126818115617,
+    "std": 0.12710361819333016,
+    "ci_lower": 0.38019103167880464,
+    "ci_upper": 0.8619441928262939,
+    "median": 0.6534979281426885
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Ptolemy.Almagest describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Ptolemy.Almagest describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8728963818066698,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.485108044238625
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

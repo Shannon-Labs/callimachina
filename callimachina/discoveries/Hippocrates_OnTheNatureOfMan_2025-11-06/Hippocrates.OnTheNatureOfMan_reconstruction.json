@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnTheNatureOfMan",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnTheNatureOfMan",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5592983698888536,
+    "std": 0.13203495655229777,
+    "ci_lower": 0.30280979466216906,
+    "ci_upper": 0.7978399929797514,
+    "median": 0.5642947260928965
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hippocrates.OnTheNatureOfMan describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hippocrates.OnTheNatureOfMan with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0318,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8679650434477022,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.453389185633645
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2720000000000002
+  }
+}

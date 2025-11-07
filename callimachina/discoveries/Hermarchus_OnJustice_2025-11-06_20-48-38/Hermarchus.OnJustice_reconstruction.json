@@ -1,0 +1,35 @@
+{
+  "work_id": "Hermarchus.OnJustice",
+  "metadata": {
+    "author": "Hermarchus",
+    "title": "OnJustice",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5538411922628234,
+    "std": 0.12841004635669084,
+    "ci_lower": 0.2963988837717949,
+    "ci_upper": 0.7914886810603402,
+    "median": 0.5556795242955461
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hermarchus.OnJustice describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hermarchus.OnJustice describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0252,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8715899536433092,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4495888056027936
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.008
+  }
+}

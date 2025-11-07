@@ -1,0 +1,35 @@
+{
+  "work_id": "Sphaerus.OnNature",
+  "metadata": {
+    "author": "Sphaerus",
+    "title": "OnNature",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5603014727383764,
+    "std": 0.12841252838270037,
+    "ci_lower": 0.31038250119903016,
+    "ci_upper": 0.8058369914779512,
+    "median": 0.5619604224150394
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Sphaerus.OnNature describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Sphaerus.OnNature with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8715874716172997,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4528326695904139
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

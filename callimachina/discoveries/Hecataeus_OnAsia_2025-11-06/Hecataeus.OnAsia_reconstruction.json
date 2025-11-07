@@ -1,0 +1,35 @@
+{
+  "work_id": "Hecataeus.OnAsia",
+  "metadata": {
+    "author": "Hecataeus",
+    "title": "OnAsia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5528893098999204,
+    "std": 0.12556047129369677,
+    "ci_lower": 0.30404647035580484,
+    "ci_upper": 0.7893851206377018,
+    "median": 0.5538545362416378
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hecataeus.OnAsia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hecataeus.OnAsia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8744395287063033,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4500330101639318
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

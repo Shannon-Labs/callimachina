@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Laws",
+  "metadata": {
+    "author": "Plato",
+    "title": "Laws",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6310287119636925,
+    "std": 0.1271938881074334,
+    "ci_lower": 0.3731564691818032,
+    "ci_upper": 0.8592523176531105,
+    "median": 0.6391948493300125
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.Laws describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.Laws describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0212,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8728061118925666,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47938542930806693
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.8480000000000001
+  }
+}

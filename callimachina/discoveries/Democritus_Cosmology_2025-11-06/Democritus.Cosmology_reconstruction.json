@@ -1,0 +1,35 @@
+{
+  "work_id": "Democritus.Cosmology",
+  "metadata": {
+    "author": "Democritus",
+    "title": "Cosmology",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.556193325438825,
+    "std": 0.12793195298817578,
+    "ci_lower": 0.30356273677416007,
+    "ci_upper": 0.7933766738833234,
+    "median": 0.5568101216102432
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Democritus.Cosmology describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Democritus.Cosmology with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8720680470118243,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4515974682100458
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

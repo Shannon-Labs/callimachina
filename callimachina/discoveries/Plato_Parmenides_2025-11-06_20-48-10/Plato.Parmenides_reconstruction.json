@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Parmenides",
+  "metadata": {
+    "author": "Plato",
+    "title": "Parmenides",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6271527356889838,
+    "std": 0.12375956708265529,
+    "ci_lower": 0.37524661009502,
+    "ci_upper": 0.852196962855795,
+    "median": 0.6339604588702024
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.Parmenides describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.Parmenides describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8762404329173448,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4788984709006613
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

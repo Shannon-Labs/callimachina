@@ -1,0 +1,35 @@
+{
+  "work_id": "Archimedes.OnTheSphereAndCylinder",
+  "metadata": {
+    "author": "Archimedes",
+    "title": "OnTheSphereAndCylinder",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5619478387064385,
+    "std": 0.12535935126837525,
+    "ci_lower": 0.31227595540281067,
+    "ci_upper": 0.7884584445518392,
+    "median": 0.5683411163059977
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Archimedes.OnTheSphereAndCylinder describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Archimedes.OnTheSphereAndCylinder with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0338,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8746406487316247,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4557165336890713
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.352
+  }
+}

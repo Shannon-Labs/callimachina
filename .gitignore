@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data outputs (large files)
+pinakes/reconstructions/*.yml
+pinakes/fragments/*.yml
+pinakes/networks/*
+pinakes/translations/*.yml
+pinakes/alerts/*.yml
+pinakes/stylometric_*.yml
+
+# Keep examples
+!pinakes/reconstructions/example_*.yml
+!pinakes/fragments/example_*.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation build
+docs/_build/
+site/
+
+# Logs
+*.log
+logs/

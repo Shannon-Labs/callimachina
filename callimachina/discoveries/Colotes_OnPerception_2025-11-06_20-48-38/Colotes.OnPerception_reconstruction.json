@@ -1,0 +1,35 @@
+{
+  "work_id": "Colotes.OnPerception",
+  "metadata": {
+    "author": "Colotes",
+    "title": "OnPerception",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5529616357963236,
+    "std": 0.13064940085028062,
+    "ci_lower": 0.3016953910191581,
+    "ci_upper": 0.7957920412657444,
+    "median": 0.5543215416667615
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Colotes.OnPerception describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Colotes.OnPerception describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0252,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8693505991497193,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4490130475668348
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.008
+  }
+}

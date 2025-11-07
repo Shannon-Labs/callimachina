@@ -1,0 +1,35 @@
+{
+  "work_id": "Metrodorus.OnNobleBirth",
+  "metadata": {
+    "author": "Metrodorus",
+    "title": "OnNobleBirth",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5522882570538287,
+    "std": 0.13049188152914415,
+    "ci_lower": 0.2986842730086709,
+    "ci_upper": 0.7927568105100355,
+    "median": 0.5551626327867301
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Metrodorus.OnNobleBirth describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Metrodorus.OnNobleBirth describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0264,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8695081184708559,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4491194480019504
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.056
+  }
+}

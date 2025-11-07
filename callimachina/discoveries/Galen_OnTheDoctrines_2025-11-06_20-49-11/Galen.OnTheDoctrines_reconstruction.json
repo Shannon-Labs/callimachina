@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnTheDoctrines",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnTheDoctrines",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.72,
+  "posterior_confidence": {
+    "mean": 0.727747701017545,
+    "std": 0.1199684050151482,
+    "ci_lower": 0.4682302460879492,
+    "ci_upper": 0.9211676944497298,
+    "median": 0.7379066284667117
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Galen.OnTheDoctrines describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Galen.OnTheDoctrines describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0252,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8800315949848518,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.5199955732388366
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.008
+  }
+}

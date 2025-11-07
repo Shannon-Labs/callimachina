@@ -1,0 +1,35 @@
+{
+  "work_id": "Pyrrho.OnPhilosophy",
+  "metadata": {
+    "author": "Pyrrho",
+    "title": "OnPhilosophy",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5617382494648533,
+    "std": 0.12370232428314838,
+    "ci_lower": 0.3136360252321756,
+    "ci_upper": 0.794195330055194,
+    "median": 0.5662884627186193
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Pyrrho.OnPhilosophy describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Pyrrho.OnPhilosophy describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8762976757168516,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45309840069095986
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

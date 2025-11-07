@@ -1,0 +1,35 @@
+{
+  "work_id": "Polybius.Histories",
+  "metadata": {
+    "author": "Polybius",
+    "title": "Histories",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5630961657067187,
+    "std": 0.12849632138924766,
+    "ci_lower": 0.3052573377241676,
+    "ci_upper": 0.7979277359009755,
+    "median": 0.56886716209312
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Polybius.Histories describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Polybius.Histories with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8715036786107524,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45406216747709605
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.OnTheGood",
+  "metadata": {
+    "author": "Plato",
+    "title": "OnTheGood",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6253048177986209,
+    "std": 0.12337152052083541,
+    "ci_lower": 0.3748156133021956,
+    "ci_upper": 0.847713070954962,
+    "median": 0.6294867449861511
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.OnTheGood describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.OnTheGood describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0232,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8766284794791646,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4780781084006982
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9279999999999999
+  }
+}

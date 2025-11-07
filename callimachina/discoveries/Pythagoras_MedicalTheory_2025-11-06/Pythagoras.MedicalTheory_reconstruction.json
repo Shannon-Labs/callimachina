@@ -1,0 +1,35 @@
+{
+  "work_id": "Pythagoras.MedicalTheory",
+  "metadata": {
+    "author": "Pythagoras",
+    "title": "MedicalTheory",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5610963938410145,
+    "std": 0.12947895909234816,
+    "ci_lower": 0.30625431487030924,
+    "ci_upper": 0.795644748384223,
+    "median": 0.5669869276475636
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Pythagoras.MedicalTheory describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Pythagoras.MedicalTheory with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0302,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8705210409076518,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45388399496050436
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2080000000000002
+  }
+}

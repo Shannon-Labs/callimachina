@@ -1,0 +1,35 @@
+{
+  "work_id": "Strabo.Geography",
+  "metadata": {
+    "author": "Strabo",
+    "title": "Geography",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5620249960755107,
+    "std": 0.12550196444359787,
+    "ci_lower": 0.31893039313926974,
+    "ci_upper": 0.7914330373666527,
+    "median": 0.5645581022269324
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Strabo.Geography describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Strabo.Geography describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8744980355564022,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45267313531917786
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

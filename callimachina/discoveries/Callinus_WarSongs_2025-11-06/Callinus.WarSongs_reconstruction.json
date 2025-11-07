@@ -1,0 +1,35 @@
+{
+  "work_id": "Callinus.WarSongs",
+  "metadata": {
+    "author": "Callinus",
+    "title": "WarSongs",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550304366323093,
+    "std": 0.13070148917331878,
+    "ci_lower": 0.3017469265422132,
+    "ci_upper": 0.802021769322914,
+    "median": 0.5574128199302161
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Callinus.WarSongs describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Callinus.WarSongs with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8692985108266812,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45049535906892524
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Pappus.CommentaryOnPtolemy",
+  "metadata": {
+    "author": "Pappus",
+    "title": "CommentaryOnPtolemy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5532675764958969,
+    "std": 0.1265951301303578,
+    "ci_lower": 0.30924854625047843,
+    "ci_upper": 0.79417335738788,
+    "median": 0.550393993185984
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Pappus.CommentaryOnPtolemy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Pappus.CommentaryOnPtolemy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8734048698696422,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45128085091865633
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Hecataeus.Genealogies",
+  "metadata": {
+    "author": "Hecataeus",
+    "title": "Genealogies",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5545252178888861,
+    "std": 0.12837071647489073,
+    "ci_lower": 0.2926407734146255,
+    "ci_upper": 0.7882620191505513,
+    "median": 0.558381417757835
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hecataeus.Genealogies describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hecataeus.Genealogies with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8716292835251093,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4510063488413987
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

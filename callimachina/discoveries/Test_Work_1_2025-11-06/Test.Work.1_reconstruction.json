@@ -1,0 +1,35 @@
+{
+  "work_id": "Test.Work.1",
+  "metadata": {
+    "author": "Test",
+    "title": "Work",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5589137276457138,
+    "std": 0.12596004398312896,
+    "ci_lower": 0.3032061499029658,
+    "ci_upper": 0.7875948310559561,
+    "median": 0.5636733097660511
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Test.Work.1 describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Test.Work.1 with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.025,
+    "citation_density": 0.0,
+    "confidence_stability": 0.874039956016871,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45180281999330596
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.0
+  }
+}

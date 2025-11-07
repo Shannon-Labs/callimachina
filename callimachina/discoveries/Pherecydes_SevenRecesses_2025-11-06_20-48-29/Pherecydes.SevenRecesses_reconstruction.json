@@ -1,0 +1,35 @@
+{
+  "work_id": "Pherecydes.SevenRecesses",
+  "metadata": {
+    "author": "Pherecydes",
+    "title": "SevenRecesses",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5562083239082372,
+    "std": 0.1294871057030925,
+    "ci_lower": 0.29482367000963927,
+    "ci_upper": 0.7901179701247394,
+    "median": 0.5602158382934135
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Pherecydes.SevenRecesses describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Pherecydes.SevenRecesses describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0268,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8705128942969075,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.450907952326319
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.072
+  }
+}

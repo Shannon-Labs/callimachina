@@ -1,0 +1,2 @@
+work_id,status,confidence,fragments_used,output_dir
+Test.Work.1,success,0.5607165358873836,2,discoveries/Test_Work_1_2025-11-06_20-46-03

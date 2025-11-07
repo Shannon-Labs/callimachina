@@ -1,0 +1,35 @@
+{
+  "work_id": "Strato.OnDiseases",
+  "metadata": {
+    "author": "Strato",
+    "title": "OnDiseases",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5606524895222008,
+    "std": 0.13040818046679556,
+    "ci_lower": 0.3136626924792173,
+    "ci_upper": 0.7960349638272047,
+    "median": 0.5617800710013555
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Strato.OnDiseases describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Strato.OnDiseases with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8695918195332044,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4527735110955341
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

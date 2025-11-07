@@ -1,0 +1,35 @@
+{
+  "work_id": "Diophantus.OnPolygonalNumbers",
+  "metadata": {
+    "author": "Diophantus",
+    "title": "OnPolygonalNumbers",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5612975268003898,
+    "std": 0.12390263123027077,
+    "ci_lower": 0.30135899527223936,
+    "ci_upper": 0.798333497440563,
+    "median": 0.5643836435704228
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Diophantus.OnPolygonalNumbers describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Diophantus.OnPolygonalNumbers with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0322,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8760973687697292,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4551220809304622
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2880000000000003
+  }
+}

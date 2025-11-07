@@ -1,0 +1,35 @@
+{
+  "work_id": "Theaetetus.PlatonicSolids",
+  "metadata": {
+    "author": "Theaetetus",
+    "title": "PlatonicSolids",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5512042883426093,
+    "std": 0.1319268925262367,
+    "ci_lower": 0.2983077967046479,
+    "ci_upper": 0.795228394599333,
+    "median": 0.549798651509603
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theaetetus.PlatonicSolids describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theaetetus.PlatonicSolids with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0306,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8680731074737633,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4498023594177534
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2240000000000002
+  }
+}

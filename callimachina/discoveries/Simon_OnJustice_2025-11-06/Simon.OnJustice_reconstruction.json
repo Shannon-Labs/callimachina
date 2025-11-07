@@ -1,0 +1,35 @@
+{
+  "work_id": "Simon.OnJustice",
+  "metadata": {
+    "author": "Simon",
+    "title": "OnJustice",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5602135925651441,
+    "std": 0.1308791908100474,
+    "ci_lower": 0.3027492070287835,
+    "ci_upper": 0.7997282800320169,
+    "median": 0.5628641025665477
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Simon.OnJustice describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Simon.OnJustice with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8691208091899526,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4523108512783862
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

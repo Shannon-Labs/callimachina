@@ -1,0 +1,35 @@
+{
+  "work_id": "Archimedes.Ostomachion",
+  "metadata": {
+    "author": "Archimedes",
+    "title": "Ostomachion",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5589581893538084,
+    "std": 0.12938745512613462,
+    "ci_lower": 0.29559328803371493,
+    "ci_upper": 0.7892179840873734,
+    "median": 0.5631093290730143
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Archimedes.Ostomachion describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Archimedes.Ostomachion describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.026,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8706125448738654,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45177786356224325
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.04
+  }
+}

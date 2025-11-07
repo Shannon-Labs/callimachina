@@ -1,0 +1,35 @@
+{
+  "work_id": "Sextus.AgainstTheLogicians",
+  "metadata": {
+    "author": "Sextus",
+    "title": "AgainstTheLogicians",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5604134221335141,
+    "std": 0.12706174559633998,
+    "ci_lower": 0.3078177281266437,
+    "ci_upper": 0.7915352585695956,
+    "median": 0.5671005772178545
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Sextus.AgainstTheLogicians describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Sextus.AgainstTheLogicians with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.87293825440366,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.454092527627105
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnDiseases",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnDiseases",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5477822255503104,
+    "std": 0.12939943637566298,
+    "ci_lower": 0.29552920029988916,
+    "ci_upper": 0.7915166472342762,
+    "median": 0.5459568100274748
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hippocrates.OnDiseases describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hippocrates.OnDiseases describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.026,
+    "citation_density": 0.0,
+    "confidence_stability": 0.870600563624337,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44730627991589117
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.04
+  }
+}

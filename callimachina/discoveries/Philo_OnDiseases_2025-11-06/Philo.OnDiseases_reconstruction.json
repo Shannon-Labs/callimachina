@@ -1,0 +1,35 @@
+{
+  "work_id": "Philo.OnDiseases",
+  "metadata": {
+    "author": "Philo",
+    "title": "OnDiseases",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5656027735739549,
+    "std": 0.13123257315644657,
+    "ci_lower": 0.2991382493967548,
+    "ci_upper": 0.8029962170858964,
+    "median": 0.5729194052436295
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Philo.OnDiseases describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Philo.OnDiseases with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8687674268435535,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45455118544727063
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

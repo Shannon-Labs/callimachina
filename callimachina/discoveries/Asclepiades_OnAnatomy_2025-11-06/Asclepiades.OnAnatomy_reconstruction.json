@@ -1,0 +1,35 @@
+{
+  "work_id": "Asclepiades.OnAnatomy",
+  "metadata": {
+    "author": "Asclepiades",
+    "title": "OnAnatomy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5580368172261508,
+    "std": 0.12666626999522682,
+    "ci_lower": 0.3113662754778285,
+    "ci_upper": 0.8002113567503456,
+    "median": 0.560647105333639
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Asclepiades.OnAnatomy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Asclepiades.OnAnatomy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8733337300047732,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45258143322427097
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

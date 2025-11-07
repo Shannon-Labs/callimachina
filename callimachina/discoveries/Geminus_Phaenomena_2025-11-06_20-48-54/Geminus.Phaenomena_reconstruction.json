@@ -1,0 +1,35 @@
+{
+  "work_id": "Geminus.Phaenomena",
+  "metadata": {
+    "author": "Geminus",
+    "title": "Phaenomena",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5631140404140902,
+    "std": 0.12704250996400515,
+    "ci_lower": 0.3150552713810379,
+    "ci_upper": 0.7962187909122357,
+    "median": 0.5700720294185297
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Geminus.Phaenomena describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Geminus.Phaenomena describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0244,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8729574900359949,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4531946985025689
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.976
+  }
+}

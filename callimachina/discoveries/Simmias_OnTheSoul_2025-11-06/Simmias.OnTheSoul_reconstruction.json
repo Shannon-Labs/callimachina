@@ -1,0 +1,35 @@
+{
+  "work_id": "Simmias.OnTheSoul",
+  "metadata": {
+    "author": "Simmias",
+    "title": "OnTheSoul",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5534037055470046,
+    "std": 0.12834094945014293,
+    "ci_lower": 0.29680069539721293,
+    "ci_upper": 0.7885509556234639,
+    "median": 0.5557219349842807
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Simmias.OnTheSoul describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Simmias.OnTheSoul with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.871659050549857,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4500807206071209
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

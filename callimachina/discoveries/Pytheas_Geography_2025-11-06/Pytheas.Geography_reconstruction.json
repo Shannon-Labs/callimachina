@@ -1,0 +1,35 @@
+{
+  "work_id": "Pytheas.Geography",
+  "metadata": {
+    "author": "Pytheas",
+    "title": "Geography",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5658286279766641,
+    "std": 0.12328733212921976,
+    "ci_lower": 0.319373026417339,
+    "ci_upper": 0.7977106978353915,
+    "median": 0.568436783836838
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Pytheas.Geography describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Pytheas.Geography with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8767126678707803,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.455556051311077
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Dionysius.OnCities",
+  "metadata": {
+    "author": "Dionysius",
+    "title": "OnCities",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5616569396546315,
+    "std": 0.1307233989770377,
+    "ci_lower": 0.29484541592495417,
+    "ci_upper": 0.7975840928214404,
+    "median": 0.5657234002351662
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Dionysius.OnCities describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Dionysius.OnCities with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8692766010229623,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45326376929748213
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

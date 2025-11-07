@@ -1,0 +1,35 @@
+{
+  "work_id": "Archimedes.OnConoidsAndSpheroids",
+  "metadata": {
+    "author": "Archimedes",
+    "title": "OnConoidsAndSpheroids",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5504514391088069,
+    "std": 0.12716180486596249,
+    "ci_lower": 0.2962918887178444,
+    "ci_upper": 0.7812772234327253,
+    "median": 0.5565405933284744
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Archimedes.OnConoidsAndSpheroids describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Archimedes.OnConoidsAndSpheroids with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0334,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8728381951340375,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45081772849025986
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.336
+  }
+}

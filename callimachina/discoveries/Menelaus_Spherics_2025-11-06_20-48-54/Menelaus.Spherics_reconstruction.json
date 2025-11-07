@@ -1,0 +1,35 @@
+{
+  "work_id": "Menelaus.Spherics",
+  "metadata": {
+    "author": "Menelaus",
+    "title": "Spherics",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.561909495797408,
+    "std": 0.12806449279070858,
+    "ci_lower": 0.30769568772147743,
+    "ci_upper": 0.7991219787465415,
+    "median": 0.5684933401581965
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Menelaus.Spherics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Menelaus.Spherics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8719355072092914,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4524906823732257
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

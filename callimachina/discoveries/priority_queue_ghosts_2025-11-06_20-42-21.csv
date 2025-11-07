@@ -1,0 +1,11 @@
+target,type,recoverability_score,fragments_found,network_centrality,translation_paths,imaging_feasibility,priority_score,search_strategy,status
+Hippocrates,citation_gap,0.2,0,0.5,2,0.3,0.2,Arabic manuscripts citing Galen + Syriac translations of Galen,predicted
+Aristotle,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted
+Theophrastus,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted
+Archestratus,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted
+Hecataeus,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted
+Eudemus,citation_gap,0.1,0,0.5,1,0.3,0.1,Arabic manuscripts citing Proclus,predicted
+Apollonius,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted
+Corinna,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted
+Persaeus,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted
+Diocles,citation_gap,0.1,0,0.5,1,0.3,0.1,Cross-reference with known papyri collections,predicted

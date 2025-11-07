@@ -1,0 +1,35 @@
+{
+  "work_id": "Dionysius.HistoryOfPersia",
+  "metadata": {
+    "author": "Dionysius",
+    "title": "HistoryOfPersia",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5605885214710263,
+    "std": 0.12806853112045444,
+    "ci_lower": 0.3105797302684996,
+    "ci_upper": 0.8045599730211814,
+    "median": 0.5609205060667266
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Dionysius.HistoryOfPersia describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Dionysius.HistoryOfPersia describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0272,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8719314688795455,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4529218888096984
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.088
+  }
+}

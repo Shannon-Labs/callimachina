@@ -1,0 +1,35 @@
+{
+  "work_id": "Theognis.Elegies",
+  "metadata": {
+    "author": "Theognis",
+    "title": "Elegies",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5560528964677197,
+    "std": 0.12398453008993736,
+    "ci_lower": 0.31539359459683397,
+    "ci_upper": 0.7868029771187246,
+    "median": 0.5588032045013339
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theognis.Elegies describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theognis.Elegies with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8760154699100626,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45145603891142744
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

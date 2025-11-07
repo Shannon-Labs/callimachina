@@ -1,0 +1,35 @@
+{
+  "work_id": "Democedes.Medicine",
+  "metadata": {
+    "author": "Democedes",
+    "title": "Medicine",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5617197796440977,
+    "std": 0.13073178822571238,
+    "ci_lower": 0.3077386932799513,
+    "ci_upper": 0.8011188921353384,
+    "median": 0.5668634606508617
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Democedes.Medicine describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Democedes.Medicine describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0244,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8692682117742876,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4522680663684012
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.976
+  }
+}

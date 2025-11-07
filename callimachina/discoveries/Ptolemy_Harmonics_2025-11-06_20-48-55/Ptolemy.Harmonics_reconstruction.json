@@ -1,0 +1,35 @@
+{
+  "work_id": "Ptolemy.Harmonics",
+  "metadata": {
+    "author": "Ptolemy",
+    "title": "Harmonics",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.6,
+  "posterior_confidence": {
+    "mean": 0.6390434941181891,
+    "std": 0.12380094206925076,
+    "ci_lower": 0.3827509141194897,
+    "ci_upper": 0.8566996346051298,
+    "median": 0.6446653883859741
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Ptolemy.Harmonics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Ptolemy.Harmonics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8761990579307493,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.48377063677368387
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

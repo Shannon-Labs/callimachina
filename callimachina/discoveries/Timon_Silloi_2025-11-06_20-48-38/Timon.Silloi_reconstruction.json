@@ -1,0 +1,35 @@
+{
+  "work_id": "Timon.Silloi",
+  "metadata": {
+    "author": "Timon",
+    "title": "Silloi",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5598887240537488,
+    "std": 0.12779366142505963,
+    "ci_lower": 0.3197155649658881,
+    "ci_upper": 0.8021918177194907,
+    "median": 0.5621879323572261
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Timon.Silloi describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Timon.Silloi describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.022,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8722063385749403,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45110945681232684
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.8800000000000001
+  }
+}

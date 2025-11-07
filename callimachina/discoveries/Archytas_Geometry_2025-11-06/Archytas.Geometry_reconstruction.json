@@ -1,0 +1,35 @@
+{
+  "work_id": "Archytas.Geometry",
+  "metadata": {
+    "author": "Archytas",
+    "title": "Geometry",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5599700518598358,
+    "std": 0.12910001827416975,
+    "ci_lower": 0.299460728495765,
+    "ci_upper": 0.8030578725378693,
+    "median": 0.5623071405404303
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Archytas.Geometry describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Archytas.Geometry with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8708999817258303,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45263135224985074
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

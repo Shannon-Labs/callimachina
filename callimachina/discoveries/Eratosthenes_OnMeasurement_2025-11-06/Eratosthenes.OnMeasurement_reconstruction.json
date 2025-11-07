@@ -1,0 +1,35 @@
+{
+  "work_id": "Eratosthenes.OnMeasurement",
+  "metadata": {
+    "author": "Eratosthenes",
+    "title": "OnMeasurement",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5633348231544014,
+    "std": 0.1273065601722441,
+    "ci_lower": 0.30815766642491244,
+    "ci_upper": 0.8084509829582844,
+    "median": 0.5653051480958
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Eratosthenes.OnMeasurement describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Eratosthenes.OnMeasurement with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8726934398277559,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4552366065778695
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

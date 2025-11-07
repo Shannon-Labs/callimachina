@@ -1,0 +1,35 @@
+{
+  "work_id": "Apollonius.OnTangencies",
+  "metadata": {
+    "author": "Apollonius",
+    "title": "OnTangencies",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5607835730906099,
+    "std": 0.12777231830839939,
+    "ci_lower": 0.3107712415479683,
+    "ci_upper": 0.7937472604047131,
+    "median": 0.5645407118781982
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Apollonius.OnTangencies describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Apollonius.OnTangencies describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0264,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8722276816916006,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4527895307387374
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.056
+  }
+}

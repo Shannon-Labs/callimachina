@@ -1,0 +1,35 @@
+{
+  "work_id": "Alexander.OnThePulse",
+  "metadata": {
+    "author": "Alexander",
+    "title": "OnThePulse",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5563163224453118,
+    "std": 0.1306743025901088,
+    "ci_lower": 0.28662863543794165,
+    "ci_upper": 0.8087629223037545,
+    "median": 0.5643444597370559
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Alexander.OnThePulse describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Alexander.OnThePulse describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0252,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8693256974098912,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4503524320524472
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.008
+  }
+}

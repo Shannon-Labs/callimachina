@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnDiseases",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnDiseases",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.72,
+  "posterior_confidence": {
+    "mean": 0.7295253756947712,
+    "std": 0.11435013126209302,
+    "ci_lower": 0.4842932665892173,
+    "ci_upper": 0.916507915796073,
+    "median": 0.7389826688983837
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Galen.OnDiseases describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Galen.OnDiseases describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.885649868737907,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.5207884704850324
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

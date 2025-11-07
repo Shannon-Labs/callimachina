@@ -1,0 +1,35 @@
+{
+  "work_id": "Hecataeus.HistoryOfEgypt",
+  "metadata": {
+    "author": "Hecataeus",
+    "title": "HistoryOfEgypt",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5562434806312141,
+    "std": 0.12985131261362604,
+    "ci_lower": 0.29677591921246843,
+    "ci_upper": 0.7937445589590559,
+    "median": 0.5546719348533449
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hecataeus.HistoryOfEgypt describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hecataeus.HistoryOfEgypt with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0302,
+    "citation_density": 0.0,
+    "confidence_stability": 0.870148687386374,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4519055943244564
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2080000000000002
+  }
+}

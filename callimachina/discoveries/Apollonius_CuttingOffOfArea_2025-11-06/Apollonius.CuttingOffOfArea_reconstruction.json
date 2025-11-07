@@ -1,0 +1,35 @@
+{
+  "work_id": "Apollonius.CuttingOffOfArea",
+  "metadata": {
+    "author": "Apollonius",
+    "title": "CuttingOffOfArea",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5592753284912446,
+    "std": 0.12723765705310522,
+    "ci_lower": 0.3089273469412085,
+    "ci_upper": 0.7951271964463277,
+    "median": 0.5622394159323331
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Apollonius.CuttingOffOfArea describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Apollonius.CuttingOffOfArea with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0314,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8727623429468948,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4537396990245207
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2560000000000002
+  }
+}

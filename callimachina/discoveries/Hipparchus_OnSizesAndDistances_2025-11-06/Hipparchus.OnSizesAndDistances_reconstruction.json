@@ -1,0 +1,35 @@
+{
+  "work_id": "Hipparchus.OnSizesAndDistances",
+  "metadata": {
+    "author": "Hipparchus",
+    "title": "OnSizesAndDistances",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5609773711422565,
+    "std": 0.12458630010812427,
+    "ci_lower": 0.30866886072498445,
+    "ci_upper": 0.7940371846835013,
+    "median": 0.5659314945895986
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hipparchus.OnSizesAndDistances describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hipparchus.OnSizesAndDistances with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0326,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8754136998918758,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4550456517794236
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.3040000000000003
+  }
+}

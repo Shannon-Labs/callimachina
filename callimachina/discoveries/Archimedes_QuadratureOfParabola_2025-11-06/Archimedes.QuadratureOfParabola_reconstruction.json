@@ -1,0 +1,35 @@
+{
+  "work_id": "Archimedes.QuadratureOfParabola",
+  "metadata": {
+    "author": "Archimedes",
+    "title": "QuadratureOfParabola",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5565908013567669,
+    "std": 0.1277814862578575,
+    "ci_lower": 0.30259948687439997,
+    "ci_upper": 0.7972218560092276,
+    "median": 0.5573684904588392
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Archimedes.QuadratureOfParabola describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Archimedes.QuadratureOfParabola with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.033,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8722185137421425,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4530915052502543
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.3200000000000003
+  }
+}

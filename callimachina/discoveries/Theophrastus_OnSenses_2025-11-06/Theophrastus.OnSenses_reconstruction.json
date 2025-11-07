@@ -1,0 +1,35 @@
+{
+  "work_id": "Theophrastus.OnSenses",
+  "metadata": {
+    "author": "Theophrastus",
+    "title": "OnSenses",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5533214187205581,
+    "std": 0.12705779795413813,
+    "ci_lower": 0.3033305434074476,
+    "ci_upper": 0.7895775171179508,
+    "median": 0.5552709136064109
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theophrastus.OnSenses describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theophrastus.OnSenses with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8729422020458619,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45065612102614283
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

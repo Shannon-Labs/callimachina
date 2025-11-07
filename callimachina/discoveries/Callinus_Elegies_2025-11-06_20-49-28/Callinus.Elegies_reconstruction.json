@@ -1,0 +1,35 @@
+{
+  "work_id": "Callinus.Elegies",
+  "metadata": {
+    "author": "Callinus",
+    "title": "Elegies",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5600164720293471,
+    "std": 0.12297549084934983,
+    "ci_lower": 0.3220353277882516,
+    "ci_upper": 0.7890134786909402,
+    "median": 0.5630830117001288
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Callinus.Elegies describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Callinus.Elegies describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8770245091506501,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4521223730601372
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

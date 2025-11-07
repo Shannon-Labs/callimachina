@@ -1,0 +1,35 @@
+{
+  "work_id": "Herophilus.Anatomy",
+  "metadata": {
+    "author": "Herophilus",
+    "title": "Anatomy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.565302738519199,
+    "std": 0.1255046101963348,
+    "ci_lower": 0.30762433838959113,
+    "ci_upper": 0.7936253125911082,
+    "median": 0.5671989698635329
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Herophilus.Anatomy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Herophilus.Anatomy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8744953898036651,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45524396772137943
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

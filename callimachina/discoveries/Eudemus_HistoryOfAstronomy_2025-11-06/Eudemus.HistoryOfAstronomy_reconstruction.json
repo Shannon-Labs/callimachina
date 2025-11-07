@@ -1,0 +1,35 @@
+{
+  "work_id": "Eudemus.HistoryOfAstronomy",
+  "metadata": {
+    "author": "Eudemus",
+    "title": "HistoryOfAstronomy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5515947788249511,
+    "std": 0.1285567572510884,
+    "ci_lower": 0.3075222089994936,
+    "ci_upper": 0.7932027613458027,
+    "median": 0.5494398174185922
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Eudemus.HistoryOfAstronomy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Eudemus.HistoryOfAstronomy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8714432427489116,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45041556913820496
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

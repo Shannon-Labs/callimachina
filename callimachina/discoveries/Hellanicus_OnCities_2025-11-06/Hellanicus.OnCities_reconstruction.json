@@ -1,0 +1,35 @@
+{
+  "work_id": "Hellanicus.OnCities",
+  "metadata": {
+    "author": "Hellanicus",
+    "title": "OnCities",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550326553449916,
+    "std": 0.127312614680576,
+    "ci_lower": 0.2988708198987449,
+    "ci_upper": 0.8001027732783479,
+    "median": 0.5552719544161766
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hellanicus.OnCities describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hellanicus.OnCities with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0282,
+    "citation_density": 0.0,
+    "confidence_stability": 0.872687385319424,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45107513400327237
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.128
+  }
+}

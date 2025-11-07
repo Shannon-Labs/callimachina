@@ -1,0 +1,35 @@
+{
+  "work_id": "Theophrastus.OnDiscoveries",
+  "metadata": {
+    "author": "Theophrastus",
+    "title": "OnDiscoveries",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5587668157127318,
+    "std": 0.13246363809396403,
+    "ci_lower": 0.3009766581636953,
+    "ci_upper": 0.8050613830492953,
+    "median": 0.5641944110965136
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theophrastus.OnDiscoveries describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theophrastus.OnDiscoveries with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.867536361906036,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45289369580902966
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

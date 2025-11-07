@@ -1,0 +1,36 @@
+{
+  "work_id": "Hecataeus",
+  "metadata": {
+    "author": "Unknown",
+    "title": "Hecataeus",
+    "genre": "citation_gap",
+    "century": -3,
+    "priority_score": 0.1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.5366287942785272,
+    "std": 0.12626364145795207,
+    "ci_lower": 0.29154112811617006,
+    "ci_upper": 0.7662064841832058,
+    "median": 0.537516235611776
+  },
+  "fragments_used": 2,
+  "citations_used": 1,
+  "reconstruction": {
+    "1": "In the Hecataeus, the author demonstrates that being is predicated of all existing things... [confidence: 80.0%]",
+    "2": "The Hecataeus contains arguments against the atomist position... [confidence: 85.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0312,
+    "citation_density": 0.5,
+    "confidence_stability": 0.8737363585420479,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.444718486898949
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 1,
+    "total_weight": 1.948
+  }
+}

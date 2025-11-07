@@ -1,0 +1,35 @@
+{
+  "work_id": "Aetius.OnDiseases",
+  "metadata": {
+    "author": "Aetius",
+    "title": "OnDiseases",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.556864801467037,
+    "std": 0.12799374147179504,
+    "ci_lower": 0.3018384098630201,
+    "ci_upper": 0.8037967296024178,
+    "median": 0.5596129671492185
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Aetius.OnDiseases describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Aetius.OnDiseases with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8720062585282049,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4514998797729687
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

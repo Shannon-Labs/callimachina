@@ -1,0 +1,35 @@
+{
+  "work_id": "Simonides.Odes",
+  "metadata": {
+    "author": "Simonides",
+    "title": "Odes",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5551081823131283,
+    "std": 0.12841164785131398,
+    "ci_lower": 0.31205720336575815,
+    "ci_upper": 0.8014686052946495,
+    "median": 0.5560992039862842
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Simonides.Odes describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Simonides.Odes describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0228,
+    "citation_density": 0.0,
+    "confidence_stability": 0.871588352148686,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44937544147345326
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9119999999999999
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Dicaearchus.OnTheSoul",
+  "metadata": {
+    "author": "Dicaearchus",
+    "title": "OnTheSoul",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5557512806336338,
+    "std": 0.13155847693656478,
+    "ci_lower": 0.2958911227805726,
+    "ci_upper": 0.7992015143698457,
+    "median": 0.5571607981928131
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Dicaearchus.OnTheSoul describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Dicaearchus.OnTheSoul describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0256,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8684415230634353,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4501579978931303
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.024
+  }
+}

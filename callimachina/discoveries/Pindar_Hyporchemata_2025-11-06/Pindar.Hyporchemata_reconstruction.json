@@ -1,0 +1,35 @@
+{
+  "work_id": "Pindar.Hyporchemata",
+  "metadata": {
+    "author": "Pindar",
+    "title": "Hyporchemata",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5597611925939877,
+    "std": 0.12907725454276722,
+    "ci_lower": 0.2993121055506972,
+    "ci_upper": 0.7964485247992424,
+    "median": 0.5669016502807901
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Pindar.Hyporchemata describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Pindar.Hyporchemata with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0282,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8709227454572328,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4527900849166517
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.128
+  }
+}

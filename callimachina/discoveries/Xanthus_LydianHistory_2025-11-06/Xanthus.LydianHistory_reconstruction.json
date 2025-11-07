@@ -1,0 +1,35 @@
+{
+  "work_id": "Xanthus.LydianHistory",
+  "metadata": {
+    "author": "Xanthus",
+    "title": "LydianHistory",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5623191440403144,
+    "std": 0.1306979374119672,
+    "ci_lower": 0.2870779623501514,
+    "ci_upper": 0.789394587615833,
+    "median": 0.571558936413699
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Xanthus.LydianHistory describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Xanthus.LydianHistory with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8693020625880328,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4538911972082624
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

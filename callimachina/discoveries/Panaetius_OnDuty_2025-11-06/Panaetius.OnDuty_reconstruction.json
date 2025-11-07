@@ -1,0 +1,35 @@
+{
+  "work_id": "Panaetius.OnDuty",
+  "metadata": {
+    "author": "Panaetius",
+    "title": "OnDuty",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5575868785400087,
+    "std": 0.13472105683343572,
+    "ci_lower": 0.28805204381328264,
+    "ci_upper": 0.8096503190253922,
+    "median": 0.5591660165125888
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Panaetius.OnDuty describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Panaetius.OnDuty with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8652789431665643,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4509959790659932
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

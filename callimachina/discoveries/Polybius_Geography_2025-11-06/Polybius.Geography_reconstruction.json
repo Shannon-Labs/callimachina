@@ -1,0 +1,35 @@
+{
+  "work_id": "Polybius.Geography",
+  "metadata": {
+    "author": "Polybius",
+    "title": "Geography",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5507190162563086,
+    "std": 0.12865161273111403,
+    "ci_lower": 0.28918235947022924,
+    "ci_upper": 0.7953016538712271,
+    "median": 0.5514529305154301
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Polybius.Geography describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Polybius.Geography with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.871348387268886,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44909577856274535
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

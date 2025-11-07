@@ -1,0 +1,35 @@
+{
+  "work_id": "Anaximander.MapOfWorld",
+  "metadata": {
+    "author": "Anaximander",
+    "title": "MapOfWorld",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5561343965232881,
+    "std": 0.12621110869952887,
+    "ci_lower": 0.32160282277471514,
+    "ci_upper": 0.8000054334832316,
+    "median": 0.5523132352473128
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Anaximander.MapOfWorld describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Anaximander.MapOfWorld describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.026,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8737888913004711,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4509659810726957
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.04
+  }
+}

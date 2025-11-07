@@ -1,0 +1,35 @@
+{
+  "work_id": "Scylax.OnIndia",
+  "metadata": {
+    "author": "Scylax",
+    "title": "OnIndia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5562072030502814,
+    "std": 0.126808148181705,
+    "ci_lower": 0.3091087378194499,
+    "ci_upper": 0.7898270351917681,
+    "median": 0.5578578370689621
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Scylax.OnIndia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Scylax.OnIndia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8731918518182951,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4509953997352754
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

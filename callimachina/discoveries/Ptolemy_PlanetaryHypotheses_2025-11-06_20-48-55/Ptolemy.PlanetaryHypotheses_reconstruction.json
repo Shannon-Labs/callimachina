@@ -1,0 +1,35 @@
+{
+  "work_id": "Ptolemy.PlanetaryHypotheses",
+  "metadata": {
+    "author": "Ptolemy",
+    "title": "PlanetaryHypotheses",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.6,
+  "posterior_confidence": {
+    "mean": 0.6506299505044434,
+    "std": 0.1211597911101234,
+    "ci_lower": 0.38366381348689493,
+    "ci_upper": 0.8567339546236065,
+    "median": 0.6592613609197904
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Ptolemy.PlanetaryHypotheses describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Ptolemy.PlanetaryHypotheses describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.028,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8788402088898766,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.48986933442409836
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1199999999999999
+  }
+}

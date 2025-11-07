@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnCure",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnCure",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6202784784447631,
+    "std": 0.1230705918707891,
+    "ci_lower": 0.361961885598378,
+    "ci_upper": 0.8447354665101374,
+    "median": 0.6234961990981511
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Galen.OnCure describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Galen.OnCure with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0254,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8769294081292109,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47675766552415977
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.016
+  }
+}

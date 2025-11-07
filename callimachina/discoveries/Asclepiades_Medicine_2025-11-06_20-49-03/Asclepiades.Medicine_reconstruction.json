@@ -1,0 +1,35 @@
+{
+  "work_id": "Asclepiades.Medicine",
+  "metadata": {
+    "author": "Asclepiades",
+    "title": "Medicine",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5551647270691336,
+    "std": 0.12931219515938547,
+    "ci_lower": 0.30633167134841577,
+    "ci_upper": 0.7975324074008955,
+    "median": 0.5527291519889211
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Asclepiades.Medicine describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Asclepiades.Medicine describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0252,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8706878048406146,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4500280046450483
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.008
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Simonides.Elegies",
+  "metadata": {
+    "author": "Simonides",
+    "title": "Elegies",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5531590003348728,
+    "std": 0.1261720460854025,
+    "ci_lower": 0.30007812691068847,
+    "ci_upper": 0.7910281585849144,
+    "median": 0.5540136368529517
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Simonides.Elegies describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Simonides.Elegies describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8738279539145974,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44917972885874224
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

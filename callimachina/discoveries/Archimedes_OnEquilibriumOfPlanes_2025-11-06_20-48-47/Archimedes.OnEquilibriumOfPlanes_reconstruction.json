@@ -1,0 +1,35 @@
+{
+  "work_id": "Archimedes.OnEquilibriumOfPlanes",
+  "metadata": {
+    "author": "Archimedes",
+    "title": "OnEquilibriumOfPlanes",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5635759172789974,
+    "std": 0.12648993878583906,
+    "ci_lower": 0.30047306755944064,
+    "ci_upper": 0.7943591068699006,
+    "median": 0.5682450960336174
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Archimedes.OnEquilibriumOfPlanes describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Archimedes.OnEquilibriumOfPlanes describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.03,
+    "citation_density": 0.0,
+    "confidence_stability": 0.873510061214161,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45511470636634843
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2000000000000002
+  }
+}

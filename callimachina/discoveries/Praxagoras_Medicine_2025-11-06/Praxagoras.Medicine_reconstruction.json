@@ -1,0 +1,35 @@
+{
+  "work_id": "Praxagoras.Medicine",
+  "metadata": {
+    "author": "Praxagoras",
+    "title": "Medicine",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5575375072738119,
+    "std": 0.12937566085378827,
+    "ci_lower": 0.2936203778938062,
+    "ci_upper": 0.7974081080691258,
+    "median": 0.5632453856985968
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Praxagoras.Medicine describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Praxagoras.Medicine with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0282,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8706243391462117,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45187077015747934
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.128
+  }
+}

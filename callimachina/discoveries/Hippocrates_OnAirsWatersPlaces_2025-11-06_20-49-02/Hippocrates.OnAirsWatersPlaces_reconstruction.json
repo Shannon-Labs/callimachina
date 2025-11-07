@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnAirsWatersPlaces",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnAirsWatersPlaces",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5524625139989839,
+    "std": 0.12392323293543092,
+    "ci_lower": 0.314954980463579,
+    "ci_upper": 0.7898721615554366,
+    "median": 0.5541374492095921
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hippocrates.OnAirsWatersPlaces describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hippocrates.OnAirsWatersPlaces describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0292,
+    "citation_density": 0.0,
+    "confidence_stability": 0.876076767064569,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4506860156393838
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.168
+  }
+}

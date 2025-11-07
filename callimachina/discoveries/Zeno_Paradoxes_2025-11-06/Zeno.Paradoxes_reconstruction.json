@@ -1,0 +1,35 @@
+{
+  "work_id": "Zeno.Paradoxes",
+  "metadata": {
+    "author": "Zeno",
+    "title": "Paradoxes",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.55783595664826,
+    "std": 0.12509485128234465,
+    "ci_lower": 0.30510025227183735,
+    "ci_upper": 0.7902739944082956,
+    "median": 0.5619434466801251
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Zeno.Paradoxes describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Zeno.Paradoxes with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8749051487176553,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45181823086440287
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

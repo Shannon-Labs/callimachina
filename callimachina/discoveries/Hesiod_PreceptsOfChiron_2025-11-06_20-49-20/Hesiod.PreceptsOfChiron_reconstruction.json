@@ -1,0 +1,35 @@
+{
+  "work_id": "Hesiod.PreceptsOfChiron",
+  "metadata": {
+    "author": "Hesiod",
+    "title": "PreceptsOfChiron",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5551078754436214,
+    "std": 0.12945518876640197,
+    "ci_lower": 0.2939839852676742,
+    "ci_upper": 0.7871627296510232,
+    "median": 0.5614899746072908
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hesiod.PreceptsOfChiron describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hesiod.PreceptsOfChiron describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0264,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8705448112335981,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4503509646341417
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.056
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Seneca.DeClementia",
+  "metadata": {
+    "author": "Seneca",
+    "title": "DeClementia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5529920865224172,
+    "std": 0.12573594126471294,
+    "ci_lower": 0.29892315121565083,
+    "ci_upper": 0.7916219942112188,
+    "median": 0.5547936268290315
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Seneca.DeClementia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Seneca.DeClementia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.874264058735287,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4502965738158289
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

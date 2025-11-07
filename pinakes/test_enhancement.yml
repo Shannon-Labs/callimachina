@@ -1,0 +1,31 @@
+confidence_distribution:
+  high: 0
+  low: 0
+  moderate: 0
+  very_high: 1
+  very_low: 0
+enhancement_summary:
+  alerts_triggered: 1
+  average_confidence: 0.9965199302872201
+  average_improvement: 0.3665199302872201
+  total_reconstructions: 1
+report_timestamp: '2025-11-06T19:38:59.620556'
+results:
+- alert_recommended: true
+  calculated: '2025-11-06T19:38:59.620525'
+  components:
+    base_confidence: 0.63
+    bayesian_prior: 0.7500000000000001
+    citation_quality: 0.5925
+    cultural_bonus: 0.25
+    enhancement_magnitude: 0.3665199302872201
+    network_bonus: 0.13
+    stylometric_bonus: 0.0
+    temporal_weight: 0.8400000000000001
+  confidence_level: very_high
+  enhanced_confidence: 0.9965199302872201
+  recommendations:
+  - Search for higher-quality citations (direct quotes, fragments)
+  - Confidence sufficient for Fragment Alert - issue to scholarly community
+  - Prepare reconstruction for peer review
+  work_title: Eratosthenes Geographika

@@ -1,0 +1,35 @@
+{
+  "work_id": "Homer.Batrachomyomachia",
+  "metadata": {
+    "author": "Homer",
+    "title": "Batrachomyomachia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6275268522878157,
+    "std": 0.12359939907029308,
+    "ci_lower": 0.37626831755265727,
+    "ci_upper": 0.8462187759423371,
+    "median": 0.6324739853677774
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Homer.Batrachomyomachia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Homer.Batrachomyomachia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0298,
+    "citation_density": 0.0,
+    "confidence_stability": 0.876400600929707,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4809241343414303
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1920000000000002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Eumelus.Prosodion",
+  "metadata": {
+    "author": "Eumelus",
+    "title": "Prosodion",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5641103633284504,
+    "std": 0.12849716066458253,
+    "ci_lower": 0.30972541859308855,
+    "ci_upper": 0.7999747922041454,
+    "median": 0.5712358560502769
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Eumelus.Prosodion describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Eumelus.Prosodion with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8715028393354175,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45434776259825527
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

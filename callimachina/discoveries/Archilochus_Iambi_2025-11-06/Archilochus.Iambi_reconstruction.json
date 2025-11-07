@@ -1,0 +1,35 @@
+{
+  "work_id": "Archilochus.Iambi",
+  "metadata": {
+    "author": "Archilochus",
+    "title": "Iambi",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5552655346144273,
+    "std": 0.12763908841841082,
+    "ci_lower": 0.3041640634372313,
+    "ci_upper": 0.7990620291991906,
+    "median": 0.5517693382062714
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Archilochus.Iambi describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Archilochus.Iambi with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8723609115815891,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4508956383372632
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

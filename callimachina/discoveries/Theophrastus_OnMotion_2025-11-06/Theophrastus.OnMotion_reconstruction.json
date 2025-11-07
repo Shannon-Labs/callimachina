@@ -1,0 +1,35 @@
+{
+  "work_id": "Theophrastus.OnMotion",
+  "metadata": {
+    "author": "Theophrastus",
+    "title": "OnMotion",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5560325372214506,
+    "std": 0.13043459032134327,
+    "ci_lower": 0.2969443890673495,
+    "ci_upper": 0.8019962461303208,
+    "median": 0.5634921297016957
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theophrastus.OnMotion describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theophrastus.OnMotion with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8695654096786567,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4514028891897792
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

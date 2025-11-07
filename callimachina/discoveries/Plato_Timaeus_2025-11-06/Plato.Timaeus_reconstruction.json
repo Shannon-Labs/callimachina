@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Timaeus",
+  "metadata": {
+    "author": "Plato",
+    "title": "Timaeus",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6309295217472293,
+    "std": 0.12519550230221305,
+    "ci_lower": 0.3720045556260691,
+    "ci_upper": 0.8492709685349057,
+    "median": 0.6367518091789375
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Plato.Timaeus describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Plato.Timaeus with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0258,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8748044976977869,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4809255918020037
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.032
+  }
+}

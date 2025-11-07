@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnHumors",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnHumors",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.72,
+  "posterior_confidence": {
+    "mean": 0.731938066986299,
+    "std": 0.11673053124231023,
+    "ci_lower": 0.4744269170433007,
+    "ci_upper": 0.9193012325077415,
+    "median": 0.7460642131308134
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Galen.OnHumors describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Galen.OnHumors describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0228,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8832694687576897,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.5212755070036219
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9119999999999999
+  }
+}

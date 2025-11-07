@@ -1,0 +1,35 @@
+{
+  "work_id": "Sextus.AgainstTheEthicists",
+  "metadata": {
+    "author": "Sextus",
+    "title": "AgainstTheEthicists",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5543153352934608,
+    "std": 0.12742578565788354,
+    "ci_lower": 0.30364331707396136,
+    "ci_upper": 0.7828412795417692,
+    "median": 0.5564818792684211
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Sextus.AgainstTheEthicists describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Sextus.AgainstTheEthicists describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0276,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8725742143421165,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4505968888849293
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1039999999999999
+  }
+}

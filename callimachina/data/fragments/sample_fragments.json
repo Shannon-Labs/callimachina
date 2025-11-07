@@ -1,0 +1,65 @@
+[
+  {
+    "id": "papyri.info/ddbdp/12345",
+    "text": "... and as Aristotle says in his Physics, the natural motion of elements ...",
+    "source": "papyri.info",
+    "metadata": {
+      "date": "150-200 CE",
+      "provenance": "Oxyrhynchus",
+      "publication": "P.Oxy. LXXV 12345",
+      "ddb_id": "12345"
+    },
+    "citations": [
+      {
+        "cited_author": "Aristotle",
+        "cited_work": "Physics",
+        "pattern": "as_says_in",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.8,
+    "source_author": "Unknown"
+  },
+  {
+    "id": "papyri.info/ddbdp/67890",
+    "text": "... the procession of the equinoxes as calculated by Hipparchus in his work On the Length of the Year ...",
+    "source": "papyri.info",
+    "metadata": {
+      "date": "100-150 CE",
+      "provenance": "Herculaneum",
+      "publication": "PHerc. 67890",
+      "ddb_id": "67890"
+    },
+    "citations": [
+      {
+        "cited_author": "Hipparchus",
+        "cited_work": "On the Length of the Year",
+        "pattern": "as_calculated_by",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.75,
+    "source_author": "Unknown"
+  },
+  {
+    "id": "oxyrhynchus/psi-123",
+    "text": "... according to Plato's Republic, the ideal state must have philosophers as rulers ...",
+    "source": "oxyrhynchus",
+    "metadata": {
+      "date": "200-250 CE",
+      "provenance": "Oxyrhynchus",
+      "publication": "PSI XV 123",
+      "image_url": "https://www.papyrology.ox.ac.uk/POxy/images/psi123.jpg"
+    },
+    "citations": [
+      {
+        "cited_author": "Plato",
+        "cited_work": "Republic",
+        "pattern": "according_to",
+        "confidence": 0.7
+      }
+    ],
+    "confidence": 0.85,
+    "source_author": "Unknown"
+  }
+]

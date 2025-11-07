@@ -1,0 +1,89 @@
+confidence_distribution:
+  high: 0
+  low: 0
+  moderate: 0
+  very_high: 4
+  very_low: 0
+enhancement_summary:
+  alerts_triggered: 4
+  average_confidence: 0.9762875944446093
+  average_improvement: 0.4387875944446093
+  total_reconstructions: 4
+report_timestamp: '2025-11-06T19:41:30.582812'
+results:
+- alert_recommended: true
+  calculated: '2025-11-06T19:41:30.582663'
+  components:
+    base_confidence: 0.63
+    bayesian_prior: 0.7200000000000001
+    citation_quality: 0.64
+    cultural_bonus: 0.18
+    enhancement_magnitude: 0.3661361383163477
+    network_bonus: 0.13
+    stylometric_bonus: 0.0
+    temporal_weight: 0.8400000000000001
+  confidence_level: very_high
+  enhanced_confidence: 0.9961361383163477
+  recommendations:
+  - Confidence sufficient for Fragment Alert - issue to scholarly community
+  - Prepare reconstruction for peer review
+  work_title: Eratosthenes Geographika
+- alert_recommended: true
+  calculated: '2025-11-06T19:41:30.582708'
+  components:
+    base_confidence: 0.56
+    bayesian_prior: 0.6900000000000001
+    citation_quality: 0.5
+    cultural_bonus: 0.25
+    enhancement_magnitude: 0.4255308560390233
+    network_bonus: 0.05
+    stylometric_bonus: 0.0
+    temporal_weight: 0.5
+  confidence_level: very_high
+  enhanced_confidence: 0.9855308560390234
+  recommendations:
+  - Search for higher-quality citations (direct quotes, fragments)
+  - Find citations from additional centuries for temporal spread
+  - Confidence sufficient for Fragment Alert - issue to scholarly community
+  - Prepare reconstruction for peer review
+  work_title: Hippolytus On Heraclitus
+- alert_recommended: true
+  calculated: '2025-11-06T19:41:30.582740'
+  components:
+    base_confidence: 0.48
+    bayesian_prior: 0.748
+    citation_quality: 0.4
+    cultural_bonus: 0.0
+    enhancement_magnitude: 0.48497220106872674
+    network_bonus: 0.05
+    stylometric_bonus: 0.0
+    temporal_weight: 0.5
+  confidence_level: very_high
+  enhanced_confidence: 0.9649722010687267
+  recommendations:
+  - Search for higher-quality citations (direct quotes, fragments)
+  - Find citations from additional centuries for temporal spread
+  - Investigate Arabic/Latin translations for cross-cultural attestation
+  - Confidence sufficient for Fragment Alert - issue to scholarly community
+  - Prepare reconstruction for peer review
+  work_title: Posidippus Epigrams
+- alert_recommended: true
+  calculated: '2025-11-06T19:41:30.582766'
+  components:
+    base_confidence: 0.48
+    bayesian_prior: 0.66
+    citation_quality: 0.4
+    cultural_bonus: 0.0
+    enhancement_magnitude: 0.4785111823543394
+    network_bonus: 0.05
+    stylometric_bonus: 0.0
+    temporal_weight: 0.5
+  confidence_level: very_high
+  enhanced_confidence: 0.9585111823543394
+  recommendations:
+  - Search for higher-quality citations (direct quotes, fragments)
+  - Find citations from additional centuries for temporal spread
+  - Investigate Arabic/Latin translations for cross-cultural attestation
+  - Confidence sufficient for Fragment Alert - issue to scholarly community
+  - Prepare reconstruction for peer review
+  work_title: Callimachus Aetia

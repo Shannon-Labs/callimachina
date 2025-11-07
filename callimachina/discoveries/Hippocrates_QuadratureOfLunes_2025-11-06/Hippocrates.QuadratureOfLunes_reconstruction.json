@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.QuadratureOfLunes",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "QuadratureOfLunes",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5537569780983846,
+    "std": 0.13152967730016682,
+    "ci_lower": 0.30155776592425376,
+    "ci_upper": 0.8009338296517781,
+    "median": 0.5514101956581959
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hippocrates.QuadratureOfLunes describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hippocrates.QuadratureOfLunes with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0322,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8684703226998332,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4513431568426705
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2880000000000003
+  }
+}

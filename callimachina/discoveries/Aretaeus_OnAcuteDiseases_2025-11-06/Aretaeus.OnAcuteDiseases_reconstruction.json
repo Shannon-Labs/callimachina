@@ -1,0 +1,35 @@
+{
+  "work_id": "Aretaeus.OnAcuteDiseases",
+  "metadata": {
+    "author": "Aretaeus",
+    "title": "OnAcuteDiseases",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5572282247429712,
+    "std": 0.12967308372382128,
+    "ci_lower": 0.29940202177279596,
+    "ci_upper": 0.7992959718265922,
+    "median": 0.5546656460821183
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Aretaeus.OnAcuteDiseases describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Aretaeus.OnAcuteDiseases with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0302,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8703269162761788,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4523173148581397
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2080000000000002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Zeno.Republic",
+  "metadata": {
+    "author": "Zeno",
+    "title": "Republic",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5480686538216971,
+    "std": 0.13119482144534467,
+    "ci_lower": 0.29264947648723966,
+    "ci_upper": 0.8002485541667735,
+    "median": 0.54641108724511
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Zeno.Republic describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Zeno.Republic describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0224,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8688051785546553,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4461613127174777
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.8960000000000001
+  }
+}

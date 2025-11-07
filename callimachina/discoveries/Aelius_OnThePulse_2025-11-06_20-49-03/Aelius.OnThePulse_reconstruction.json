@@ -1,0 +1,35 @@
+{
+  "work_id": "Aelius.OnThePulse",
+  "metadata": {
+    "author": "Aelius",
+    "title": "OnThePulse",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5617588849518158,
+    "std": 0.1291985698150439,
+    "ci_lower": 0.3124595535448668,
+    "ci_upper": 0.8001586111874748,
+    "median": 0.5692784679156073
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aelius.OnThePulse describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aelius.OnThePulse describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.870801430184956,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45231703033255527
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

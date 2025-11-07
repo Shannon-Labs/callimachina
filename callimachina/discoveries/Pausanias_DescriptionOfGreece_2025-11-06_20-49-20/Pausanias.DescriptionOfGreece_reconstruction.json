@@ -1,0 +1,35 @@
+{
+  "work_id": "Pausanias.DescriptionOfGreece",
+  "metadata": {
+    "author": "Pausanias",
+    "title": "DescriptionOfGreece",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5479144333561963,
+    "std": 0.1352617859525128,
+    "ci_lower": 0.2758988288257444,
+    "ci_upper": 0.7923869879080396,
+    "median": 0.5457564752184769
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Pausanias.DescriptionOfGreece describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Pausanias.DescriptionOfGreece describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0288,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8647382140474872,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4476129280805606
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.152
+  }
+}

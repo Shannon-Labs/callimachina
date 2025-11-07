@@ -1,0 +1,35 @@
+{
+  "work_id": "Hellanicus.PriestessesOfHera",
+  "metadata": {
+    "author": "Hellanicus",
+    "title": "PriestessesOfHera",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550456044786625,
+    "std": 0.12440078590905032,
+    "ci_lower": 0.3048217172037254,
+    "ci_upper": 0.7845362109116706,
+    "median": 0.5610785975858832
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hellanicus.PriestessesOfHera describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hellanicus.PriestessesOfHera with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0318,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8755992140909497,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45245149653389327
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2720000000000002
+  }
+}

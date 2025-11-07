@@ -1,0 +1,35 @@
+{
+  "work_id": "Eumelus.ReturnOfTheHeracleidae",
+  "metadata": {
+    "author": "Eumelus",
+    "title": "ReturnOfTheHeracleidae",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5629691053816466,
+    "std": 0.1277054433476114,
+    "ci_lower": 0.3036639175706673,
+    "ci_upper": 0.8008284516432014,
+    "median": 0.5656607725434619
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Eumelus.ReturnOfTheHeracleidae describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Eumelus.ReturnOfTheHeracleidae with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0326,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8722945566523885,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4555304311512308
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.3040000000000003
+  }
+}

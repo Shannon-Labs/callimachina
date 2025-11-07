@@ -1,0 +1,35 @@
+{
+  "work_id": "Epicurus.OnVision",
+  "metadata": {
+    "author": "Epicurus",
+    "title": "OnVision",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.561729563885581,
+    "std": 0.1309325678915809,
+    "ci_lower": 0.2990039581123262,
+    "ci_upper": 0.7975176207226524,
+    "median": 0.570356181990539
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Epicurus.OnVision describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Epicurus.OnVision describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8690674321084191,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4521319020984077
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

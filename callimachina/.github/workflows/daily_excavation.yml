@@ -1,0 +1,103 @@
+name: Daily Excavation
+
+on:
+  schedule:
+    # Run at 2 AM UTC every day
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Allow manual triggering
+
+jobs:
+  daily-excavation:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, '3.10', 3.11]
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+        
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -e .
+        
+    - name: Download NLTK data
+      run: |
+        python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+        
+    - name: Run daily excavation
+      env:
+        CALLIMACHINA_CONFIG: .github/workflows/config/daily.yml
+        PYTHONPATH: src
+      run: |
+        python src/daily_excavation.py --config .github/workflows/config/daily.yml
+        
+    - name: Update priority queue
+      env:
+        PYTHONPATH: src
+      run: |
+        python src/citation_network.py --mode=excavation --output=discoveries/priority_queue.csv
+        
+    - name: Generate fragment alerts
+      env:
+        PYTHONPATH: src
+      run: |
+        python src/fragment_alert.py --check-priority --auto-notify
+        
+    - name: Commit and push results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add discoveries/
+        git add data/
+        git diff --quiet && git diff --staged --quiet || git commit -m "Daily excavation results [$(date +%Y-%m-%d)]"
+        git push
+        
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: daily-results-${{ matrix.python-version }}
+        path: |
+          discoveries/
+          data/
+          logs/
+        retention-days: 30
+        
+  notify:
+    needs: daily-excavation
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+    - name: Notify on success
+      if: needs.daily-excavation.result == 'success'
+      uses: 8398a7/action-slack@v3
+      with:
+        status: success
+        text: 'Daily excavation completed successfully!'
+        webhook_url: ${{ secrets.SLACK_WEBHOOK }}
+        
+    - name: Notify on failure
+      if: needs.daily-excavation.result == 'failure'
+      uses: 8398a7/action-slack@v3
+      with:
+        status: failure
+        text: 'Daily excavation failed. Check logs for details.'
+        webhook_url: ${{ secrets.SLACK_WEBHOOK }}

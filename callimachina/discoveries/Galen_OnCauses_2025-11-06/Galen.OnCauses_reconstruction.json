@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnCauses",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnCauses",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6277747662210479,
+    "std": 0.1255744817316772,
+    "ci_lower": 0.3766539555820601,
+    "ci_upper": 0.8519969839373219,
+    "median": 0.6316510572559286
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Galen.OnCauses describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Galen.OnCauses with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8744255182683228,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47974579164858483
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Aelius.Medicine",
+  "metadata": {
+    "author": "Aelius",
+    "title": "Medicine",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5593521347645678,
+    "std": 0.1243059888144896,
+    "ci_lower": 0.3142456652315936,
+    "ci_upper": 0.7917019686086126,
+    "median": 0.5601791449619764
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aelius.Medicine describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aelius.Medicine describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0232,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8756940111855104,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4516035883577115
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9279999999999999
+  }
+}

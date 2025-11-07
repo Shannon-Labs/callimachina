@@ -1,0 +1,35 @@
+{
+  "work_id": "Menelaus.OnTheTriangle",
+  "metadata": {
+    "author": "Menelaus",
+    "title": "OnTheTriangle",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5597242209439821,
+    "std": 0.12751584406919333,
+    "ci_lower": 0.3047221199302456,
+    "ci_upper": 0.802979804095445,
+    "median": 0.563281705846828
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Menelaus.OnTheTriangle describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Menelaus.OnTheTriangle with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0294,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8724841559308066,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45329143730400684
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1760000000000002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Posidonius.OnTheSoul",
+  "metadata": {
+    "author": "Posidonius",
+    "title": "OnTheSoul",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.553223894505871,
+    "std": 0.1258288884731995,
+    "ci_lower": 0.3071187900744196,
+    "ci_upper": 0.7933648176235084,
+    "median": 0.5593580126912077
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Posidonius.OnTheSoul describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Posidonius.OnTheSoul with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8741711115268005,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45062000228836174
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

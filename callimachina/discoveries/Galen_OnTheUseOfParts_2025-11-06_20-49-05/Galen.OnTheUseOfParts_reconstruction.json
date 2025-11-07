@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnTheUseOfParts",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnTheUseOfParts",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.72,
+  "posterior_confidence": {
+    "mean": 0.7349640293684667,
+    "std": 0.11640687849816188,
+    "ci_lower": 0.47367537566063467,
+    "ci_upper": 0.9295819140404149,
+    "median": 0.7465289662885299
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Galen.OnTheUseOfParts describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Galen.OnTheUseOfParts describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0256,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8835931215018381,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.5233582572309038
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.024
+  }
+}

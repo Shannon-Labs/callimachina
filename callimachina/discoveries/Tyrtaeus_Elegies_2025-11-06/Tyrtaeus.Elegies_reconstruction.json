@@ -1,0 +1,35 @@
+{
+  "work_id": "Tyrtaeus.Elegies",
+  "metadata": {
+    "author": "Tyrtaeus",
+    "title": "Elegies",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5529692153846278,
+    "std": 0.12664354860679894,
+    "ci_lower": 0.29957374277111287,
+    "ci_upper": 0.7907656741210938,
+    "median": 0.5578677645666976
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Tyrtaeus.Elegies describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Tyrtaeus.Elegies with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8733564513932011,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44995666462650463
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

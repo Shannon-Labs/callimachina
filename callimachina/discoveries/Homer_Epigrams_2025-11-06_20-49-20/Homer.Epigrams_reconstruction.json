@@ -1,0 +1,35 @@
+{
+  "work_id": "Homer.Epigrams",
+  "metadata": {
+    "author": "Homer",
+    "title": "Epigrams",
+    "genre": "philosophy",
+    "century": -8
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6235501240780067,
+    "std": 0.12689159921234336,
+    "ci_lower": 0.36174099464785614,
+    "ci_upper": 0.8449816168843969,
+    "median": 0.6311689047543825
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Homer.Epigrams describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Homer.Epigrams describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0228,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8731084007876566,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4769042230433017
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9119999999999999
+  }
+}

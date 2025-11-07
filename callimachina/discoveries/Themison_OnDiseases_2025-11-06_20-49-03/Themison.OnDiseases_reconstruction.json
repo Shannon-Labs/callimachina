@@ -1,0 +1,35 @@
+{
+  "work_id": "Themison.OnDiseases",
+  "metadata": {
+    "author": "Themison",
+    "title": "OnDiseases",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5546360429698548,
+    "std": 0.12386788848728902,
+    "ci_lower": 0.3131467398876304,
+    "ci_upper": 0.7901652815566184,
+    "median": 0.5574113953576778
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Themison.OnDiseases describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Themison.OnDiseases describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.876132111512711,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45024096167254635
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

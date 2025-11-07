@@ -1,0 +1,18 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {"id": "Aristotle", "type": "author", "fragments": 15, "confidence": 0.9},
+    {"id": "Plato", "type": "author", "fragments": 12, "confidence": 0.85},
+    {"id": "Hipparchus", "type": "author", "fragments": 0, "confidence": 0.3},
+    {"id": "Unknown1", "type": "author", "fragments": 8, "confidence": 0.6},
+    {"id": "Unknown2", "type": "author", "fragments": 5, "confidence": 0.5}
+  ],
+  "links": [
+    {"source": "Unknown1", "target": "Aristotle", "weight": 3, "citations": [{"pattern": "as_says_in", "confidence": 0.85}]},
+    {"source": "Unknown2", "target": "Plato", "weight": 2, "citations": [{"pattern": "according_to", "confidence": 0.7}]},
+    {"source": "Unknown1", "target": "Hipparchus", "weight": 1, "citations": [{"pattern": "as_calculated_by", "confidence": 0.9}]},
+    {"source": "Unknown2", "target": "Aristotle", "weight": 1, "citations": [{"pattern": "cf_book_line", "confidence": 0.8}]}
+  ]
+}

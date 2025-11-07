@@ -1,0 +1,35 @@
+{
+  "work_id": "Dicaearchus.Geography",
+  "metadata": {
+    "author": "Dicaearchus",
+    "title": "Geography",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5496953665172197,
+    "std": 0.1288819329458371,
+    "ci_lower": 0.2991170227825699,
+    "ci_upper": 0.7923147221360319,
+    "median": 0.5545296224061844
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Dicaearchus.Geography describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Dicaearchus.Geography with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.871118067054163,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4490232866456375
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

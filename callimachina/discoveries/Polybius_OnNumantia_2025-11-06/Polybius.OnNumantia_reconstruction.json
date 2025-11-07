@@ -1,0 +1,35 @@
+{
+  "work_id": "Polybius.OnNumantia",
+  "metadata": {
+    "author": "Polybius",
+    "title": "OnNumantia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5521775774652201,
+    "std": 0.12788674181447188,
+    "ci_lower": 0.3019166414518049,
+    "ci_upper": 0.7884401102873558,
+    "median": 0.5531668255898022
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Polybius.OnNumantia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Polybius.OnNumantia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0282,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8721132581855281,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44987569013797424
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.128
+  }
+}

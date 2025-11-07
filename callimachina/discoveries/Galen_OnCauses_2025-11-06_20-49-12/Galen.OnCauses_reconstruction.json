@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnCauses",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnCauses",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.72,
+  "posterior_confidence": {
+    "mean": 0.7284596554252847,
+    "std": 0.11294814805939239,
+    "ci_lower": 0.48093115747519855,
+    "ci_upper": 0.918583694162839,
+    "median": 0.7406713503980122
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Galen.OnCauses describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Galen.OnCauses describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0228,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8870518519406076,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.520262380697508
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9119999999999999
+  }
+}

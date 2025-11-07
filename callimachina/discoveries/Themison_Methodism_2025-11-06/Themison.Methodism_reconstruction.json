@@ -1,0 +1,35 @@
+{
+  "work_id": "Themison.Methodism",
+  "metadata": {
+    "author": "Themison",
+    "title": "Methodism",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5649172836396048,
+    "std": 0.1320423183207609,
+    "ci_lower": 0.29932463049788943,
+    "ci_upper": 0.8034024137796244,
+    "median": 0.5702744271673215
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Themison.Methodism describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Themison.Methodism with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8679576816792391,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4544360149570992
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

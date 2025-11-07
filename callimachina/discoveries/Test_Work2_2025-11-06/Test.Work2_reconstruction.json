@@ -1,0 +1,34 @@
+{
+  "work_id": "Test.Work2",
+  "metadata": {
+    "author": "Test",
+    "title": "Work2",
+    "genre": "unknown",
+    "century": -1
+  },
+  "prior_confidence": 0.4,
+  "posterior_confidence": {
+    "mean": 0.46342135283508573,
+    "std": 0.13599666188800338,
+    "ci_lower": 0.2202026494145951,
+    "ci_upper": 0.7342298987569101,
+    "median": 0.4578666281937499
+  },
+  "fragments_used": 1,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Test.Work2... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.005,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8640033381119966,
+    "source_diversity": 0.3333333333333333,
+    "overall_quality": 0.33993554161190065
+  },
+  "evidence_summary": {
+    "fragment_evidence": 1,
+    "citation_evidence": 0,
+    "total_weight": 0.2
+  }
+}

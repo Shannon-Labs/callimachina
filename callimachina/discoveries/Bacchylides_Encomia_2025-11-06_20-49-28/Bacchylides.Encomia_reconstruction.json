@@ -1,0 +1,35 @@
+{
+  "work_id": "Bacchylides.Encomia",
+  "metadata": {
+    "author": "Bacchylides",
+    "title": "Encomia",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5584651770146256,
+    "std": 0.12973011704003842,
+    "ci_lower": 0.29379526944693846,
+    "ci_upper": 0.7925230094970465,
+    "median": 0.5634829099911814
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Bacchylides.Encomia describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Bacchylides.Encomia describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8702698829599615,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4511863924351797
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

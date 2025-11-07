@@ -1,0 +1,35 @@
+{
+  "work_id": "Polyaenus.OnPhilosophy",
+  "metadata": {
+    "author": "Polyaenus",
+    "title": "OnPhilosophy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5597158418323369,
+    "std": 0.12562734756943655,
+    "ci_lower": 0.3142003220546387,
+    "ci_upper": 0.7920218612011986,
+    "median": 0.5603983042932723
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Polyaenus.OnPhilosophy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Polyaenus.OnPhilosophy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0294,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8743726524305635,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4534769353093245
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1760000000000002
+  }
+}

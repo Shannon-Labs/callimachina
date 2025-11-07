@@ -1,0 +1,35 @@
+{
+  "work_id": "Herophilus.OnEyes",
+  "metadata": {
+    "author": "Herophilus",
+    "title": "OnEyes",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5530510848846697,
+    "std": 0.1284681450747835,
+    "ci_lower": 0.2924802580319006,
+    "ci_upper": 0.7862610370773857,
+    "median": 0.5597154585335671
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Herophilus.OnEyes describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Herophilus.OnEyes describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8715318549252165,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44890695277972287
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

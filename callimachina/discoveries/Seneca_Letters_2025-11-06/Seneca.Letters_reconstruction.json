@@ -1,0 +1,35 @@
+{
+  "work_id": "Seneca.Letters",
+  "metadata": {
+    "author": "Seneca",
+    "title": "Letters",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5510405277313035,
+    "std": 0.12491141042951484,
+    "ci_lower": 0.30107131642241713,
+    "ci_upper": 0.7799158814703377,
+    "median": 0.5535779327130013
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Seneca.Letters describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Seneca.Letters with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8750885895704852,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44911840338290326
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

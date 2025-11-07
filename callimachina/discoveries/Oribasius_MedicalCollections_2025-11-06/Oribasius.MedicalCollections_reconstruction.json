@@ -1,0 +1,35 @@
+{
+  "work_id": "Oribasius.MedicalCollections",
+  "metadata": {
+    "author": "Oribasius",
+    "title": "MedicalCollections",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5469578415045905,
+    "std": 0.12842592564994929,
+    "ci_lower": 0.299991624154188,
+    "ci_upper": 0.7939623152963599,
+    "median": 0.5486198483456706
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Oribasius.MedicalCollections describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Oribasius.MedicalCollections with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0318,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8715740743500507,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44881387737017464
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2720000000000002
+  }
+}

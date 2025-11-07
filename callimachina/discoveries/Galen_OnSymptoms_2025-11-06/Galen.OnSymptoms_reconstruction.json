@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnSymptoms",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnSymptoms",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6269520986740854,
+    "std": 0.12065809358887258,
+    "ci_lower": 0.37242685449219665,
+    "ci_upper": 0.840501078288199,
+    "median": 0.6317037085238324
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Galen.OnSymptoms describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Galen.OnSymptoms with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8793419064111274,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4801483634440803
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

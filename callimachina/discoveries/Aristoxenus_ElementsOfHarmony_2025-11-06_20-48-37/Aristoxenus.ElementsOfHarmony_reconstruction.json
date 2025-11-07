@@ -1,0 +1,35 @@
+{
+  "work_id": "Aristoxenus.ElementsOfHarmony",
+  "metadata": {
+    "author": "Aristoxenus",
+    "title": "ElementsOfHarmony",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.552991972060542,
+    "std": 0.1257104623186535,
+    "ci_lower": 0.307794734500712,
+    "ci_upper": 0.7941881975748911,
+    "median": 0.5546304399973498
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aristoxenus.ElementsOfHarmony describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aristoxenus.ElementsOfHarmony describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0288,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8742895376813465,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45059907592568477
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.152
+  }
+}

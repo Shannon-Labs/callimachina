@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.OnTheNatureOfMuscles",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "OnTheNatureOfMuscles",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5504282334903469,
+    "std": 0.13396009228693084,
+    "ci_lower": 0.27971983065610656,
+    "ci_upper": 0.7965044555514306,
+    "median": 0.5528160265606799
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hippocrates.OnTheNatureOfMuscles describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hippocrates.OnTheNatureOfMuscles describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.03,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8660399077130692,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.449108617500779
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2000000000000002
+  }
+}

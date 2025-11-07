@@ -1,0 +1,35 @@
+{
+  "work_id": "Praxagoras.OnDiseases",
+  "metadata": {
+    "author": "Praxagoras",
+    "title": "OnDiseases",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5532378958732486,
+    "std": 0.12512872427614902,
+    "ci_lower": 0.3205488131624221,
+    "ci_upper": 0.7917521717423992,
+    "median": 0.5548425390918781
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Praxagoras.OnDiseases describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Praxagoras.OnDiseases with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.874871275723851,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4508156192550179
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

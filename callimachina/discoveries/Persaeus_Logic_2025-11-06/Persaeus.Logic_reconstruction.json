@@ -1,0 +1,35 @@
+{
+  "work_id": "Persaeus.Logic",
+  "metadata": {
+    "author": "Persaeus",
+    "title": "Logic",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5535175606287257,
+    "std": 0.12914020603070364,
+    "ci_lower": 0.29803795001047373,
+    "ci_upper": 0.7986798653695544,
+    "median": 0.555926791150389
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Persaeus.Logic describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Persaeus.Logic with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8708597939692964,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44968633698175325
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Pindar.Encomia",
+  "metadata": {
+    "author": "Pindar",
+    "title": "Encomia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5575494226669787,
+    "std": 0.1284526296451228,
+    "ci_lower": 0.2909293732131919,
+    "ci_upper": 0.7852094469747262,
+    "median": 0.5665296087230904
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Pindar.Encomia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Pindar.Encomia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8715473703548772,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45136783943561254
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

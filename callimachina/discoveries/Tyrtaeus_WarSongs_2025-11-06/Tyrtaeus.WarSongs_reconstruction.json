@@ -1,0 +1,35 @@
+{
+  "work_id": "Tyrtaeus.WarSongs",
+  "metadata": {
+    "author": "Tyrtaeus",
+    "title": "WarSongs",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5536766024055205,
+    "std": 0.1281152299451103,
+    "ci_lower": 0.30447490827891227,
+    "ci_upper": 0.7926151703881044,
+    "median": 0.55733632106516
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Tyrtaeus.WarSongs describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Tyrtaeus.WarSongs with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8718847700548897,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45021245130103055
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

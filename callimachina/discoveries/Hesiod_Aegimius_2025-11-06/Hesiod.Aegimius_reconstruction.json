@@ -1,0 +1,35 @@
+{
+  "work_id": "Hesiod.Aegimius",
+  "metadata": {
+    "author": "Hesiod",
+    "title": "Aegimius",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.558331456347826,
+    "std": 0.13019244874974956,
+    "ci_lower": 0.2857742450134253,
+    "ci_upper": 0.7984355301845013,
+    "median": 0.5675326436229051
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hesiod.Aegimius describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hesiod.Aegimius with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8698075512502504,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4516266709974888
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

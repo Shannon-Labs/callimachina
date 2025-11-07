@@ -1,0 +1,35 @@
+{
+  "work_id": "Serapion.Medicine",
+  "metadata": {
+    "author": "Serapion",
+    "title": "Medicine",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5554756916176452,
+    "std": 0.12655861538753602,
+    "ci_lower": 0.30822612576599157,
+    "ci_upper": 0.7988526013206682,
+    "median": 0.5542538455030106
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Serapion.Medicine describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Serapion.Medicine with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.873441384612464,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45108774844163785
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

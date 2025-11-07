@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Theaetetus",
+  "metadata": {
+    "author": "Plato",
+    "title": "Theaetetus",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6323147973114562,
+    "std": 0.12493555261486385,
+    "ci_lower": 0.3643356072284142,
+    "ci_upper": 0.8566322421953032,
+    "median": 0.642581949697869
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.Theaetetus describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.Theaetetus describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8750644473851361,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4808456969964294
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Apollonius.Inclinations",
+  "metadata": {
+    "author": "Apollonius",
+    "title": "Inclinations",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5550578312818878,
+    "std": 0.1256890509035005,
+    "ci_lower": 0.3008141450616349,
+    "ci_upper": 0.7908667997629258,
+    "median": 0.5566727036089394
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Apollonius.Inclinations describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Apollonius.Inclinations with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0298,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8743109490964995,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4517275607557384
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1920000000000002
+  }
+}

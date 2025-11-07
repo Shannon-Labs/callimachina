@@ -1,0 +1,35 @@
+{
+  "work_id": "Hesiod.DescentOfPeirithous",
+  "metadata": {
+    "author": "Hesiod",
+    "title": "DescentOfPeirithous",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5553651543479133,
+    "std": 0.1315611214638927,
+    "ci_lower": 0.2884634739708713,
+    "ci_upper": 0.7998993552510214,
+    "median": 0.5592141665848196
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hesiod.DescentOfPeirithous describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hesiod.DescentOfPeirithous with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8684388785361072,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4516232829261094
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

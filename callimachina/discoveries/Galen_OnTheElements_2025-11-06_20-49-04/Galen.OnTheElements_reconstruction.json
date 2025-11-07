@@ -1,0 +1,35 @@
+{
+  "work_id": "Galen.OnTheElements",
+  "metadata": {
+    "author": "Galen",
+    "title": "OnTheElements",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.72,
+  "posterior_confidence": {
+    "mean": 0.7341411841773506,
+    "std": 0.11731889865950978,
+    "ci_lower": 0.4759168616768987,
+    "ci_upper": 0.9225574486050514,
+    "median": 0.7467649473964564
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Galen.OnTheElements describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Galen.OnTheElements describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8826811013404903,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.5226979171383226
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

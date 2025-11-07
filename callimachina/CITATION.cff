@@ -1,0 +1,88 @@
+cff-version: 1.2.0
+title: "CALLIMACHINA v3.0: The Alexandria Reconstruction Protocol"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - given-names: Hunter
+    family-names: Shannon
+    email: hunter@shannonlabs.dev
+    affiliation: Shannon Labs
+    orcid: https://orcid.org/0000-0000-0000-0000
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.0000000
+    description: The Zenodo DOI for this release
+repository-code: https://github.com/Shannon-Labs/callimachina
+url: https://shannon-labs.github.io/callimachina
+abstract: >
+  CALLIMACHINA v3.0 implements Bayesian digital archaeology for 
+  classical text reconstruction. The system uses network analysis, 
+  stylometric fingerprinting, and cross-lingual transmission mapping 
+  to predict and reconstruct lost works from antiquity with 
+  quantified confidence intervals.
+keywords:
+  - digital humanities
+  - classical studies
+  - bayesian inference
+  - network analysis
+  - stylometry
+  - computational linguistics
+  - text reconstruction
+  - papyrology
+  - ancient greek
+  - arabic manuscripts
+  - syriac translation
+license: MIT
+version: 3.0.0
+date-released: 2025-11-06
+preferred-citation:
+  type: article
+  title: "Bayesian Digital Archaeology: A Quantitative Framework for Classical Text Reconstruction"
+  authors:
+    - given-names: Hunter
+      family-names: Shannon
+  journal: "Digital Humanities Quarterly"
+  year: 2026
+  volume: 20
+  issue: 1
+  pages: 1-30
+  doi: 10.1080/00000000.2026.0000000
+references:
+  - type: software
+    title: "NetworkX: Network Analysis in Python"
+    authors:
+      - given-names: Aric
+        family-names: Hagberg
+      - given-names: Pieter
+        family-names: Swart
+      - given-names: Daniel
+        family-names: Schult
+    year: 2023
+    doi: 10.5281/zenodo.10155895
+    
+  - type: software
+    title: "PyMC: Probabilistic Programming in Python"
+    authors:
+      - given-names: Salvatier
+        family-names: John
+      - given-names: Wiecki
+        family-names: Thomas
+      - given-names: Fonnesbeck
+        family-names: Christopher
+    year: 2023
+    doi: 10.5281/zenodo.10028575
+    
+  - type: software
+    title: "scikit-learn: Machine Learning in Python"
+    authors:
+      - given-names: Fabian
+        family-names: Pedregosa
+      - given-names: Gael
+        family-names: Varoquaux
+    year: 2023
+    doi: 10.5281/zenodo.1002857
+contact:
+  - given-names: Hunter
+    family-names: Shannon
+    email: hunter@shannonlabs.dev
+    affiliation: Shannon Labs

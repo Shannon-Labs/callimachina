@@ -1,0 +1,35 @@
+{
+  "work_id": "Apollonius.Conics",
+  "metadata": {
+    "author": "Apollonius",
+    "title": "Conics",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5599320516015114,
+    "std": 0.12952509554554523,
+    "ci_lower": 0.3093269131867973,
+    "ci_upper": 0.8004663823862087,
+    "median": 0.5626702707789049
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Apollonius.Conics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Apollonius.Conics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8704749044544547,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4515536444193834
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

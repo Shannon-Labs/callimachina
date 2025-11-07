@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.Astronomy",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "Astronomy",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5489399193326682,
+    "std": 0.1323909039780003,
+    "ci_lower": 0.2972167153695678,
+    "ci_upper": 0.8026190397102526,
+    "median": 0.5437128998509544
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hippocrates.Astronomy describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hippocrates.Astronomy with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8676090960219998,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4483702106686006
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

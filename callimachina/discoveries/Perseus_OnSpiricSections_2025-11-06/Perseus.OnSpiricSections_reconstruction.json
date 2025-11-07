@@ -1,0 +1,35 @@
+{
+  "work_id": "Perseus.OnSpiricSections",
+  "metadata": {
+    "author": "Perseus",
+    "title": "OnSpiricSections",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5522269451514601,
+    "std": 0.128722157506616,
+    "ci_lower": 0.2960007530318705,
+    "ci_upper": 0.7988560933046771,
+    "median": 0.553548538507332
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Perseus.OnSpiricSections describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Perseus.OnSpiricSections with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0302,
+    "citation_density": 0.0,
+    "confidence_stability": 0.871277842493384,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4504118956432558
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2080000000000002
+  }
+}

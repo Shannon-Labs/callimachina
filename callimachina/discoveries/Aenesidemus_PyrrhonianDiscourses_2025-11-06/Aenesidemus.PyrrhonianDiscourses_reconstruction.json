@@ -1,0 +1,35 @@
+{
+  "work_id": "Aenesidemus.PyrrhonianDiscourses",
+  "metadata": {
+    "author": "Aenesidemus",
+    "title": "PyrrhonianDiscourses",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5707000149318806,
+    "std": 0.12696138416425537,
+    "ci_lower": 0.316599879209402,
+    "ci_upper": 0.8073680568870317,
+    "median": 0.5761417002120419
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Aenesidemus.PyrrhonianDiscourses describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Aenesidemus.PyrrhonianDiscourses with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0334,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8730386158357446,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45893720088966
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.336
+  }
+}

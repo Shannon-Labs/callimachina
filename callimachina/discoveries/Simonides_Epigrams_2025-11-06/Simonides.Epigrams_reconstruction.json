@@ -1,0 +1,35 @@
+{
+  "work_id": "Simonides.Epigrams",
+  "metadata": {
+    "author": "Simonides",
+    "title": "Epigrams",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5537113725973798,
+    "std": 0.1291792713320447,
+    "ci_lower": 0.2938362235273513,
+    "ci_upper": 0.7922846987818956,
+    "median": 0.5576376648281139
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Simonides.Epigrams describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Simonides.Epigrams with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0278,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8708207286679552,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4502399552390808
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.112
+  }
+}

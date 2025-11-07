@@ -1,0 +1,35 @@
+{
+  "work_id": "Aristotle.OnMotion",
+  "metadata": {
+    "author": "Aristotle",
+    "title": "OnMotion",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6316717590020204,
+    "std": 0.12388868299058424,
+    "ci_lower": 0.37926148010092514,
+    "ci_upper": 0.8553690746174324,
+    "median": 0.6357275364983139
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aristotle.OnMotion describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aristotle.OnMotion describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0244,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8761113170094158,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.48093316863508306
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.976
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Epictetus.Discourses",
+  "metadata": {
+    "author": "Epictetus",
+    "title": "Discourses",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5559206699354537,
+    "std": 0.12889106315566282,
+    "ci_lower": 0.2961934862251088,
+    "ci_upper": 0.7899154963291743,
+    "median": 0.5614649171404842
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Epictetus.Discourses describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Epictetus.Discourses with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8711089368443372,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45139249499194856
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

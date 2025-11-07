@@ -1,0 +1,35 @@
+{
+  "work_id": "Strato.OnTheSoul",
+  "metadata": {
+    "author": "Strato",
+    "title": "OnTheSoul",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5634393310986155,
+    "std": 0.1270787281933912,
+    "ci_lower": 0.31413074055010487,
+    "ci_upper": 0.7959832227440844,
+    "median": 0.5654118436118447
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Strato.OnTheSoul describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Strato.OnTheSoul with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.027,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8729212718066088,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4541011929534404
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.08
+  }
+}

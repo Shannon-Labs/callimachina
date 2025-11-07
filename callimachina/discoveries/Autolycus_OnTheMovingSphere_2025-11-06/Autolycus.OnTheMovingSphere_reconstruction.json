@@ -1,0 +1,35 @@
+{
+  "work_id": "Autolycus.OnTheMovingSphere",
+  "metadata": {
+    "author": "Autolycus",
+    "title": "OnTheMovingSphere",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5560774409426605,
+    "std": 0.12855196396145288,
+    "ci_lower": 0.29047785252804453,
+    "ci_upper": 0.788382542394681,
+    "median": 0.5594320685230163
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Autolycus.OnTheMovingSphere describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Autolycus.OnTheMovingSphere with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0314,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8714480360385471,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4523291133142523
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2560000000000002
+  }
+}

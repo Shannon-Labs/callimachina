@@ -1,0 +1,35 @@
+{
+  "work_id": "Archilochus.Elegies",
+  "metadata": {
+    "author": "Archilochus",
+    "title": "Elegies",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5584756241693488,
+    "std": 0.1277467703174808,
+    "ci_lower": 0.3002560931255057,
+    "ci_upper": 0.7890889698792909,
+    "median": 0.5613742775639858
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Archilochus.Elegies describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Archilochus.Elegies describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8722532296825192,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4513889059693248
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

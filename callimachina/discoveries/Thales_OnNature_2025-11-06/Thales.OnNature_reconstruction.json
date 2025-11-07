@@ -1,0 +1,35 @@
+{
+  "work_id": "Thales.OnNature",
+  "metadata": {
+    "author": "Thales",
+    "title": "OnNature",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5549013525426644,
+    "std": 0.12752738754151688,
+    "ci_lower": 0.30391343184825637,
+    "ci_upper": 0.7916794752990204,
+    "median": 0.5597165375414233
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Thales.OnNature describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Thales.OnNature with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8724726124584832,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45052113559624735
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

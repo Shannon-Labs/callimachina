@@ -1,0 +1,35 @@
+{
+  "work_id": "Alcaeus.Odes",
+  "metadata": {
+    "author": "Alcaeus",
+    "title": "Odes",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5558362453497083,
+    "std": 0.13020300692547396,
+    "ci_lower": 0.29741576930871155,
+    "ci_upper": 0.7862304466587149,
+    "median": 0.5602522620971577
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Alcaeus.Odes describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Alcaeus.Odes describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.022,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8697969930745261,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44924753078066926
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.8800000000000001
+  }
+}

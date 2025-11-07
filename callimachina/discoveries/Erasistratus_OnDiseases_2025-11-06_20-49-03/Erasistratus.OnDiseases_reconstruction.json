@@ -1,0 +1,35 @@
+{
+  "work_id": "Erasistratus.OnDiseases",
+  "metadata": {
+    "author": "Erasistratus",
+    "title": "OnDiseases",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5474800150158848,
+    "std": 0.12669600857495028,
+    "ci_lower": 0.29724967273958636,
+    "ci_upper": 0.7908540050519152,
+    "median": 0.5454179074575524
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Erasistratus.OnDiseases describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Erasistratus.OnDiseases describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0264,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8733039914250498,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44757573848219223
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.056
+  }
+}

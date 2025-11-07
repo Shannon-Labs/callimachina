@@ -1,0 +1,35 @@
+{
+  "work_id": "Aristotle.OnTheGood",
+  "metadata": {
+    "author": "Aristotle",
+    "title": "OnTheGood",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6295282070680066,
+    "std": 0.1178855179572572,
+    "ci_lower": 0.377525395608555,
+    "ci_upper": 0.8447057108148708,
+    "median": 0.6352849188210097
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aristotle.OnTheGood describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aristotle.OnTheGood describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8821144820427428,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.48079606436481026
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

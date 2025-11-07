@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Critias",
+  "metadata": {
+    "author": "Plato",
+    "title": "Critias",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6278353865112299,
+    "std": 0.1270673111427244,
+    "ci_lower": 0.37044956237454885,
+    "ci_upper": 0.8625777711353676,
+    "median": 0.6284459811356633
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.Critias describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.Critias describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0224,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8729326888572756,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4784807568235529
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.8960000000000001
+  }
+}

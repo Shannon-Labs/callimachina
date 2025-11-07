@@ -1,0 +1,35 @@
+{
+  "work_id": "Lyco.OnTheSoul",
+  "metadata": {
+    "author": "Lyco",
+    "title": "OnTheSoul",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5604388305635511,
+    "std": 0.12864802481904133,
+    "ci_lower": 0.3088486552320188,
+    "ci_upper": 0.7881193988424258,
+    "median": 0.5640440230469747
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Lyco.OnTheSoul describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Lyco.OnTheSoul with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8713519751809586,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45250406307684965
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

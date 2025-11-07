@@ -1,0 +1,35 @@
+{
+  "work_id": "Thrasymachus.OnJustice",
+  "metadata": {
+    "author": "Thrasymachus",
+    "title": "OnJustice",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5580198363632272,
+    "std": 0.1336609180486902,
+    "ci_lower": 0.29524898941162653,
+    "ci_upper": 0.8026083163251369,
+    "median": 0.5616159533485402
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Thrasymachus.OnJustice describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Thrasymachus.OnJustice with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0294,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8663390819513098,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4519951760737552
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1760000000000002
+  }
+}

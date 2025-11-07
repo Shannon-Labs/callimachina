@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.Epidemics",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "Epidemics",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5654992495098964,
+    "std": 0.12234997845770157,
+    "ci_lower": 0.32217912611073013,
+    "ci_upper": 0.7916884644015835,
+    "median": 0.5722822308174773
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hippocrates.Epidemics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hippocrates.Epidemics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0256,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8776500215422984,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45497803529152175
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.024
+  }
+}

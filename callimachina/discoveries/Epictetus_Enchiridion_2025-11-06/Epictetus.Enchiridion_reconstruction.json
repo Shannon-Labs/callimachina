@@ -1,0 +1,35 @@
+{
+  "work_id": "Epictetus.Enchiridion",
+  "metadata": {
+    "author": "Epictetus",
+    "title": "Enchiridion",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5568547216989475,
+    "std": 0.12767187261987648,
+    "ci_lower": 0.3035607336034177,
+    "ci_upper": 0.79680608594021,
+    "median": 0.5630002126036004
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Epictetus.Enchiridion describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Epictetus.Enchiridion with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8723281273801236,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4520080347509247
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

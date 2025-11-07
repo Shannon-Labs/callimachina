@@ -1,0 +1,35 @@
+{
+  "work_id": "Persaeus.Logic",
+  "metadata": {
+    "author": "Persaeus",
+    "title": "Logic",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5517895409333592,
+    "std": 0.1242260156788281,
+    "ci_lower": 0.30778280528690755,
+    "ci_upper": 0.7938596220070442,
+    "median": 0.5523803882218494
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Persaeus.Logic describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Persaeus.Logic describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0228,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8757739843211719,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4484665481387943
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9119999999999999
+  }
+}

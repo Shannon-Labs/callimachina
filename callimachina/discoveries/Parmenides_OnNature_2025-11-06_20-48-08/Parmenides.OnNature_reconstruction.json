@@ -1,0 +1,35 @@
+{
+  "work_id": "Parmenides.OnNature",
+  "metadata": {
+    "author": "Parmenides",
+    "title": "OnNature",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5600387622329331,
+    "std": 0.13086111384496002,
+    "ci_lower": 0.29694363782794725,
+    "ci_upper": 0.8028982184153621,
+    "median": 0.5614136349823869
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Parmenides.OnNature describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Parmenides.OnNature describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.86913888615504,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4517027268420106
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Hesiod.Astronomy",
+  "metadata": {
+    "author": "Hesiod",
+    "title": "Astronomy",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5622316876446084,
+    "std": 0.1262535837741304,
+    "ci_lower": 0.3087750117196005,
+    "ci_upper": 0.7955970611975679,
+    "median": 0.5694639229776655
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hesiod.Astronomy describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hesiod.Astronomy describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0236,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8737464162258696,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4526806500137637
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.944
+  }
+}

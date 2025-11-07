@@ -1,0 +1,35 @@
+{
+  "work_id": "Crito.Dialogues",
+  "metadata": {
+    "author": "Crito",
+    "title": "Dialogues",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5518667110270077,
+    "std": 0.12833362911568727,
+    "ci_lower": 0.29726475440626265,
+    "ci_upper": 0.7983746899753827,
+    "median": 0.5474159409554125
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Crito.Dialogues describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Crito.Dialogues with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0266,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8716663708843128,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44922665483256774
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.064
+  }
+}

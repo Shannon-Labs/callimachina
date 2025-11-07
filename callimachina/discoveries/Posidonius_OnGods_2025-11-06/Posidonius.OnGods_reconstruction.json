@@ -1,0 +1,35 @@
+{
+  "work_id": "Posidonius.OnGods",
+  "metadata": {
+    "author": "Posidonius",
+    "title": "OnGods",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5578819645222718,
+    "std": 0.12748787079077928,
+    "ci_lower": 0.31290282720447266,
+    "ci_upper": 0.7962486426571596,
+    "median": 0.5622371330560973
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Posidonius.OnGods describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Posidonius.OnGods with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8725121292092207,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45195733206316413
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

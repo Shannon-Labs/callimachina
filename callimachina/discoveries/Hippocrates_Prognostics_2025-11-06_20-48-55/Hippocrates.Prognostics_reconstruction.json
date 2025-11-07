@@ -1,0 +1,35 @@
+{
+  "work_id": "Hippocrates.Prognostics",
+  "metadata": {
+    "author": "Hippocrates",
+    "title": "Prognostics",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5480937098529587,
+    "std": 0.12933151446368557,
+    "ci_lower": 0.2846651792813766,
+    "ci_upper": 0.7975353250830666,
+    "median": 0.5495141089149247
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hippocrates.Prognostics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hippocrates.Prognostics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0264,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8706684855363145,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44755766582814827
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.056
+  }
+}

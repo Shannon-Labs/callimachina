@@ -1,0 +1,35 @@
+{
+  "work_id": "Prodicus.OnNature",
+  "metadata": {
+    "author": "Prodicus",
+    "title": "OnNature",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.555524820892044,
+    "std": 0.12847878795007744,
+    "ci_lower": 0.29457013754581357,
+    "ci_upper": 0.7950761526542769,
+    "median": 0.5560183280127033
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Prodicus.OnNature describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Prodicus.OnNature describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8715212120499225,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44989538289514325
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

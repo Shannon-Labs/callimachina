@@ -1,0 +1,35 @@
+{
+  "work_id": "Ptolemy.Optics",
+  "metadata": {
+    "author": "Ptolemy",
+    "title": "Optics",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.6,
+  "posterior_confidence": {
+    "mean": 0.646631125738365,
+    "std": 0.12288569321925377,
+    "ci_lower": 0.3844476335175995,
+    "ci_upper": 0.86348103416517,
+    "median": 0.654824751706633
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Ptolemy.Optics describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Ptolemy.Optics describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0228,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8771143067807462,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.486537214306754
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9119999999999999
+  }
+}

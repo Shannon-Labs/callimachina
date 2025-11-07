@@ -1,0 +1,35 @@
+{
+  "work_id": "Eudoxus.Mirror",
+  "metadata": {
+    "author": "Eudoxus",
+    "title": "Mirror",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5566063212534361,
+    "std": 0.12733951306575295,
+    "ci_lower": 0.2911914077278073,
+    "ci_upper": 0.7864057754988724,
+    "median": 0.5636632311031089
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Eudoxus.Mirror describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Eudoxus.Mirror with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0262,
+    "citation_density": 0.0,
+    "confidence_stability": 0.872660486934247,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4511019105281325
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.048
+  }
+}

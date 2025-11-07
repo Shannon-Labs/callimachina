@@ -1,0 +1,35 @@
+{
+  "work_id": "Theophrastus.OnTheSoul",
+  "metadata": {
+    "author": "Theophrastus",
+    "title": "OnTheSoul",
+    "genre": "philosophy",
+    "century": -3
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5575880063190902,
+    "std": 0.12926084718951372,
+    "ci_lower": 0.315627776523087,
+    "ci_upper": 0.8018453613567227,
+    "median": 0.5594874001173147
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Theophrastus.OnTheSoul describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Theophrastus.OnTheSoul describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.026,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8707391528104863,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45124245114201805
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.04
+  }
+}

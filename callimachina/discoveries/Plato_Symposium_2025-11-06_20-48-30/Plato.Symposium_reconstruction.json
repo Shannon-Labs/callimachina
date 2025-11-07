@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Symposium",
+  "metadata": {
+    "author": "Plato",
+    "title": "Symposium",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6209403692775874,
+    "std": 0.12120284205496602,
+    "ci_lower": 0.3663570751091213,
+    "ci_upper": 0.8408351641503504,
+    "median": 0.6303095553287632
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Plato.Symposium describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Plato.Symposium describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0232,
+    "citation_density": 0.0,
+    "confidence_stability": 0.878797157945034,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.47654919683887176
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9279999999999999
+  }
+}

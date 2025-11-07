@@ -1,0 +1,35 @@
+{
+  "work_id": "Theodosius.OnHabitations",
+  "metadata": {
+    "author": "Theodosius",
+    "title": "OnHabitations",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5526082685676192,
+    "std": 0.12711913374738362,
+    "ci_lower": 0.30244397411380985,
+    "ci_upper": 0.7956345913138719,
+    "median": 0.5532293579554706
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Theodosius.OnHabitations describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Theodosius.OnHabitations with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0302,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8728808662526164,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45072472738564273
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2080000000000002
+  }
+}

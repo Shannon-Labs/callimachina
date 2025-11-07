@@ -1,0 +1,35 @@
+{
+  "work_id": "Anthemius.OnBurningMirrors",
+  "metadata": {
+    "author": "Anthemius",
+    "title": "OnBurningMirrors",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5601090689658917,
+    "std": 0.13105898227897603,
+    "ci_lower": 0.3029624230212801,
+    "ci_upper": 0.806361035021481,
+    "median": 0.5597893611852861
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Anthemius.OnBurningMirrors describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Anthemius.OnBurningMirrors with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.868941017721024,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4535710626917924
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

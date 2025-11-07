@@ -1,0 +1,35 @@
+{
+  "work_id": "Cicero.DeNaturaDeorum",
+  "metadata": {
+    "author": "Cicero",
+    "title": "DeNaturaDeorum",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.559818198996747,
+    "std": 0.12659378317003842,
+    "ci_lower": 0.29123896245562736,
+    "ci_upper": 0.7944946777607098,
+    "median": 0.5651156207114993
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Cicero.DeNaturaDeorum describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Cicero.DeNaturaDeorum with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8734062168299616,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45330123461502836
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

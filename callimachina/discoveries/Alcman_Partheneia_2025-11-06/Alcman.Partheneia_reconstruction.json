@@ -1,0 +1,35 @@
+{
+  "work_id": "Alcman.Partheneia",
+  "metadata": {
+    "author": "Alcman",
+    "title": "Partheneia",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5676637786041524,
+    "std": 0.12891626995978042,
+    "ci_lower": 0.3081022489722486,
+    "ci_upper": 0.7990762784117444,
+    "median": 0.5703678837298514
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Alcman.Partheneia describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Alcman.Partheneia with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8710837300402196,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45572721777901626
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

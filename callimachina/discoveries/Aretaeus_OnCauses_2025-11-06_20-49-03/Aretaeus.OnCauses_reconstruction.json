@@ -1,0 +1,35 @@
+{
+  "work_id": "Aretaeus.OnCauses",
+  "metadata": {
+    "author": "Aretaeus",
+    "title": "OnCauses",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5503247272736793,
+    "std": 0.12645677210587977,
+    "ci_lower": 0.30449414653978835,
+    "ci_upper": 0.7888878132382628,
+    "median": 0.5478867441386692
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Aretaeus.OnCauses describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Aretaeus.OnCauses describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8735432278941202,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4480175470322171
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

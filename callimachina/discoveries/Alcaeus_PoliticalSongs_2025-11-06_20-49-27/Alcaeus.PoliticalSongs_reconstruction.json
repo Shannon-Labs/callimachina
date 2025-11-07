@@ -1,0 +1,35 @@
+{
+  "work_id": "Alcaeus.PoliticalSongs",
+  "metadata": {
+    "author": "Alcaeus",
+    "title": "PoliticalSongs",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.562565551982032,
+    "std": 0.1282620052342516,
+    "ci_lower": 0.29854318729647744,
+    "ci_upper": 0.7921918217210304,
+    "median": 0.569360054514946
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Alcaeus.PoliticalSongs describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Alcaeus.PoliticalSongs describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.026,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8717379947657484,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4533333536027209
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.04
+  }
+}

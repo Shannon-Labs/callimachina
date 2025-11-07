@@ -1,0 +1,35 @@
+{
+  "work_id": "Hanno.Periplus",
+  "metadata": {
+    "author": "Hanno",
+    "title": "Periplus",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.556364909103353,
+    "std": 0.12731515680552713,
+    "ci_lower": 0.30585659799127773,
+    "ci_upper": 0.7973155580558551,
+    "median": 0.5609427617145188
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Hanno.Periplus describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Hanno.Periplus describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0228,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8726848431944729,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4499877812941218
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9119999999999999
+  }
+}

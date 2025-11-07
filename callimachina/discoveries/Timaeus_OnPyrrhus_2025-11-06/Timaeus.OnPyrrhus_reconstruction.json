@@ -1,0 +1,35 @@
+{
+  "work_id": "Timaeus.OnPyrrhus",
+  "metadata": {
+    "author": "Timaeus",
+    "title": "OnPyrrhus",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5603184520251675,
+    "std": 0.12658185733210447,
+    "ci_lower": 0.29935360710638426,
+    "ci_upper": 0.79880492517965,
+    "median": 0.562312472045644
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Timaeus.OnPyrrhus describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Timaeus.OnPyrrhus with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0274,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8734181426678955,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45302252841018986
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.096
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Pythagoras.SacredDiscourse",
+  "metadata": {
+    "author": "Pythagoras",
+    "title": "SacredDiscourse",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5566231878222474,
+    "std": 0.1319793316665403,
+    "ci_lower": 0.2977087820434404,
+    "ci_upper": 0.7972642463543409,
+    "median": 0.5602774915134409
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Pythagoras.SacredDiscourse describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Pythagoras.SacredDiscourse with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.031,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8680206683334597,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4520846752955783
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2400000000000002
+  }
+}

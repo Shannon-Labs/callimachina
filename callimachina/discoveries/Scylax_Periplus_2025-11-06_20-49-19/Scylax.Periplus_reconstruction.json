@@ -1,0 +1,35 @@
+{
+  "work_id": "Scylax.Periplus",
+  "metadata": {
+    "author": "Scylax",
+    "title": "Periplus",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5581046868841291,
+    "std": 0.12552455784959346,
+    "ci_lower": 0.3185050893955566,
+    "ci_upper": 0.7888127015295594,
+    "median": 0.5597878897163766
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Scylax.Periplus describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Scylax.Periplus describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0232,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8744754421504065,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4509827523020256
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.9279999999999999
+  }
+}

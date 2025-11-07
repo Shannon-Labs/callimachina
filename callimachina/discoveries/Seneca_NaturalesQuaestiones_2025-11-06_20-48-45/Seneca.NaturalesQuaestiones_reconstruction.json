@@ -1,0 +1,35 @@
+{
+  "work_id": "Seneca.NaturalesQuaestiones",
+  "metadata": {
+    "author": "Seneca",
+    "title": "NaturalesQuaestiones",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5658873345102786,
+    "std": 0.1281959428222978,
+    "ci_lower": 0.309176872632764,
+    "ci_upper": 0.8032933565986764,
+    "median": 0.5724290274635024
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Seneca.NaturalesQuaestiones describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Seneca.NaturalesQuaestiones describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.028,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8718040571777022,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.455268672855215
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.1199999999999999
+  }
+}

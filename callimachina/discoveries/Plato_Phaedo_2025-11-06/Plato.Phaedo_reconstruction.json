@@ -1,0 +1,35 @@
+{
+  "work_id": "Plato.Phaedo",
+  "metadata": {
+    "author": "Plato",
+    "title": "Phaedo",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.576,
+  "posterior_confidence": {
+    "mean": 0.6306689086310336,
+    "std": 0.1264542199831733,
+    "ci_lower": 0.34714270475594367,
+    "ci_upper": 0.8439049762451106,
+    "median": 0.6409542402015618
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Plato.Phaedo describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Plato.Phaedo with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0254,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8735457800168267,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.48057547478742946
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.016
+  }
+}

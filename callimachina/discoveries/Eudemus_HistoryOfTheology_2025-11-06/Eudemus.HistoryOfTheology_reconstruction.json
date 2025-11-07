@@ -1,0 +1,35 @@
+{
+  "work_id": "Eudemus.HistoryOfTheology",
+  "metadata": {
+    "author": "Eudemus",
+    "title": "HistoryOfTheology",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5582243910906293,
+    "std": 0.1270738153974553,
+    "ci_lower": 0.3173833134210097,
+    "ci_upper": 0.791271638289435,
+    "median": 0.5647198067255667
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Eudemus.HistoryOfTheology describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Eudemus.HistoryOfTheology with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0306,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8729261846025447,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4530957082298395
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.2240000000000002
+  }
+}

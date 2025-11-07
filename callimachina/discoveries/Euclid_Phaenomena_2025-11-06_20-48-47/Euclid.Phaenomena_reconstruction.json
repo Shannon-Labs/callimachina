@@ -1,0 +1,35 @@
+{
+  "work_id": "Euclid.Phaenomena",
+  "metadata": {
+    "author": "Euclid",
+    "title": "Phaenomena",
+    "genre": "philosophy",
+    "century": -3
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5587186389073329,
+    "std": 0.12749508098380968,
+    "ci_lower": 0.2980331567956473,
+    "ci_upper": 0.797347302103532,
+    "median": 0.5643385786433088
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Euclid.Phaenomena describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Euclid.Phaenomena describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8725049190161903,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45127128079788553
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}

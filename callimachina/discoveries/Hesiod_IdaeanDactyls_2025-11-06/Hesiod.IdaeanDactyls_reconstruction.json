@@ -1,0 +1,35 @@
+{
+  "work_id": "Hesiod.IdaeanDactyls",
+  "metadata": {
+    "author": "Hesiod",
+    "title": "IdaeanDactyls",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5520248017990989,
+    "std": 0.12837804261716868,
+    "ci_lower": 0.2941138810164654,
+    "ci_upper": 0.790927176718979,
+    "median": 0.5581487318995637
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Hesiod.IdaeanDactyls describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Hesiod.IdaeanDactyls with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0286,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8716219573828313,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.44988544979125605
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.144
+  }
+}

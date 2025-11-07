@@ -1,0 +1,35 @@
+{
+  "work_id": "Ptolemy.Tetrabiblos",
+  "metadata": {
+    "author": "Ptolemy",
+    "title": "Tetrabiblos",
+    "genre": "philosophy",
+    "century": 2
+  },
+  "prior_confidence": 0.6,
+  "posterior_confidence": {
+    "mean": 0.6470840598492125,
+    "std": 0.1212624455031804,
+    "ci_lower": 0.3951309382065975,
+    "ci_upper": 0.8655702338022634,
+    "median": 0.6561886309763252
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Ptolemy.Tetrabiblos describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Ptolemy.Tetrabiblos describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.0248,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8787375544968196,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.48748071272270027
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.992
+  }
+}

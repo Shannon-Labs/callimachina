@@ -1,0 +1,35 @@
+{
+  "work_id": "Erasistratus.OnFevers",
+  "metadata": {
+    "author": "Erasistratus",
+    "title": "OnFevers",
+    "genre": "philosophy",
+    "century": -4
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.560869280755106,
+    "std": 0.13010986877237943,
+    "ci_lower": 0.30172136858526993,
+    "ci_upper": 0.80260077401592,
+    "median": 0.5633925071287281
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment of Erasistratus.OnFevers describing key philosophical concepts... [confidence: 80.0%]",
+    "2": "Another fragment from Erasistratus.OnFevers with important arguments... [confidence: 75.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.029,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8698901312276206,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.45337005875813785
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 1.16
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "work_id": "Pindar.Epinicians",
+  "metadata": {
+    "author": "Pindar",
+    "title": "Epinicians",
+    "genre": "philosophy",
+    "century": -2
+  },
+  "prior_confidence": 0.48,
+  "posterior_confidence": {
+    "mean": 0.5626482481908051,
+    "std": 0.12660154163973814,
+    "ci_lower": 0.3116216831273426,
+    "ci_upper": 0.799618901870609,
+    "median": 0.5642293567213631
+  },
+  "fragments_used": 2,
+  "citations_used": 0,
+  "reconstruction": {
+    "1": "Fragment 1 from Pindar.Epinicians describing key concepts... [confidence: 75.0%]",
+    "2": "Fragment 2 from Pindar.Epinicians describing key concepts... [confidence: 80.0%]"
+  },
+  "metrics": {
+    "text_coverage": 0.024,
+    "citation_density": 0.0,
+    "confidence_stability": 0.8733984583602619,
+    "source_diversity": 0.6666666666666666,
+    "overall_quality": 0.4529324784456815
+  },
+  "evidence_summary": {
+    "fragment_evidence": 2,
+    "citation_evidence": 0,
+    "total_weight": 0.96
+  }
+}
