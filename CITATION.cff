@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+title: 'CALLIMACHINA: The Alexandria Reconstruction Protocol'
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Hunter
+    family-names: Shannon
+    orcid: 'https://orcid.org/0000-0000-0000-0000'
+version: 3.1.0
+date-released: '2025-11-08'
+url: 'https://github.com/Shannon-Labs/callimachina'
+doi: 10.5281/zenodo.xxxxxxx
+license: MIT
+abstract: >
+  CALLIMACHINA is an autonomous digital archaeology system that reconstructs
+  lost classical texts using Bayesian statistics, citation network analysis,
+  and cross-lingual mapping. It represents the first systematic application
+  of Bayesian statistics to classical text reconstruction, achieving
+  scholarly-acceptable confidence levels through evidence integration.
+keywords:
+  - Digital Humanities
+  - Classical Studies
+  - Bayesian Statistics
+  - Text Reconstruction
+  - Computational Linguistics
+  - Digital Archaeology
+  - Ancient Greek Literature
+  - Papyrology
+references:
+  - type: software
+    title: 'PyMC: Probabilistic Programming in Python'
+    authors:
+      - given-names: T.
+        family-names: Salvatier
+      - given-names: V.
+        family-names: Wiecki
+      - given-names: J.
+        family-names: Fonnesbeck
+    url: 'https://www.pymc.io/'
+  - type: software
+    title: 'NetworkX: Network Analysis in Python'
+    authors:
+      - given-names: A.
+        family-names: Hagberg
+      - given-names: D.
+        family-names: Schult
+      - given-names: P.
+        family-names: Swart
+    url: 'https://networkx.org/'
+  - type: article
+    title: 'papyri.info: A Digital Infrastructure for Papyrological Research'
+    authors:
+      - given-names: J.
+        family-names: Cowey
+    journal: 'Bulletin of the American Society of Papyrologists'
+    volume: 47
+    year: 2010
+    pages: 43-52

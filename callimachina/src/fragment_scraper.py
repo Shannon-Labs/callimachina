@@ -134,10 +134,8 @@ class FragmentScraper:
         """
         search_url = f"{self.sources['papyri_info']}/search"
         params = {
-            'q': query,
-            'limit': max_results,
-            'type': 'text',
-            'format': 'json'
+            'STRING': query,  # papyri.info uses STRING parameter, not q
+            'limit': max_results
         }
         
         response = self._rate_limited_request(search_url, params=params)
@@ -145,29 +143,65 @@ class FragmentScraper:
             return []
         
         try:
-            data = response.json()
+            # Parse HTML response since papyri.info doesn't have a JSON API
+            soup = BeautifulSoup(response.content, 'html.parser')
             fragments = []
             
-            for item in data.get('results', [])[:max_results]:
-                fragment = {
-                    'id': item.get('id', ''),
-                    'text': item.get('text', ''),
-                    'source': 'papyri.info',
-                    'metadata': {
-                        'date': item.get('date', ''),
-                        'provenance': item.get('provenance', ''),
-                        'publication': item.get('publication', ''),
-                        'ddb_id': item.get('ddb_id', ''),
-                    },
-                    'url': item.get('url', ''),
-                    'confidence': 0.8  # Base confidence for papyri.info
-                }
-                fragments.append(fragment)
-                
+            # Find search results - they're typically in divs with class 'result' or similar
+            result_divs = soup.find_all('div', {'class': ['result', 'search-result', 'entry']})
+            
+            if not result_divs:
+                # Try alternative selectors
+                result_divs = soup.find_all('div', {'class': lambda x: x and ('result' in x or 'entry' in x)})
+            
+            # If still no results, try table rows
+            if not result_divs:
+                result_divs = soup.find_all('tr')[1:]  # Skip header row
+            
+            for i, result in enumerate(result_divs[:max_results]):
+                try:
+                    # Extract fragment ID from links
+                    link = result.find('a', href=True)
+                    fragment_id = link.get('href', '').split('/')[-1] if link else f'fragment_{i}'
+                    
+                    # Extract text content
+                    text_div = result.find('div', {'class': ['text', 'transcription']})
+                    if not text_div:
+                        text_div = result.find('p')
+                    text = text_div.get_text(strip=True) if text_div else ''
+                    
+                    # Extract metadata
+                    metadata = {}
+                    meta_div = result.find('div', {'class': ['metadata', 'info']})
+                    if meta_div:
+                        for item in meta_div.find_all(['span', 'div']):
+                            if 'date' in item.get('class', []):
+                                metadata['date'] = item.get_text(strip=True)
+                            if 'provenance' in item.get('class', []):
+                                metadata['provenance'] = item.get_text(strip=True)
+                            if 'publication' in item.get('class', []):
+                                metadata['publication'] = item.get_text(strip=True)
+                    
+                    fragment = {
+                        'id': fragment_id,
+                        'text': text,
+                        'source': 'papyri.info',
+                        'metadata': metadata,
+                        'url': f"{self.sources['papyri_info']}{link.get('href', '')}" if link else '',
+                        'confidence': 0.7  # Base confidence for papyri.info (slightly lower for HTML parsing)
+                    }
+                    
+                    if text:  # Only add fragments with actual text
+                        fragments.append(fragment)
+                        
+                except Exception as e:
+                    self.logger.warning(f"Failed to parse result {i}: {e}")
+                    continue
+            
             self.logger.info(f"Found {len(fragments)} fragments from papyri.info for query '{query}'")
             return fragments
             
-        except (json.JSONDecodeError, KeyError) as e:
+        except Exception as e:
             self.logger.error(f"Failed to parse papyri.info response: {e}")
             return []
     
@@ -200,6 +234,25 @@ class FragmentScraper:
         
         # Extract text based on source-specific patterns
         if source == 'papyri_info':
+            # Look for transcription data
+            transcription_div = soup.find('div', {'class': 'transcription data'})
+            if transcription_div:
+                # Find the edition div which contains the actual text
+                edition_div = transcription_div.find('div', {'id': 'edition'})
+                if edition_div:
+                    # Extract text, preserving some structure
+                    text_parts = []
+                    for element in edition_div.find_all(['span', 'br'], recursive=False):
+                        if element.name == 'br':
+                            text_parts.append('\n')
+                        elif element.get_text(strip=True):
+                            text_parts.append(element.get_text(strip=True))
+                    
+                    text = ''.join(text_parts).strip()
+                    if text:
+                        return text
+            
+            # Fallback: try to find any text div
             text_div = soup.find('div', {'class': 'text'})
             if text_div:
                 return text_div.get_text(strip=True)

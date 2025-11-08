@@ -40,8 +40,7 @@ class BayesianReconstructor:
         }
     
     def update_confidence(self, prior: float, evidence: List[Dict], 
-                         weights: Optional[List[float]] = None, 
-                         metadata: Optional[Dict] = None) -> Dict[str, float]:
+                         weights: Optional[List[float]] = None) -> Dict[str, float]:
         """
         Update reconstruction confidence using Bayesian inference.
         
@@ -49,7 +48,6 @@ class BayesianReconstructor:
             prior: Prior confidence (0-1)
             evidence: List of evidence dictionaries
             weights: Optional weights for each evidence piece
-            metadata: Optional work metadata for enhanced scoring
             
         Returns:
             Dictionary with posterior statistics
@@ -84,11 +82,6 @@ class BayesianReconstructor:
             evidence_values.append(ev_value)
             reliability_scores.append(reliability * ev_weight)
         
-        # Apply temporal decay weighting to citations
-        evidence_values, reliability_scores = self._apply_temporal_decay(
-            evidence, evidence_values, reliability_scores, metadata
-        )
-        
         # Simple Bayesian update using Beta-Binomial conjugacy
         # This approximates the PyMC approach but much faster
         try:
@@ -113,10 +106,7 @@ class BayesianReconstructor:
             )
             posterior_std = np.sqrt(posterior_var)
             
-            # Apply cross-cultural bonuses after main calculation
-            posterior_mean = self._apply_cross_cultural_bonus(posterior_mean, metadata)
-            
-            # Recalculate bounds after bonus
+            # Calculate credible intervals (approximate 95% CI)
             ci_lower = max(0, posterior_mean - 1.96 * posterior_std)
             ci_upper = min(1, posterior_mean + 1.96 * posterior_std)
             
@@ -257,142 +247,6 @@ class BayesianReconstructor:
             base_prior *= 1.2
         
         return min(base_prior, 0.9)  # Cap at 0.9
-    
-    def _apply_temporal_decay(self, evidence: List[Dict], evidence_values: List[float], 
-                             reliability_scores: List[float], metadata: Optional[Dict] = None) -> Tuple[List[float], List[float]]:
-        """
-        Apply temporal decay weighting to citations.
-        Older citations (e.g., Strabo 1st CE) weighted higher than recent ones.
-        
-        Args:
-            evidence: List of evidence dictionaries
-            evidence_values: Evidence confidence values
-            reliability_scores: Reliability scores for each evidence
-            metadata: Work metadata containing century information
-            
-        Returns:
-            Tuple of (updated_evidence_values, updated_reliability_scores)
-        """
-        if not metadata:
-            return evidence_values, reliability_scores
-        
-        # Get the century of the original work
-        work_century = metadata.get('century', 0)
-        if not work_century:
-            return evidence_values, reliability_scores
-        
-        decay_rate = 0.1  # 0.1 per century as specified
-        updated_values = list(evidence_values)
-        updated_reliabilities = list(reliability_scores)
-        
-        for i, ev in enumerate(evidence):
-            if ev.get('type') == 'citation':
-                # Estimate citation century from citing author if available
-                citing_author = ev.get('citing_author', '')
-                citation_century = self._estimate_author_century(citing_author)
-                
-                if citation_century and work_century:
-                    # Calculate centuries since original
-                    centuries_since = abs(citation_century - work_century)
-                    
-                    # Apply exponential decay: weight = exp(-decay_rate * centuries_since)
-                    # Actually, we want OLDER citations to have HIGHER weight
-                    # So we invert this: weight = exp(-decay_rate * centuries_since)
-                    # But older citations are closer in time to the original
-                    # So if citation is only 1-2 centuries after original, it gets higher weight
-                    if centuries_since <= 2:
-                        temporal_weight = 1.5  # Very close temporal proximity
-                    elif centuries_since <= 5:
-                        temporal_weight = 1.2  # Moderate proximity
-                    elif centuries_since <= 10:
-                        temporal_weight = 1.0  # Neutral
-                    else:
-                        temporal_weight = np.exp(-decay_rate * (centuries_since - 10))
-                    
-                    updated_reliabilities[i] *= temporal_weight
-                    self.logger.debug(f"Applied temporal weight {temporal_weight:.2f} to citation from {citing_author}")
-        
-        return updated_values, updated_reliabilities
-    
-    def _estimate_author_century(self, author_name: str) -> Optional[int]:
-        """Estimate the century for a citing author."""
-        # Common classical authors and their centuries (BCE negative, CE positive)
-        author_centuries = {
-            'strabo': -1,      # Strabo, 1st century BCE
-            'plutarch': 1,     # Plutarch, 1st-2nd century CE
-            'athenaeus': 2,    # Athenaeus, 2nd-3rd century CE
-            'diogenes': 3,     # Diogenes Laertius, 3rd century CE
-            'galen': 2,        # Galen, 2nd century CE
-            'pliny': 1,        # Pliny the Elder, 1st century CE
-            'quintilian': 1,   # Quintilian, 1st century CE
-            'seneca': 1,       # Seneca, 1st century CE
-            'cicero': -1,      # Cicero, 1st century BCE
-            'varro': -1,       # Varro, 1st century BCE
-            'vitruvius': -1,   # Vitruvius, 1st century BCE
-            'diodorus': -1,    # Diodorus Siculus, 1st century BCE
-            'pausanias': 2,    # Pausanias, 2nd century CE
-            'lucian': 2,       # Lucian, 2nd century CE
-        }
-        
-        author_lower = author_name.lower().strip()
-        for known_author, century in author_centuries.items():
-            if known_author in author_lower:
-                return century
-        
-        return None  # Unknown author
-    
-    def _apply_cross_cultural_bonus(self, confidence: float, metadata: Optional[Dict] = None) -> float:
-        """
-        Add cross-cultural confidence bonus based on translation chains.
-        
-        Args:
-            confidence: Current confidence score (0-1)
-            metadata: Work metadata containing translation information
-            
-        Returns:
-            Updated confidence with bonuses applied
-        """
-        if not metadata:
-            return confidence
-        
-        bonus = 0.0
-        
-        # Check for Arabic translations (+15%)
-        if metadata.get('arabic_translation'):
-            bonus += 0.15
-            self.logger.debug("Applied +15% Arabic translation bonus")
-        
-        # Check for Latin translations (+10%)
-        if metadata.get('latin_translation'):
-            bonus += 0.10
-            self.logger.debug("Applied +10% Latin translation bonus")
-        
-        # Check for Syriac intermediary (often indicates important transmission)
-        if metadata.get('syriac_intermediary'):
-            bonus += 0.08
-            self.logger.debug("Applied +8% Syriac intermediary bonus")
-        
-        # Check for multiple translation paths (+20% total, not cumulative with above)
-        translation_count = sum([
-            bool(metadata.get('arabic_translation')),
-            bool(metadata.get('latin_translation')),
-            bool(metadata.get('syriac_intermediary'))
-        ])
-        
-        if translation_count >= 2:
-            # If we have multiple paths, use the higher bonus instead of cumulative
-            bonus = max(bonus, 0.20)
-            self.logger.debug("Applied +20% multiple translation paths bonus")
-        
-        # Cap total bonus at 25% to prevent overconfidence
-        bonus = min(bonus, 0.25)
-        
-        updated_confidence = min(confidence + bonus, 1.0)  # Cap at 1.0
-        
-        if bonus > 0:
-            self.logger.info(f"Applied cross-cultural bonus: {confidence:.1%} → {updated_confidence:.1%}")
-        
-        return updated_confidence
     
     def _generate_reconstruction_text(self, fragments: List[Dict], metadata: Dict) -> Dict[str, str]:
         """Generate reconstructed text from fragments."""
