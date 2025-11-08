@@ -12,11 +12,10 @@ url: 'https://github.com/Shannon-Labs/callimachina'
 doi: 10.5281/zenodo.xxxxxxx
 license: MIT
 abstract: >
-  CALLIMACHINA is an autonomous digital archaeology system that reconstructs
-  lost classical texts using Bayesian statistics, citation network analysis,
-  and cross-lingual mapping. It represents the first systematic application
-  of Bayesian statistics to classical text reconstruction, achieving
-  scholarly-acceptable confidence levels through evidence integration.
+  CALLIMACHINA is an AI-assisted research prototype that generates probabilistic
+  hypotheses about lost classical texts using Bayesian statistics, citation network
+  analysis, and cross-lingual mapping. It demonstrates Bayesian methodology for
+  fragmentary text analysis. All outputs require scholarly review and validation.
 keywords:
   - Digital Humanities
   - Classical Studies
