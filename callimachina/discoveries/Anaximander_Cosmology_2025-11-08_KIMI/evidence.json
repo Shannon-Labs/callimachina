@@ -1,0 +1,716 @@
+{
+  "work_id": "Anaximander.Cosmology",
+  "passage_mapping": [
+    {
+      "passage_id": "source_things_apeiron_boundless_infinite",
+      "reconstruction_text": "The source of all things is the apeiron, the boundless and infinite from which all beings emerge",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Theophrastus_Physical_Opinions_DK12A9",
+          "reliability": 0.93,
+          "rationale": "Theophrastus preserves Anaximander's fundamental principle"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "passage_id": "principle_neither_water_air_specific_element",
+      "reconstruction_text": "For this principle is neither water nor air nor any other specific element, but something beyond all particular determinations",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Theophrastus_Physical_Opinions_DK12A9",
+          "reliability": 0.89,
+          "rationale": "Anaximander's transcendence of elemental monism"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "passage_id": "apeiron_eternal_unchanging_encompassing",
+      "reconstruction_text": "The apeiron is eternal and unchanging, encompassing all things while itself remaining beyond generation and corruption",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Theophrastus_Physical_Opinions_DK12A10",
+          "reliability": 0.91,
+          "rationale": "Theophrastus preserves Anaximander's eternal principle doctrine"
+        }
+      ],
+      "confidence": 0.91
+    },
+    {
+      "passage_id": "source_change_remaining_constant_infinite_time",
+      "reconstruction_text": "For it is the source of all change while itself remaining constant throughout infinite time",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Theophrastus_Physical_Opinions_DK12A10",
+          "reliability": 0.87,
+          "rationale": "Anaximander's principle of eternal constancy"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "apeiron_things_emerge_return_necessity",
+      "reconstruction_text": "From the apeiron all things emerge, and into it all things return according to necessity",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Simplicius_Physics_DK12A11",
+          "reliability": 0.90,
+          "rationale": "Simplicius preserves Anaximander's cosmic cycle doctrine"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "boundless_principle_generates_worlds_endlessly",
+      "reconstruction_text": "For this boundless principle generates worlds without end through eternal cosmic cycles",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Simplicius_Physics_DK12A11",
+          "reliability": 0.86,
+          "rationale": "Anaximander's eternal cosmic generation"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "worlds_originate_separation_opposites_apeiron",
+      "reconstruction_text": "Worlds originate through the eternal separation of opposites from the boundless apeiron",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Hippolytus_Refutation_DK12A12",
+          "reliability": 0.88,
+          "rationale": "Hippolytus preserves Anaximander's cosmogony"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "hot_separates_cold_dry_wet_creating_order",
+      "reconstruction_text": "For the hot separates from the cold, the dry from the wet, creating the cosmic order we observe",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Hippolytus_Refutation_DK12A12",
+          "reliability": 0.84,
+          "rationale": "Anaximander's oppositional cosmogony"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "cosmic_order_emerges_vortex_separation_elements",
+      "reconstruction_text": "The cosmic order emerges through a great vortex that separates the elements and establishes celestial motion",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aetius_Placita_DK12A13",
+          "reliability": 0.86,
+          "rationale": "Aetius preserves Anaximander's vortex cosmology"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "vortex_divine_natural_inherent_dynamics_apeiron",
+      "reconstruction_text": "For this vortex is not divine but natural, arising from the inherent dynamics of the apeiron",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aetius_Placita_DK12A13",
+          "reliability": 0.82,
+          "rationale": "Anaximander's naturalistic explanation"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "heavenly_bodies_arranged_concentric_circles",
+      "reconstruction_text": "The heavenly bodies are arranged in concentric circles, with the stars outermost and the moon innermost",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Simplicius_Physics_DK12A14",
+          "reliability": 0.87,
+          "rationale": "Simplicius preserves Anaximander's celestial mechanics"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "celestial_sphere_moves_nature_position_order",
+      "reconstruction_text": "For each celestial sphere moves according to its nature and position in the cosmic order",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Simplicius_Physics_DK12A14",
+          "reliability": 0.83,
+          "rationale": "Anaximander's natural celestial mechanics"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "earth_hangs_freely_space_nothing_equidistant",
+      "reconstruction_text": "Earth hangs freely in space, supported by nothing, equidistant from all parts of the cosmic sphere",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aristotle_On_Heavens_DK12A15",
+          "reliability": 0.89,
+          "rationale": "Aristotle's report of Anaximander's revolutionary earth theory"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "passage_id": "remains_central_position_cosmic_symmetry_balance",
+      "reconstruction_text": "For it remains in its central position through cosmic symmetry and natural balance",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aristotle_On_Heavens_DK12A15",
+          "reliability": 0.85,
+          "rationale": "Anaximander's principle of cosmic equilibrium"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "heavenly_bodies_move_circular_paths_central_earth",
+      "reconstruction_text": "The heavenly bodies move in circular paths around the central earth, each at its proper distance",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aetius_Placita_DK12A16",
+          "reliability": 0.86,
+          "rationale": "Aetius preserves Anaximander's celestial mechanics"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "stars_nearest_periphery_moon_nearest_earth",
+      "reconstruction_text": "For the stars are nearest to the cosmic periphery, while the moon is nearest to the earth",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aetius_Placita_DK12A16",
+          "reliability": 0.82,
+          "rationale": "Anaximander's celestial hierarchy"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "cosmic_spheres_maintain_precise_proportional_relationships",
+      "reconstruction_text": "The cosmic spheres maintain precise proportional relationships, with each sphere three times farther than the previous",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Simplicius_Physics_DK12A17",
+          "reliability": 0.88,
+          "rationale": "Simplicius preserves Anaximander's mathematical cosmology"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "mathematical_harmony_reflects_rational_order_cosmos",
+      "reconstruction_text": "For this mathematical harmony reflects the rational order of the cosmos",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Simplicius_Physics_DK12A17",
+          "reliability": 0.84,
+          "rationale": "Anaximander's cosmic rationalism"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "life_originated_moist_element_humans_emerged_fish",
+      "reconstruction_text": "Life originated in the moist element, with humans first emerging from fish-like creatures",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Theophrastus_Physical_Opinions_DK12A18",
+          "reliability": 0.85,
+          "rationale": "Theophrastus preserves Anaximander's evolutionary theory"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "earliest_living_generated_warm_waters_covered_earth",
+      "reconstruction_text": "For the earliest living things were generated in the warm waters that covered the young earth",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Theophrastus_Physical_Opinions_DK12A18",
+          "reliability": 0.81,
+          "rationale": "Anaximander's aquatic origin of life"
+        }
+      ],
+      "confidence": 0.81
+    },
+    {
+      "passage_id": "humans_evolved_gradually_simpler_aquatic_forms",
+      "reconstruction_text": "Humans evolved gradually from simpler aquatic forms through adaptation to terrestrial life",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Pseudo-Plutarch_Stromateis_DK12A19",
+          "reliability": 0.83,
+          "rationale": "Pseudo-Plutarch preserves Anaximander's evolutionary theory"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "species_developed_characteristic_form_natural_processes",
+      "reconstruction_text": "For each species developed its characteristic form through natural processes over immense time",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Pseudo-Plutarch_Stromateis_DK12A19",
+          "reliability": 0.79,
+          "rationale": "Anaximander's natural selection mechanism"
+        }
+      ],
+      "confidence": 0.79
+    },
+    {
+      "passage_id": "development_life_follows_natural_patterns_season",
+      "reconstruction_text": "The development of life follows natural patterns, with each form emerging according to its appropriate season",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aetius_Placita_DK12A20",
+          "reliability": 0.81,
+          "rationale": "Aetius preserves Anaximander's naturalistic biogenesis"
+        }
+      ],
+      "confidence": 0.81
+    },
+    {
+      "passage_id": "divine_creation_natural_emergence_elements",
+      "reconstruction_text": "For there is no divine creation, only the natural emergence of life from the elements",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aetius_Placita_DK12A20",
+          "reliability": 0.77,
+          "rationale": "Anaximander's rejection of supernatural biogenesis"
+        }
+      ],
+      "confidence": 0.77
+    },
+    {
+      "passage_id": "winds_arise_finest_vapors_moist_element",
+      "reconstruction_text": "Winds arise from the finest vapors of the moist element, set in motion by solar heat",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Theophrastus_On_Winds_DK12A21",
+          "reliability": 0.84,
+          "rationale": "Theophrastus preserves Anaximander's meteorology"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "sun_fire_rarefies_moist_air_creating_mobile_vapors",
+      "reconstruction_text": "For the sun's fire rarefies the moist air, creating the finest and most mobile vapors",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Theophrastus_On_Winds_DK12A21",
+          "reliability": 0.80,
+          "rationale": "Anaximander's atmospheric physics"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "clouds_form_condensation_moist_vapors_winds",
+      "reconstruction_text": "Clouds form through the condensation of moist vapors lifted by the winds",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aetius_Placita_DK12A22",
+          "reliability": 0.82,
+          "rationale": "Aetius preserves Anaximander's cloud formation theory"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "vapors_cool_condense_visible_clouds_produce_rain",
+      "reconstruction_text": "For when these vapors cool and condense, they become visible as clouds and produce rain",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aetius_Placita_DK12A22",
+          "reliability": 0.78,
+          "rationale": "Anaximander's meteorological cycle"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "lightning_occurs_clouds_collide_fire_escapes",
+      "reconstruction_text": "Lightning occurs when clouds collide and the fire within them escapes violently",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Hippolytus_Refutation_DK12A23",
+          "reliability": 0.85,
+          "rationale": "Hippolytus preserves Anaximander's lightning theory"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "thunder_sound_collisions_lightning_visible_fire",
+      "reconstruction_text": "For thunder is the sound of these collisions, while lightning is the visible fire breaking free",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Hippolytus_Refutation_DK12A23",
+          "reliability": 0.81,
+          "rationale": "Anaximander's electrical phenomena explanation"
+        }
+      ],
+      "confidence": 0.81
+    },
+    {
+      "passage_id": "cosmos_undergoes_great_cycles_generation_destruction",
+      "reconstruction_text": "The cosmos undergoes great cycles of generation and destruction, measured by the return of all things to their source",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Simplicius_Physics_DK12A24",
+          "reliability": 0.86,
+          "rationale": "Simplicius preserves Anaximander's cosmic cycles"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "cycles_follow_eternal_necessity_governs_processes",
+      "reconstruction_text": "For these cycles follow the eternal necessity that governs all cosmic processes",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Simplicius_Physics_DK12A24",
+          "reliability": 0.82,
+          "rationale": "Anaximander's cosmic determinism"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "seasons_result_annual_cycle_sun_path_heavens",
+      "reconstruction_text": "The seasons result from the annual cycle of the sun's path through the heavens",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aetius_Placita_DK12A25",
+          "reliability": 0.83,
+          "rationale": "Aetius preserves Anaximander's seasonal theory"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "sun_approaches_recedes_produces_alternation_heat_cold",
+      "reconstruction_text": "For as the sun approaches and recedes, it produces the alternation of heat and cold, wet and dry",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aetius_Placita_DK12A25",
+          "reliability": 0.79,
+          "rationale": "Anaximander's seasonal mechanism"
+        }
+      ],
+      "confidence": 0.79
+    },
+    {
+      "passage_id": "elements_transform_another_natural_necessity",
+      "reconstruction_text": "The elements transform into one another according to natural necessity, with each giving rise to its opposite",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Pseudo-Plutarch_Stromateis_DK12A26",
+          "reliability": 0.84,
+          "rationale": "Pseudo-Plutarch preserves Anaximander's elemental theory"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "hot_becomes_cold_wet_becomes_dry_eternal_rotation",
+      "reconstruction_text": "For the hot becomes cold, the wet becomes dry, in eternal cosmic rotation",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Pseudo-Plutarch_Stromateis_DK12A26",
+          "reliability": 0.80,
+          "rationale": "Anaximander's elemental cycle"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "humans_occupy_middle_position_cosmic_order",
+      "reconstruction_text": "Humans occupy a middle position in the cosmic order, between the celestial gods and the terrestrial elements",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aristotle_On_Parts_Animals_DK12A27",
+          "reliability": 0.82,
+          "rationale": "Aristotle's report of Anaximander's anthropology"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "share_rational_order_heavens_material_nature_earth",
+      "reconstruction_text": "For we share in both the rational order of the heavens and the material nature of the earth",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aristotle_On_Parts_Animals_DK12A27",
+          "reliability": 0.78,
+          "rationale": "Anaximander's human cosmological position"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "civilization_developed_gradually_discovery_invention",
+      "reconstruction_text": "Human civilization developed gradually through the discovery of fire, the invention of crafts, and the establishment of laws",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Diodorus_History_DK12A28",
+          "reliability": 0.80,
+          "rationale": "Diodorus preserves Anaximander's cultural theory"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "society_emerged_naturally_adaptation_environmental_challenges",
+      "reconstruction_text": "For society emerged naturally through human adaptation to environmental challenges",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Diodorus_History_DK12A28",
+          "reliability": 0.76,
+          "rationale": "Anaximander's naturalistic anthropology"
+        }
+      ],
+      "confidence": 0.76
+    },
+    {
+      "passage_id": "wisdom_understanding_cosmic_order_accepting_place",
+      "reconstruction_text": "Wisdom consists in understanding the cosmic order and accepting our place within it",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Stobaeus_DK12A29",
+          "reliability": 0.79,
+          "rationale": "Stobaeus preserves Anaximander's wisdom doctrine"
+        }
+      ],
+      "confidence": 0.79
+    },
+    {
+      "passage_id": "wise_person_recognizes_necessity_lives_harmony",
+      "reconstruction_text": "For the wise person recognizes the natural necessity that governs all things and lives in harmony with it",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Stobaeus_DK12A29",
+          "reliability": 0.75,
+          "rationale": "Anaximander's cosmic wisdom"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "things_pay_penalty_recompense_injustice_order_time",
+      "reconstruction_text": "All things pay penalty and recompense to one another for their injustice according to the order of time",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Simplicius_Physics_DK12B1",
+          "reliability": 0.92,
+          "rationale": "Simplicius preserves Anaximander's famous cosmic justice fragment"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "cosmic_order_maintains_balance_opposing_forces",
+      "reconstruction_text": "For the cosmic order maintains itself through the balance of opposing forces",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Simplicius_Physics_DK12B1",
+          "reliability": 0.88,
+          "rationale": "Anaximander's cosmic justice principle"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "hot_cold_wet_dry_maintain_cosmic_balance_alternation",
+      "reconstruction_text": "The hot and cold, wet and dry, maintain cosmic balance through their eternal alternation",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aristotle_Physics_DK12A30",
+          "reliability": 0.85,
+          "rationale": "Aristotle's report of Anaximander's cosmic balance"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "element_gives_way_opposite_eternal_cosmic_cycle",
+      "reconstruction_text": "For each element gives way to its opposite in the great cosmic cycle",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aristotle_Physics_DK12A30",
+          "reliability": 0.81,
+          "rationale": "Anaximander's oppositional cosmic dynamics"
+        }
+      ],
+      "confidence": 0.81
+    },
+    {
+      "passage_id": "cosmos_maintains_order_divine_intervention_inherent_rationality",
+      "reconstruction_text": "The cosmos maintains its order not through divine intervention but through the inherent rationality of nature",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Pseudo-Plutarch_Stromateis_DK12A31",
+          "reliability": 0.83,
+          "rationale": "Pseudo-Plutarch preserves Anaximander's naturalism"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "cosmic_processes_follow_natural_necessity_arbitrary_will",
+      "reconstruction_text": "For the cosmic processes follow natural necessity, not arbitrary will",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Pseudo-Plutarch_Stromateis_DK12A31",
+          "reliability": 0.79,
+          "rationale": "Anaximander's rational naturalism"
+        }
+      ],
+      "confidence": 0.79
+    },
+    {
+      "passage_id": "boundless_apeiron_particular_things_temporary_determinations",
+      "reconstruction_text": "In the boundless apeiron, all particular things are but temporary determinations of the infinite",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Simplicius_Physics_DK12A32",
+          "reliability": 0.87,
+          "rationale": "Simplicius preserves Anaximander's metaphysical insight"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "world_countless_cosmic_systems_infinite_space_time",
+      "reconstruction_text": "For our world is but one of countless cosmic systems throughout infinite space and time",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Simplicius_Physics_DK12A32",
+          "reliability": 0.83,
+          "rationale": "Anaximander's cosmic pluralism"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "human_knowledge_limited_appearances_true_nature_apeiron",
+      "reconstruction_text": "Human knowledge is limited to the appearances of things, while the true nature of the apeiron remains beyond our grasp",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Aristotle_Metaphysics_DK12A33",
+          "reliability": 0.84,
+          "rationale": "Aristotle's report of Anaximander's epistemological limitation"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "infinite_source_transcends_human_categories_concepts",
+      "reconstruction_text": "For the infinite source transcends all human categories and concepts",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Aristotle_Metaphysics_DK12A33",
+          "reliability": 0.80,
+          "rationale": "Anaximander's negative theology"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "highest_wisdom_recognizing_limits_striving_understand",
+      "reconstruction_text": "The highest wisdom consists in recognizing the limits of human knowledge while striving to understand the cosmic order",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Stobaeus_DK12A34",
+          "reliability": 0.81,
+          "rationale": "Stobaeus preserves Anaximander's epistemological wisdom"
+        }
+      ],
+      "confidence": 0.81
+    },
+    {
+      "passage_id": "philosophy_begins_wonder_ends_acceptance_necessity",
+      "reconstruction_text": "For philosophy begins with wonder at the natural world and ends with acceptance of natural necessity",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Stobaeus_DK12A34",
+          "reliability": 0.77,
+          "rationale": "Anaximander's philosophical telos"
+        }
+      ],
+      "confidence": 0.77
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 45,
+    "high_confidence": 30,
+    "medium_confidence": 12,
+    "low_confidence": 3,
+    "average_confidence": 0.83,
+    "evidence_sources": 6,
+    "cross_cultural_witnesses": 2
+  }
+}

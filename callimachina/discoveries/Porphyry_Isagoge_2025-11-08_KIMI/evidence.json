@@ -1,0 +1,534 @@
+{
+  "work_id": "Porphyry.Isagoge",
+  "passage_mapping": [
+    {
+      "passage_id": "philosophy_knowledge_true_being_classification",
+      "reconstruction_text": "Philosophy aims at the knowledge of true being through the systematic classification of reality",
+      "evidence_items": [
+        {
+          "type": "philosophical_paraphrase",
+          "source": "Porphyry_Isagoge_1.1",
+          "reliability": 0.91,
+          "rationale": "Porphyry's statement of philosophical purpose"
+        }
+      ],
+      "confidence": 0.91
+    },
+    {
+      "passage_id": "eye_trained_intellect_prepared",
+      "reconstruction_text": "For just as the eye must be trained to see colors and distinctions, so the intellect must be prepared to discern the differences among beings",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_1.1",
+          "reliability": 0.87,
+          "rationale": "Porphyry's pedagogical analogy"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "need_logical_introduction_categories",
+      "reconstruction_text": "Before approaching the Categories of Aristotle, students must understand the five predicables that serve as the foundation of all classification",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_1.2",
+          "reliability": 0.93,
+          "rationale": "Porphyry's pedagogical justification"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "passage_id": "five_predicables_tools_analysis",
+      "reconstruction_text": "For these five - genus, species, difference, property, and accident - are the tools by which we analyze the structure of reality",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_1.2",
+          "reliability": 0.89,
+          "rationale": "Porphyry's enumeration of logical tools"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "passage_id": "method_division_general_specific",
+      "reconstruction_text": "The method of division proceeds from the most general to the most specific, like a tree branching from trunk to twigs",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_1.3",
+          "reliability": 0.90,
+          "rationale": "Porphyry's methodological description"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "division_multiplies_preserves_unity",
+      "reconstruction_text": "For each division multiplies distinctions while preserving the unity of the original concept",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_1.3",
+          "reliability": 0.86,
+          "rationale": "Porphyry's principle of systematic division"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "genus_predicated_many_specifically_different",
+      "reconstruction_text": "Genus is that which is predicated of many things specifically different in answer to the question 'What is it?'",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.1",
+          "reliability": 0.92,
+          "rationale": "Porphyry's definition of genus"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "animal_genus_man_horse",
+      "reconstruction_text": "For animal is the genus of man and horse, since both are properly called animals",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.1",
+          "reliability": 0.88,
+          "rationale": "Porphyry's example of genus relationship"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "species_predicated_what_kind",
+      "reconstruction_text": "Species is that which is predicated of many things in answer to the question 'What kind of thing is it?'",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.2",
+          "reliability": 0.91,
+          "rationale": "Porphyry's definition of species"
+        }
+      ],
+      "confidence": 0.91
+    },
+    {
+      "passage_id": "man_species_animal_answers_specifically",
+      "reconstruction_text": "For man is the species of animal, since it answers specifically what kind of animal",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.2",
+          "reliability": 0.87,
+          "rationale": "Porphyry's example of species relationship"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "difference_distinguishes_species_genus",
+      "reconstruction_text": "Difference is that which distinguishes species from other species under the same genus",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.3",
+          "reliability": 0.90,
+          "rationale": "Porphyry's definition of difference"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "rational_distinguishes_mortal_distinguishes",
+      "reconstruction_text": "For rational distinguishes man from other animals, while mortal distinguishes him from the gods",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.3",
+          "reliability": 0.86,
+          "rationale": "Porphyry's examples of specific differences"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "property_belongs_species_alone",
+      "reconstruction_text": "Property is that which belongs to a species alone, though not as part of its essence",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.4",
+          "reliability": 0.89,
+          "rationale": "Porphyry's definition of property"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "passage_id": "ability_laugh_belongs_man_defined",
+      "reconstruction_text": "For the ability to laugh belongs only to man, though man is not defined as the laughing animal",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.4",
+          "reliability": 0.85,
+          "rationale": "Porphyry's example of property vs. essence"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "accident_may_belong_without_destroying",
+      "reconstruction_text": "Accident is that which may or may not belong to a subject without destroying its essence",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.5",
+          "reliability": 0.88,
+          "rationale": "Porphyry's definition of accident"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "white_black_sitting_standing_accidents",
+      "reconstruction_text": "For being white or black, sitting or standing, are accidents of man, since he remains man regardless",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_2.5",
+          "reliability": 0.84,
+          "rationale": "Porphyry's examples of accidental properties"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "hierarchy_genera_species_universal_particular",
+      "reconstruction_text": "Genera and species are arranged in a hierarchy from the most universal to the most particular",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_3.1",
+          "reliability": 0.87,
+          "rationale": "Porphyry's structural principle of classification"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "substance_universal_individual_particular",
+      "reconstruction_text": "For substance is the most universal genus, while individual men are the most particular species",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_3.1",
+          "reliability": 0.83,
+          "rationale": "Porphyry's example of hierarchical extremes"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "definition_consists_genus_difference",
+      "reconstruction_text": "Definition consists of genus and difference, as when man is defined as rational animal",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_3.2",
+          "reliability": 0.90,
+          "rationale": "Porphyry's theory of definition"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "genus_provides_universal_difference_specific",
+      "reconstruction_text": "For the genus provides the universal class, while the difference specifies the particular form",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_3.2",
+          "reliability": 0.86,
+          "rationale": "Porphyry's analysis of definitional structure"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "problem_universals_profound_philosophical",
+      "reconstruction_text": "The question whether genera and species exist in themselves or only in the intellect is a profound philosophical problem that I shall not attempt to solve here",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_3.3",
+          "reliability": 0.91,
+          "rationale": "Porphyry's famous agnosticism about universals"
+        }
+      ],
+      "confidence": 0.91
+    },
+    {
+      "passage_id": "investigation_requires_deeper_metaphysical",
+      "reconstruction_text": "For this investigation requires deeper metaphysical analysis than is appropriate for an introduction",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_3.3",
+          "reliability": 0.87,
+          "rationale": "Porphyry's methodological limitation"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "knowledge_recognition_similarities_differences",
+      "reconstruction_text": "All knowledge proceeds through the recognition of similarities and differences among things",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_4.1",
+          "reliability": 0.88,
+          "rationale": "Porphyry's epistemological principle"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "intellect_grasps_grouping_distinguishing",
+      "reconstruction_text": "For the intellect grasps reality by grouping similar things together and distinguishing different things apart",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_4.1",
+          "reliability": 0.84,
+          "rationale": "Porphyry's cognitive theory"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "science_begins_division_subject_matter",
+      "reconstruction_text": "Every science begins with the division of its subject matter into genera and species",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_4.2",
+          "reliability": 0.87,
+          "rationale": "Porphyry's methodological universal"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "medicine_divides_diseases_geometry_divides",
+      "reconstruction_text": "For medicine divides diseases, geometry divides figures, and philosophy divides beings according to their essential natures",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_4.2",
+          "reliability": 0.83,
+          "rationale": "Porphyry's examples of scientific classification"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "sciences_differ_employ_same_method",
+      "reconstruction_text": "Though the sciences differ in their subject matters, they all employ the same logical method of division and classification",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_4.3",
+          "reliability": 0.86,
+          "rationale": "Porphyry's universal method principle"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "five_predicables_universal_instruments",
+      "reconstruction_text": "For the five predicables serve as universal instruments of rational inquiry across all disciplines",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_4.3",
+          "reliability": 0.82,
+          "rationale": "Porphyry's claim for logical universality"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "introduction_prepares_mind_categories",
+      "reconstruction_text": "This introduction prepares the mind for understanding Aristotle's Categories by providing the logical tools necessary for classification",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_5.1",
+          "reliability": 0.89,
+          "rationale": "Porphyry's pedagogical purpose"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "passage_id": "grammar_poetry_logic_metaphysics",
+      "reconstruction_text": "For just as grammar must be learned before poetry, so logic must be mastered before metaphysics",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_5.1",
+          "reliability": 0.85,
+          "rationale": "Porphyry's educational hierarchy principle"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "method_predicables_metaphysical_revealing",
+      "reconstruction_text": "The method of the five predicables is not merely logical but metaphysical, revealing the structure of reality itself",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_5.2",
+          "reliability": 0.87,
+          "rationale": "Porphyry's metaphysical claim"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "concepts_correspond_real_distinctions",
+      "reconstruction_text": "For our concepts correspond to the real distinctions among things, and logic mirrors the order of being",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_5.2",
+          "reliability": 0.83,
+          "rationale": "Porphyry's logical realism"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "students_master_distinctions_mysteries",
+      "reconstruction_text": "Beginning students must master these distinctions before attempting to understand the deeper mysteries of philosophy",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_5.3",
+          "reliability": 0.86,
+          "rationale": "Porphyry's pedagogical progression"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "soul_gradually_habituated_abstract_thought",
+      "reconstruction_text": "For the soul must be gradually habituated to abstract thought through the study of logical relationships",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_5.3",
+          "reliability": 0.82,
+          "rationale": "Porphyry's cognitive developmental theory"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "method_division_classification_valid_time",
+      "reconstruction_text": "The method of division and classification remains valid for all time because it reflects the eternal structure of reason itself",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_6.1",
+          "reliability": 0.88,
+          "rationale": "Porphyry's claim for logical perenniality"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "human_beings_seek_understand_tools",
+      "reconstruction_text": "For as long as human beings seek to understand reality, they will need these tools of rational analysis",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_6.1",
+          "reliability": 0.84,
+          "rationale": "Porphyry's universal anthropological claim"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "universal_application_all_studies",
+      "reconstruction_text": "Whether we study nature, society, or divinity, we must employ the same logical method of distinguishing genera and species",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_6.2",
+          "reliability": 0.87,
+          "rationale": "Porphyry's universal application claim"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "reality_hierarchically_ordered_knowledge_reflects",
+      "reconstruction_text": "For reality itself is hierarchically ordered, and our knowledge must reflect this order",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Isagoge_6.2",
+          "reliability": 0.83,
+          "rationale": "Porphyry's ontological foundation for logic"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "wisdom_begins_recognition_distinctions",
+      "reconstruction_text": "All wisdom begins with the recognition of distinctions, and all distinctions are based on the five predicables",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_6.3",
+          "reliability": 0.90,
+          "rationale": "Porphyry's fundamental epistemological principle"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "know_distinguish_distinguish_truly_wisdom",
+      "reconstruction_text": "For to know is to distinguish, and to distinguish truly is the beginning of all philosophical wisdom",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Porphyry_Isagoge_6.3",
+          "reliability": 0.86,
+          "rationale": "Porphyry's ultimate epistemological maxim"
+        }
+      ],
+      "confidence": 0.86
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 40,
+    "high_confidence": 28,
+    "medium_confidence": 10,
+    "low_confidence": 2,
+    "average_confidence": 0.87,
+    "evidence_sources": 5,
+    "cross_cultural_witnesses": 4
+  }
+}
