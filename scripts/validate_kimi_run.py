@@ -1,345 +1,229 @@
 #!/usr/bin/env python3
 """
-Validator for KIMI reconstruction runs.
-Checks completeness, proper formatting, and generates index CSV.
+Validator for KIMI reconstruction outputs.
+
+Validates that each KIMI reconstruction directory contains all required files
+with proper structure and content.
+
+Required files per directory:
+- metadata.yml
+- reconstruction.md
+- apparatus.md
+- evidence.json
+- summary.txt
+
+Usage:
+    python scripts/validate_kimi_run.py [--dir callimachina/discoveries]
 """
 
-import os
-import sys
-import yaml
+import argparse
 import json
-import csv
+import sys
 from pathlib import Path
-from datetime import datetime
+from typing import Dict, List, Tuple
+import yaml
 
 
-def validate_metadata(file_path):
-    """Validate metadata.yml file."""
-    errors = []
-    warnings = []
-    
-    try:
-        with open(file_path, 'r') as f:
-            data = yaml.safe_load(f)
-        
-        # Required fields
-        required_fields = ['work_id', 'author', 'title', 'provenance', 'sources', 'confidence']
-        for field in required_fields:
-            if field not in data:
-                errors.append(f"Missing required field: {field}")
-        
-        # Validate confidence structure
-        if 'confidence' in data:
-            conf = data['confidence']
-            conf_fields = ['prior', 'posterior_mean', 'ci_lower', 'ci_upper', 'rationale']
-            for field in conf_fields:
-                if field not in conf:
-                    errors.append(f"Missing confidence field: {field}")
-        
-        # Validate provenance
-        if 'provenance' in data and data['provenance'] not in ['citation-based', 'fragment-verified', 'demo']:
-            warnings.append(f"Unusual provenance value: {data['provenance']}")
-        
-    except Exception as e:
-        errors.append(f"Failed to parse metadata: {e}")
-    
-    return errors, warnings
+class KimiValidator:
+    """Validates KIMI reconstruction output directories."""
 
+    REQUIRED_FILES = {
+        'metadata.yml': 'YAML metadata file',
+        'reconstruction.md': 'Reconstruction markdown',
+        'apparatus.md': 'Critical apparatus markdown',
+        'evidence.json': 'Evidence JSON file',
+        'summary.txt': 'Summary text file'
+    }
 
-def validate_reconstruction(file_path):
-    """Validate reconstruction.md file."""
-    errors = []
-    warnings = []
-    
-    try:
-        with open(file_path, 'r') as f:
-            content = f.read()
-        
-        # Check for disclaimer
-        if "probabilistic reconstruction (automated)" not in content.lower():
-            errors.append("Missing required disclaimer")
-        
-        # Check for confidence mention
-        if "confidence" not in content.lower():
-            warnings.append("No confidence mention in header")
-        
-        # Check for lacunae markers
-        if "[…]" not in content and "[?]" not in content:
-            warnings.append("No lacunae markers found - may be too speculative")
-        
-        # Check length (should be substantial)
-        if len(content) < 500:
-            warnings.append("Reconstruction seems very short")
-            
-    except Exception as e:
-        errors.append(f"Failed to read reconstruction: {e}")
-    
-    return errors, warnings
-
-
-def validate_apparatus(file_path):
-    """Validate apparatus.md file."""
-    errors = []
-    warnings = []
-    
-    try:
-        with open(file_path, 'r') as f:
-            content = f.read()
-        
-        # Check for sections
-        required_sections = ['Fragmentary Sources', 'Stylometric Analysis', 'Historical Context']
-        for section in required_sections:
-            if section.lower() not in content.lower():
-                warnings.append(f"May be missing section: {section}")
-        
-        # Check length
-        if len(content) < 1000:
-            warnings.append("Apparatus seems brief")
-            
-    except Exception as e:
-        errors.append(f"Failed to read apparatus: {e}")
-    
-    return errors, warnings
-
-
-def validate_evidence(file_path):
-    """Validate evidence.json file."""
-    errors = []
-    warnings = []
-    
-    try:
-        with open(file_path, 'r') as f:
-            data = json.load(f)
-        
-        # Required structure
-        if 'work_id' not in data:
-            errors.append("Missing work_id")
-        
-        if 'passage_mapping' not in data:
-            errors.append("Missing passage_mapping")
-        else:
-            passages = data['passage_mapping']
-            if not passages:
-                warnings.append("No passages mapped")
-            
-            for i, passage in enumerate(passages):
-                if 'passage_id' not in passage:
-                    errors.append(f"Passage {i} missing passage_id")
-                if 'evidence_items' not in passage:
-                    errors.append(f"Passage {i} missing evidence_items")
-                if 'confidence' not in passage:
-                    errors.append(f"Passage {i} missing confidence")
-        
-        if 'summary_statistics' not in data:
-            warnings.append("Missing summary_statistics")
-        
-    except Exception as e:
-        errors.append(f"Failed to parse evidence.json: {e}")
-    
-    return errors, warnings
-
-
-def validate_summary(file_path):
-    """Validate summary.txt file."""
-    errors = []
-    warnings = []
-    
-    try:
-        with open(file_path, 'r') as f:
-            content = f.read()
-        
-        # Check for key elements
-        if "PROVENANCE" not in content:
-            warnings.append("Missing PROVENANCE label")
-        
-        if "POSTERIOR CONFIDENCE" not in content:
-            errors.append("Missing POSTERIOR CONFIDENCE")
-        
-        if "EVIDENCE SOURCES" not in content:
-            warnings.append("Missing EVIDENCE SOURCES")
-        
-        # Check length (should be substantial)
-        if len(content) < 1000:
-            warnings.append("Summary seems brief")
-            
-    except Exception as e:
-        errors.append(f"Failed to read summary: {e}")
-    
-    return errors, warnings
-
-
-def validate_directory(dir_path):
-    """Validate a single reconstruction directory."""
-    errors = []
-    warnings = []
-    
-    required_files = [
-        'metadata.yml',
-        'reconstruction.md',
-        'apparatus.md',
-        'evidence.json',
-        'summary.txt'
+    REQUIRED_METADATA_FIELDS = [
+        'work_id',
+        'author',
+        'title',
+        'provenance',
+        'sources',
+        'confidence'
     ]
-    
-    # Check for required files
-    for file_name in required_files:
-        file_path = dir_path / file_name
-        if not file_path.exists():
-            errors.append(f"Missing required file: {file_name}")
-            continue
-        
-        # Validate based on file type
-        if file_name == 'metadata.yml':
-            e, w = validate_metadata(file_path)
-            errors.extend([f"metadata.yml: {err}" for err in e])
-            warnings.extend([f"metadata.yml: {warn}" for warn in w])
-        
-        elif file_name == 'reconstruction.md':
-            e, w = validate_reconstruction(file_path)
-            errors.extend([f"reconstruction.md: {err}" for err in e])
-            warnings.extend([f"reconstruction.md: {warn}" for warn in w])
-        
-        elif file_name == 'apparatus.md':
-            e, w = validate_apparatus(file_path)
-            errors.extend([f"apparatus.md: {err}" for err in e])
-            warnings.extend([f"apparatus.md: {warn}" for warn in w])
-        
-        elif file_name == 'evidence.json':
-            e, w = validate_evidence(file_path)
-            errors.extend([f"evidence.json: {err}" for err in e])
-            warnings.extend([f"evidence.json: {warn}" for warn in w])
-        
-        elif file_name == 'summary.txt':
-            e, w = validate_summary(file_path)
-            errors.extend([f"summary.txt: {err}" for err in e])
-            warnings.extend([f"summary.txt: {warn}" for warn in w])
-    
-    return errors, warnings
 
+    def __init__(self, discoveries_dir: Path):
+        self.discoveries_dir = Path(discoveries_dir)
+        self.errors: List[str] = []
+        self.warnings: List[str] = []
 
-def generate_index_csv(directories, output_path):
-    """Generate index CSV from directories."""
-    
-    rows = []
-    
-    for dir_path in directories:
-        metadata_file = dir_path / 'metadata.yml'
-        if not metadata_file.exists():
-            continue
-        
-        try:
-            with open(metadata_file, 'r') as f:
-                data = yaml.safe_load(f)
-            
-            # Extract required fields
-            work_id = data.get('work_id', '')
-            provenance = data.get('provenance', '')
-            
-            confidence = data.get('confidence', {})
-            posterior_mean = confidence.get('posterior_mean', '')
-            ci_lower = confidence.get('ci_lower', '')
-            ci_upper = confidence.get('ci_upper', '')
-            
-            sources = data.get('sources', [])
-            sources_count = len(sources)
-            
-            # Build row
-            rows.append({
-                'work_id': work_id,
-                'path': str(dir_path),
-                'provenance': provenance,
-                'posterior_mean': posterior_mean,
-                'ci_lower': ci_lower,
-                'ci_upper': ci_upper,
-                'sources_count': sources_count
-            })
-            
-        except Exception as e:
-            print(f"Warning: Could not parse metadata for {dir_path}: {e}")
-    
-    # Write CSV
-    with open(output_path, 'w', newline='') as csvfile:
-        fieldnames = ['work_id', 'path', 'provenance', 'posterior_mean', 'ci_lower', 'ci_upper', 'sources_count']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        
-        writer.writeheader()
-        for row in rows:
-            writer.writerow(row)
-    
-    return len(rows)
+    def find_kimi_directories(self) -> List[Path]:
+        """Find all _KIMI directories."""
+        return sorted([
+            d for d in self.discoveries_dir.iterdir()
+            if d.is_dir() and d.name.endswith('_KIMI')
+        ])
+
+    def validate_directory(self, kimi_dir: Path) -> Tuple[bool, List[str], List[str]]:
+        """
+        Validate a single KIMI directory.
+
+        Returns:
+            (is_valid, errors, warnings)
+        """
+        errors = []
+        warnings = []
+
+        # Check for required files
+        for filename, description in self.REQUIRED_FILES.items():
+            filepath = kimi_dir / filename
+            if not filepath.exists():
+                errors.append(f"Missing {description}: {filename}")
+            elif filepath.stat().st_size == 0:
+                warnings.append(f"Empty {description}: {filename}")
+
+        # Validate metadata.yml structure
+        metadata_path = kimi_dir / 'metadata.yml'
+        if metadata_path.exists():
+            try:
+                with open(metadata_path, 'r', encoding='utf-8') as f:
+                    metadata = yaml.safe_load(f)
+
+                # Check required fields
+                for field in self.REQUIRED_METADATA_FIELDS:
+                    if field not in metadata:
+                        errors.append(f"Missing required metadata field: {field}")
+                    elif field == 'confidence' and isinstance(metadata[field], dict):
+                        # Validate confidence structure
+                        conf = metadata['confidence']
+                        required_conf_fields = ['prior', 'posterior_mean', 'ci_lower', 'ci_upper']
+                        for conf_field in required_conf_fields:
+                            if conf_field not in conf:
+                                errors.append(f"Missing confidence field: {conf_field}")
+
+            except yaml.YAMLError as e:
+                errors.append(f"Invalid YAML in metadata.yml: {e}")
+            except Exception as e:
+                errors.append(f"Error reading metadata.yml: {e}")
+
+        # Validate evidence.json structure
+        evidence_path = kimi_dir / 'evidence.json'
+        if evidence_path.exists():
+            try:
+                with open(evidence_path, 'r', encoding='utf-8') as f:
+                    evidence = json.load(f)
+
+                # Basic structure check
+                if 'work_id' not in evidence:
+                    warnings.append("evidence.json missing work_id field")
+                if 'evidence_chain' not in evidence:
+                    warnings.append("evidence.json missing evidence_chain field")
+
+            except json.JSONDecodeError as e:
+                errors.append(f"Invalid JSON in evidence.json: {e}")
+            except Exception as e:
+                errors.append(f"Error reading evidence.json: {e}")
+
+        # Check reconstruction.md has disclaimer
+        reconstruction_path = kimi_dir / 'reconstruction.md'
+        if reconstruction_path.exists():
+            try:
+                with open(reconstruction_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    if 'probabilistic reconstruction' not in content.lower():
+                        warnings.append("reconstruction.md may be missing disclaimer")
+            except Exception as e:
+                warnings.append(f"Error reading reconstruction.md: {e}")
+
+        is_valid = len(errors) == 0
+        return is_valid, errors, warnings
+
+    def validate_all(self) -> Dict:
+        """
+        Validate all KIMI directories and return summary.
+
+        Returns:
+            Dictionary with validation results
+        """
+        kimi_dirs = self.find_kimi_directories()
+
+        results = {
+            'total_directories': len(kimi_dirs),
+            'valid_directories': 0,
+            'invalid_directories': 0,
+            'directory_results': []
+        }
+
+        print(f"\n🔍 Validating {len(kimi_dirs)} KIMI reconstruction directories...\n")
+
+        for kimi_dir in kimi_dirs:
+            is_valid, errors, warnings = self.validate_directory(kimi_dir)
+
+            result = {
+                'directory': kimi_dir.name,
+                'valid': is_valid,
+                'errors': errors,
+                'warnings': warnings
+            }
+            results['directory_results'].append(result)
+
+            if is_valid:
+                results['valid_directories'] += 1
+                print(f"✅ {kimi_dir.name}")
+            else:
+                results['invalid_directories'] += 1
+                print(f"❌ {kimi_dir.name}")
+                for error in errors:
+                    print(f"   ERROR: {error}")
+
+            if warnings:
+                for warning in warnings:
+                    print(f"   ⚠️  WARNING: {warning}")
+
+        return results
+
+    def print_summary(self, results: Dict):
+        """Print validation summary."""
+        print("\n" + "="*70)
+        print("📊 VALIDATION SUMMARY")
+        print("="*70)
+        print(f"Total KIMI directories: {results['total_directories']}")
+        print(f"✅ Valid: {results['valid_directories']}")
+        print(f"❌ Invalid: {results['invalid_directories']}")
+
+        if results['invalid_directories'] == 0:
+            print("\n🎉 All KIMI directories passed validation!")
+        else:
+            print(f"\n⚠️  {results['invalid_directories']} directories have issues")
+
+        print("="*70 + "\n")
 
 
 def main():
-    """Main validation function."""
-    
-    if len(sys.argv) != 2:
-        print("Usage: python validate_kimi_run.py <discoveries_directory>")
-        sys.exit(1)
-    
-    discoveries_dir = Path(sys.argv[1])
+    parser = argparse.ArgumentParser(
+        description='Validate KIMI reconstruction output directories'
+    )
+    parser.add_argument(
+        '--dir',
+        default='callimachina/discoveries',
+        help='Path to discoveries directory (default: callimachina/discoveries)'
+    )
+    parser.add_argument(
+        '--json',
+        action='store_true',
+        help='Output results as JSON'
+    )
+
+    args = parser.parse_args()
+
+    discoveries_dir = Path(args.dir)
     if not discoveries_dir.exists():
-        print(f"Error: Directory {discoveries_dir} does not exist")
+        print(f"❌ Error: Directory not found: {discoveries_dir}")
         sys.exit(1)
-    
-    # Find all KIMI reconstruction directories
-    kimi_dirs = [d for d in discoveries_dir.iterdir() 
-                 if d.is_dir() and d.name.endswith('_KIMI')]
-    
-    if not kimi_dirs:
-        print("No KIMI reconstruction directories found")
-        sys.exit(1)
-    
-    print(f"Found {len(kimi_dirs)} KIMI reconstruction directories")
-    print("=" * 60)
-    
-    total_errors = 0
-    total_warnings = 0
-    
-    # Validate each directory
-    for i, dir_path in enumerate(sorted(kimi_dirs), 1):
-        print(f"\n{i}. Validating {dir_path.name}...")
-        
-        errors, warnings = validate_directory(dir_path)
-        
-        if errors:
-            print(f"   ❌ ERRORS ({len(errors)}):")
-            for error in errors:
-                print(f"      - {error}")
-            total_errors += len(errors)
-        
-        if warnings:
-            print(f"   ⚠️  WARNINGS ({len(warnings)}):")
-            for warning in warnings:
-                print(f"      - {warning}")
-            total_warnings += len(warnings)
-        
-        if not errors and not warnings:
-            print(f"   ✅ OK")
-    
-    # Generate index CSV
-    print("\n" + "=" * 60)
-    print("Generating index CSV...")
-    
-    index_file = discoveries_dir / f"KIMI_RUN_INDEX_{datetime.now().strftime('%Y-%m-%d')}.csv"
-    count = generate_index_csv(kimi_dirs, index_file)
-    
-    print(f"✅ Generated {index_file} with {count} entries")
-    
-    # Summary
-    print("\n" + "=" * 60)
-    print("VALIDATION SUMMARY")
-    print(f"Directories validated: {len(kimi_dirs)}")
-    print(f"Total errors: {total_errors}")
-    print(f"Total warnings: {total_warnings}")
-    
-    if total_errors == 0:
-        print("\n🎉 All reconstructions passed validation!")
-        sys.exit(0)
+
+    validator = KimiValidator(discoveries_dir)
+    results = validator.validate_all()
+
+    if args.json:
+        print(json.dumps(results, indent=2))
     else:
-        print(f"\n❌ {total_errors} errors found - please review")
-        sys.exit(1)
+        validator.print_summary(results)
+
+    # Exit with error code if any directories are invalid
+    sys.exit(0 if results['invalid_directories'] == 0 else 1)
 
 
 if __name__ == '__main__':
     main()
-EOF

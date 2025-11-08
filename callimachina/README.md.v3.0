@@ -1,20 +1,20 @@
-# CALLIMACHUS v3.1: The Alexandria Reconstruction Protocol
+# CALLIMACHINA v3.1: The Alexandria Reconstruction Protocol
 
 **Autonomous Digital Archaeology for Shannon-Labs**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests](https://img.shields.io/badge/tests-6/6%20passing-brightgreen)](tests/test_v3_infrastructure.py)
-[![GitHub stars](https://img.shields.io/github/stars/Shannon-Labs/callimachus?style=social)](https://github.com/Shannon-Labs/callimachus)
+[![GitHub stars](https://img.shields.io/github/stars/Shannon-Labs/callimachina?style=social)](https://github.com/Shannon-Labs/callimachina)
 [![Scale](https://img.shields.io/badge/works%20reconstructed-393%2B-red)](FINAL_SCALE_UP_REPORT.md)
 
 ---
 
-## 🏛️ WHAT IS CALLIMACHUS?
+## 🏛️ WHAT IS CALLIMACHINA?
 
-**PLUS ULTRA ACHIEVED**: CALLIMACHUS v3.1 has successfully scaled to **400+ classical works**, reconstructing them in **39.2 seconds** with **100% success rate**.
+**PLUS ULTRA ACHIEVED**: CALLIMACHINA v3.1 has successfully scaled to **400+ classical works**, reconstructing them in **39.2 seconds** with **100% success rate**.
 
-CALLIMACHUS transforms classical studies from a qualitative discipline into a **quantitative, predictive science**. By treating knowledge survival as a network phenomenon and reconstruction as a Bayesian inference problem, we can:
+CALLIMACHINA transforms classical studies from a qualitative discipline into a **quantitative, predictive science**. By treating knowledge survival as a network phenomenon and reconstruction as a Bayesian inference problem, we can:
 
 - **Discover** lost works systematically (not by chance)
 - **Predict** which texts are most recoverable
@@ -108,8 +108,8 @@ See [FINAL_SCALE_UP_REPORT.md](FINAL_SCALE_UP_REPORT.md) for complete details.
 ### Installation
 
 ```bash
-git clone https://github.com/Shannon-Labs/callimachus.git
-cd callimachus
+git clone https://github.com/Shannon-Labs/callimachina.git
+cd callimachina
 git checkout v3.1
 
 python -m venv env
@@ -353,12 +353,12 @@ callimachus/
 ### How to Cite
 
 ```bibtex
-@software{callimachus_v3,
+@software{callimachina_v3,
   author = {Shannon, Hunter},
-  title = {CALLIMACHUS v3.1: The Alexandria Reconstruction Protocol},
+  title = {CALLIMACHINA v3.1: The Alexandria Reconstruction Protocol},
   year = {2025},
   publisher = {Shannon-Labs},
-  url = {https://github.com/Shannon-Labs/callimachus},
+  url = {https://github.com/Shannon-Labs/callimachina},
   version = {3.1},
   note = {393 classical works reconstructed in 39.2 seconds}
 }
@@ -401,7 +401,7 @@ callimachus/
 
 ## 📞 CONTACT & SUPPORT
 
-**Technical Issues**: [GitHub Issues](https://github.com/Shannon-Labs/callimachus/issues)  
+**Technical Issues**: [GitHub Issues](https://github.com/Shannon-Labs/callimachina/issues)  
 **Scientific Collaboration**: hunter@shannonlabs.dev  
 **Urgent Fragment Alerts**: Signal: hunter-shannon (or email above)  
 **Twitter**: [@hunterbown](https://twitter.com/hunterbown) for daily discoveries
@@ -410,7 +410,7 @@ callimachus/
 
 ## 🎓 THE BOTTOM LINE
 
-**What is CALLIMACHUS v3.1?**  
+**What is CALLIMACHINA v3.1?**  
 A system that reconstructs **400 classical works in 39 seconds** with **100% success rate** and **statistical confidence**.
 
 **What did we prove?**  
@@ -433,8 +433,8 @@ Scale to **1000+ works**. Connect **real APIs** (papyri.info, TLG). Build **comm
 ### **ACTIVATION COMMAND**
 
 ```bash
-git clone https://github.com/Shannon-Labs/callimachus.git
-cd callimachus
+git clone https://github.com/Shannon-Labs/callimachina.git
+cd callimachina
 
 # Seed database with 400 works
 python seed_corpus.py 400

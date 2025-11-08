@@ -174,9 +174,14 @@ Example pipeline diagnostic: 3.01s end‑to‑end on a small demo; confidence va
 
 ## ⭐ **Featured Reconstructions (Curated)**
 
-Representative works with strong historical significance and clear provenance in this repo’s artifacts. Treat as probabilistic reconstructions pending review.
+Representative works with strong historical significance and clear provenance in this repo's artifacts. Treat as probabilistic reconstructions pending review.
 
-- Eratosthenes — Geographika (Book 3) • base 63.0% → evidence‑enhanced 99.6%. Triangulated via Strabo, Cleomedes, Ptolemy. See ALEXANDRIA_RECONSTRUCTED.md.
+**Legend:**
+- 🏺 **fragment-verified**: Direct papyrus fragments or manuscript evidence integrated
+- 📜 **citation-based**: Reconstructed from quotations and references in surviving works
+- 🔬 **demo**: Pipeline demonstration outputs for testing/development
+
+- 📜 Eratosthenes — Geographika (Book 3) • base 63.0% → evidence‑enhanced 99.6%. Triangulated via Strabo, Cleomedes, Ptolemy. See ALEXANDRIA_RECONSTRUCTED.md.
 - Hippolytus — On Heraclitus • base 56.0% → 98.6%. Cross‑tradition theological commentary; multi‑source citations.
 - Posidippus — Epigrams • base 48.0% → 96.5%. Hellenistic epigrams with stylometric support.
 - Callimachus — Aetia • base 48.0% → 95.9%. Citation‑rich poetic reconstruction.
@@ -221,7 +226,8 @@ Browse more: see the curated Gallery in README_GALLERY.md and per‑work directo
 - **[📊 Gallery (Curated)](README_GALLERY.md)** - Top reconstructions and exhibits
 - **[📂 All Outputs](callimachina/discoveries/)** - Full run directories (demo + research)
 - **[📋 Development Notes](docs/AI_CONTINUATION_PROMPT.md)** - Advanced development guide
-- **[📈 Update Report](docs/CALLIMACHUS_v3.1_UPDATE_REPORT.md)** - Latest release notes
+- **[📈 Update Report](docs/CALLIMACHINA_v3.1_UPDATE_REPORT.md)** - Latest release notes
+- **[🤖 Truth-in-Labeling](AGENTS.md)** - AI agent disclosure and provenance
 
 ## 🧭 **Roadmap**
 
