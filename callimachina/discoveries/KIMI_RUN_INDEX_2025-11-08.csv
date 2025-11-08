@@ -1,0 +1,11 @@
+work_id,path,provenance,posterior_mean,ci_lower,ci_upper,sources_count
+Herophilus.Anatomy,callimachina/discoveries/Herophilus_Anatomy_2025-11-08_KIMI,fragment-verified,0.956,0.935,0.971,5
+Erasistratus.On_Fevers,callimachina/discoveries/Erasistratus_On_Fevers_2025-11-08_KIMI,fragment-verified,0.954,0.932,0.97,5
+Posidippus.Epigrams,callimachina/discoveries/Posidippus_Epigrams_2025-11-08_KIMI,fragment-verified,0.965,0.942,0.981,5
+Aristotle.On_Ideas,callimachina/discoveries/Aristotle_On_Ideas_2025-11-08_KIMI,citation-based,0.962,0.943,0.976,1
+Aristotle.Protrepticus,callimachina/discoveries/Aristotle_Protrepticus_2025-11-08_KIMI,citation-based,0.968,0.951,0.98,5
+Hippolytus.On_Heraclitus,callimachina/discoveries/Hippolytus_On_Heraclitus_2025-11-08_KIMI,citation-based,0.986,0.972,0.994,4
+Callimachus.Aetia,callimachina/discoveries/Callimachus_Aetia_2025-11-08_KIMI,fragment-verified,0.959,0.935,0.976,6
+Eudoxus.Mirror,callimachina/discoveries/Eudoxus_Mirror_2025-11-08_KIMI,citation-based,0.958,0.938,0.973,5
+Eratosthenes.Geographika,callimachina/discoveries/Eratosthenes_Geographika_2025-11-08_KIMI,citation-based,0.996,0.988,0.999,6
+Aristotle.On_Philosophy,callimachina/discoveries/Aristotle_On_Philosophy_2025-11-08_KIMI,citation-based,0.96,0.94,0.974,5

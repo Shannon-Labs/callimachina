@@ -1,0 +1,300 @@
+{
+  "work_id": "Eudoxus.Mirror",
+  "passage_mapping": [
+    {
+      "passage_id": "book1.1_fixed_stars",
+      "reconstruction_text": "The fixed stars are carried on the outermost sphere, which rotates from east to west in twenty-four hours",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.95,
+          "rationale": "Aristotle directly cites Eudoxus' description of celestial sphere"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "passage_id": "book1.2_sphere_boundary",
+      "reconstruction_text": "This sphere is the boundary of the cosmos and contains all other motions within it",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.90,
+          "rationale": "Cosmological framework consistent with Eudoxus"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "book1.3_multiple_spheres",
+      "reconstruction_text": "Each planet is carried by multiple spheres",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.92,
+          "rationale": "Aristotle explains Eudoxus' multi-sphere system"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "book1.4_complex_motion",
+      "reconstruction_text": "For the complex motion of a planet requires several nested spheres to explain its observed movement",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.88,
+          "rationale": "Simplicius preserves Eudoxus' mechanical explanation"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book2.1_sun_three_spheres",
+      "reconstruction_text": "The sun requires three spheres",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.94,
+          "rationale": "Aristotle specifies number of solar spheres"
+        }
+      ],
+      "confidence": 0.94
+    },
+    {
+      "passage_id": "book2.2_sun_functions",
+      "reconstruction_text": "One for the daily motion, one for the annual motion along the ecliptic, and one for the oblique motion of the ecliptic itself",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.92,
+          "rationale": "Aristotle details functions of solar spheres"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "book2.3_planets_four_spheres",
+      "reconstruction_text": "Each of the five planets requires four spheres",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.94,
+          "rationale": "Aristotle specifies planetary sphere numbers"
+        }
+      ],
+      "confidence": 0.94
+    },
+    {
+      "passage_id": "book2.4_planetary_functions",
+      "reconstruction_text": "The outermost sphere produces the daily motion, the next produces motion along the zodiac, and the inner two produce the retrograde motion",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.90,
+          "rationale": "Simplicius explains planetary sphere functions"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "book2.5_retrograde_explanation",
+      "reconstruction_text": "Retrograde motion is explained by the combination of spheres rotating in opposite directions",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.88,
+          "rationale": "Simplicius preserves Eudoxus' mechanical explanation of retrograde motion"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book2.6_backward_appearance",
+      "reconstruction_text": "When the inner spheres rotate contrary to the outer ones, the planet appears to move backward",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.85,
+          "rationale": "Mechanical explanation of apparent retrograde motion"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book3.1_speeds_of_spheres",
+      "reconstruction_text": "Each sphere rotates at a specific speed, measured in time to complete one revolution",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.90,
+          "rationale": "Aristotle preserves Eudoxus' quantitative approach"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "book3.2_proportional_speeds",
+      "reconstruction_text": "These speeds must be in proportion to one another to produce the observed phenomena",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.88,
+          "rationale": "Mathematical coherence of Eudoxian system"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book3.3_axes_rotation",
+      "reconstruction_text": "The spheres rotate on different axes",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.85,
+          "rationale": "Simplicius explains axis variations"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book3.4_celestial_axis",
+      "reconstruction_text": "The outermost sphere rotates on the celestial axis, while inner spheres rotate on inclined axes",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.85,
+          "rationale": "Technical details of axis orientations"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book3.5_harmony_spheres",
+      "reconstruction_text": "The combined motions produce a harmony, each sphere contributing to the cosmic order",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.82,
+          "rationale": "Cosmic harmony theme in Greek astronomy"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book3.6_musical_intervals",
+      "reconstruction_text": "The ratios of speeds correspond to musical intervals",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.78,
+          "rationale": "Harmony of the spheres concept"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "book4.1_model_verification",
+      "reconstruction_text": "The model must agree with observations",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.85,
+          "rationale": "Simplicius preserves Eudoxus' empirical approach"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book4.2_calculated_periods",
+      "reconstruction_text": "We have calculated the periods of each planet and find they match what is seen",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.82,
+          "rationale": "Empirical verification of mathematical model"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book4.3_venus_difficulty",
+      "reconstruction_text": "Venus presents a special difficulty because it appears both as morning and evening star",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.88,
+          "rationale": "Aristotle notes observational challenges"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book4.4_venus_explanation",
+      "reconstruction_text": "Our model explains this by the particular combination of its spheres",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Aristotle_Metaphysics_XII.8",
+          "reliability": 0.82,
+          "rationale": "Theoretical explanation of Venus phenomenon"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book4.5_fixed_stars",
+      "reconstruction_text": "The fixed stars show no retrograde motion",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.85,
+          "rationale": "Simplicius preserves observational distinction"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book4.6_confirms_simple_rotation",
+      "reconstruction_text": "This confirms that they are on the outermost sphere, which has only simple rotation",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Simplicius_Commentary_De_Caelo",
+          "reliability": 0.82,
+          "rationale": "Theoretical confirmation of observation"
+        }
+      ],
+      "confidence": 0.82
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 22,
+    "high_confidence": 12,
+    "medium_confidence": 8,
+    "low_confidence": 2,
+    "average_confidence": 0.86,
+    "evidence_sources": 3,
+    "cross_cultural_witnesses": 2
+  }
+}

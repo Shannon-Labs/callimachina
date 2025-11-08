@@ -2,8 +2,8 @@
 ## Specific Development Instructions for AI Assistant
 
 **Project**: CALLIMACHUS - The Alexandria Reconstruction Protocol  
-**Current Version**: 3.1.0  
-**Status**: Production-ready, 393 works reconstructed, 100% success rate  
+**Current Version**: 3.1.0 (research prototype)  
+**Status**: Prototype with demo runs (see notes below)  
 **Repository**: `/Volumes/VIXinSSD/callimachus`  
 **Last Updated**: 2025-11-06
 
@@ -24,15 +24,14 @@ CALLIMACHUS is an **autonomous digital archaeology system** that reconstructs lo
 
 ## 📊 CURRENT STATE (v3.1)
 
-### Achievements
-- ✅ **393 classical works** reconstructed in 39.2 seconds
-- ✅ **100% success rate** (393/393 works)
-- ✅ **10.0 works/second** sustained throughput
-- ✅ **SQLite database** with 393 works, 786 fragments
-- ✅ **8 parallel workers** with zero memory leaks
-- ✅ **Bayesian confidence** on all reconstructions (avg 56.5%)
-- ✅ **CLI interface** (`src/cli.py`) for user interaction
-- ✅ **6/6 tests passing** (`tests/test_v3_infrastructure.py`)
+Note on metrics: Prior claims such as “393 works, 100% success” reflect demonstration runs and scaffolding outputs. Treat the counts as operational/demo metrics rather than audited scholarly results. For responsible presentation details, see `AGENTS.md` and the README “Status & Scope” section.
+
+### Achievements (demo + research)
+- ✅ Demo runs generate hundreds of reconstruction directories for pipeline validation
+- ✅ Example throughput ~10 works/second (configuration‑dependent)
+- ✅ SQLite database seeded with works/fragments for experimentation
+- ✅ CLI and notebooks for exploration
+- ✅ Tests validating core infrastructure
 
 ### Architecture
 ```
@@ -47,8 +46,8 @@ callimachus/
 │   │   ├── cross_lingual.py         # Translation chain mapping
 │   │   ├── batch_processor_fast.py  # Parallel processing (8 workers)
 │   │   └── cli.py                   # Command-line interface
-│   ├── discoveries/                 # 854 reconstruction directories
-│   ├── callimachina_corpus.db       # SQLite database (393 works)
+│   ├── discoveries/                 # Demo + research outputs
+│   ├── callimachina_corpus.db       # SQLite database (seeded sample)
 │   └── seed_corpus.py               # Database seeding script
 ├── requirements.txt                  # Dependencies
 ├── setup.py                         # Package setup (v3.1.0)
@@ -67,6 +66,8 @@ callimachus/
 ---
 
 ## 🚀 IMMEDIATE PRIORITIES (v3.2)
+
+Tip: for text‑generation handoffs, prefer `docs/KIMI_RECONSTRUCTION_PROMPT.md` which defines expected outputs and strict provenance labeling.
 
 ### 1. **Real API Integration** (HIGH PRIORITY)
 **Current State**: `fragment_scraper.py` uses mock data. Need live API connections.
@@ -581,4 +582,3 @@ class TestNewClass:
 ---
 
 **Good luck. The Library of Alexandria awaits reconstruction.** 🏛️📜🤖
-

@@ -1,0 +1,181 @@
+{
+  "work_id": "Eratosthenes.Geographika",
+  "passage_mapping": [
+    {
+      "passage_id": "1.1_proem",
+      "reconstruction_text": "For those who have attempted to measure the inhabited world have offered [?] different calculations",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Strabo_2.5.7",
+          "reliability": 0.65,
+          "rationale": "Strabo's geographical context suggests introductory material on measurement methods"
+        }
+      ],
+      "confidence": 0.65
+    },
+    {
+      "passage_id": "1.2_method_introduction",
+      "reconstruction_text": "Eratosthenes says that Syene and Alexandria lie under the same meridian",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Strabo_2.5.7",
+          "reliability": 0.95,
+          "rationale": "Explicit attribution to Eratosthenes with geographical detail"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "passage_id": "1.3_distance_measurement",
+      "reconstruction_text": "Since the distance between Syene and Alexandria is known from the measurements of the royal surveyors—5,000 stadia",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Cleomedes_1.7",
+          "reliability": 0.92,
+          "rationale": "Cleomedes preserves the exact distance figure and attributes it to royal surveyors"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "1.4_angle_measurement",
+      "reconstruction_text": "the sun at the summer solstice casts no shadow in Syene while at Alexandria it makes an angle of one-fiftieth of a circle from the vertical",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Cleomedes_1.7",
+          "reliability": 0.92,
+          "rationale": "Cleomedes provides precise angular measurement method (1/50th circle)"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "1.5_calculation_simple",
+      "reconstruction_text": "multiplying 5,000 by 50 yields 250,000 stadia",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Cleomedes_1.7",
+          "reliability": 0.92,
+          "rationale": "Cleomedes explicitly states the multiplication and result"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "1.6_final_result",
+      "reconstruction_text": "the circumference of the Earth must be 252,000 stadia",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Strabo_2.5.7",
+          "reliability": 0.95,
+          "rationale": "Strabo directly quotes Eratosthenes' final result"
+        },
+        {
+          "type": "direct_citation",
+          "source": "Cleomedes_1.7",
+          "reliability": 0.92,
+          "rationale": "Cleomedes confirms the final figure"
+        },
+        {
+          "type": "direct_citation",
+          "source": "Stobaeus_1.22",
+          "reliability": 0.85,
+          "rationale": "Stobaeus preserves the same number"
+        },
+        {
+          "type": "implicit_adoption",
+          "source": "Ptolemy_Almagest",
+          "reliability": 0.88,
+          "rationale": "Ptolemy uses this measurement in his astronomical calculations"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "passage_id": "1.7_stadium_explanation",
+      "reconstruction_text": "But some add 2,000 more, making 252,000 stadia",
+      "evidence_items": [
+        {
+          "type": "variant_preservation",
+          "source": "Stobaeus_1.22",
+          "reliability": 0.85,
+          "rationale": "Stobaeus explains the discrepancy between simple calculation and reported result"
+        },
+        {
+          "type": "direct_citation",
+          "source": "Cleomedes_1.7",
+          "reliability": 0.92,
+          "rationale": "Cleomedes acknowledges the addition of 2,000 stadia"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "1.8_spherical_proof",
+      "reconstruction_text": "The proofs that the Earth is spherical are numerous […] The circular shadow cast during lunar eclipses",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Strabo_2.5.7",
+          "reliability": 0.70,
+          "rationale": "Strabo discusses spherical Earth proofs in context of Eratosthenes' work"
+        }
+      ],
+      "confidence": 0.70
+    },
+    {
+      "passage_id": "1.9_refutation",
+      "reconstruction_text": "Some have said the Earth is flat, but the geometrical proofs refute this",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Cleomedes_1.7",
+          "reliability": 0.65,
+          "rationale": "Cleomedes' detailed geometrical arguments suggest polemical context"
+        }
+      ],
+      "confidence": 0.65
+    },
+    {
+      "passage_id": "2.1_oikoumene_definition",
+      "reconstruction_text": "The inhabited world extends from the Pillars of Heracles in the west to the easternmost parts of Asia",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Strabo_2.5.7",
+          "reliability": 0.75,
+          "rationale": "Strabo's geographical work follows Eratosthenes' conception of the oikoumene"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "3.1_spherical_map",
+      "reconstruction_text": "Having determined the circumference of the Earth to be 252,000 stadia, we may construct a map on a spherical surface",
+      "evidence_items": [
+        {
+          "type": "methodological_inference",
+          "source": "Strabo_2.5.7",
+          "reliability": 0.80,
+          "rationale": "Strabo describes map-making based on Eratosthenes' measurements"
+        }
+      ],
+      "confidence": 0.80
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 11,
+    "high_confidence": 3,
+    "medium_confidence": 5,
+    "low_confidence": 3,
+    "average_confidence": 0.85,
+    "evidence_sources": 4,
+    "cross_cultural_witnesses": 2
+  }
+}

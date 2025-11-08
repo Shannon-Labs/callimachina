@@ -11,24 +11,37 @@
 [![Status: Production Ready](https://img.shields.io/badge/status-production%20ready-brightgreen.svg)]()
 [![Tests: 100%](https://img.shields.io/badge/tests-100%25%20passing-brightgreen.svg)]()
 
-**🏺 Digital Archaeology Meets Bayesian Statistics • 854 Works Reconstructed**
+**🏺 Digital Archaeology Meets Bayesian Statistics • Prototype Corpus (see status below)**
 
 </div>
 
-## 🎯 **Mission Accomplished**
+## 🎯 **Status & Scope**
+
+This repository contains a working prototype of a Bayesian pipeline for classical text reconstruction. It integrates real data sources where feasible and uses demonstration data where APIs or sources are incomplete.
+
+- What this is: a research codebase with an evidence-weighted reconstruction workflow, example outputs, notebooks, and a seeded SQLite corpus for experimentation.
+- What this isn’t (yet): a set of authoritative critical editions or a claim of rediscovered full texts. All reconstructed texts here are probabilistic hypotheses with confidence estimates and should be treated as research artifacts pending scholarly review.
+
+Notes on counts and speed:
+- Directory counts like “854 works” reflect auto-generated demonstration runs; the set of fragment‑verified or review‑ready outputs is a subset. See Gallery and DB for current status.
+- Reported throughput and confidence numbers come from specific runs and may vary by configuration and data freshness.
+
+If you plan to cite or reuse outputs, please consult the Gallery, database, and per‑work metadata and treat these as provisional research results.
+
+## 🎯 **Mission (Prototype)**
 
 ### **854 Lost Classical Works Reconstructed with Real API Integration**
 
 | Metric | Value | Achievement |
 |--------|-------|-------------|
-| 🏺 **Total Works Reconstructed** | **854** | Largest classical reconstruction corpus |
-| 📊 **Success Rate** | **100%** | 854/854 works successfully processed |
+| 🏺 **Total Works (demo directories)** | ~854 | Auto-generated demonstration set |
+| 📊 **Run Success Rate** | 100% (demo runs) | Per-run operational metric |
 | ⚡ **Processing Speed** | **10 works/second** | High-throughput parallel processing |
-| 🔍 **Real Papyrus Fragments** | **10+ fragments** | Live papyri.info integration |
+| 🔍 **Real Papyrus Fragments** | 5–10+ (per run) | Papyri.info integration (rate-limited) |
 | 📈 **Average Confidence** | **73.3%** | +16.8% improvement over baseline |
 | 🧪 **Test Coverage** | **100%** | All 7 tests passing |
 
-**⚡ Pipeline Performance: 39.2 seconds for 393 works** | **🔬 Production Ready**
+**⚡ Example Run:** 39.2s for 393 demo entries (configuration-dependent) | **🔬 Research Prototype**
 
 ## 🔬 **The Breakthrough: Bayesian Confidence Enhancement**
 
@@ -52,7 +65,7 @@ Traditional reconstruction methods achieve ~50-60% confidence. CALLIMACHINA inte
 ```bash
 # Clone the repository
 git clone https://github.com/Shannon-Labs/callimachina.git
-cd callimachus
+cd callimachina
 
 # Create virtual environment
 python -m venv venv
@@ -157,7 +170,24 @@ Phase 8: Integration & Output
   ↓ Scholarly reports & alerts
 ```
 
-**Total Execution Time: 3.01 seconds** | **Average Confidence: 97.7%**
+Example pipeline diagnostic: 3.01s end‑to‑end on a small demo; confidence varies by data and weighting.
+
+## ⭐ **Featured Reconstructions (Curated)**
+
+Representative works with strong historical significance and clear provenance in this repo’s artifacts. Treat as probabilistic reconstructions pending review.
+
+- Eratosthenes — Geographika (Book 3) • base 63.0% → evidence‑enhanced 99.6%. Triangulated via Strabo, Cleomedes, Ptolemy. See ALEXANDRIA_RECONSTRUCTED.md.
+- Hippolytus — On Heraclitus • base 56.0% → 98.6%. Cross‑tradition theological commentary; multi‑source citations.
+- Posidippus — Epigrams • base 48.0% → 96.5%. Hellenistic epigrams with stylometric support.
+- Callimachus — Aetia • base 48.0% → 95.9%. Citation‑rich poetic reconstruction.
+- Aristotle — Protrepticus • ~63.2% confidence. Reconstructed via Iamblichus fragments.
+- Aristotle — On Ideas • ~62.8% confidence. Engagement with Platonic forms from commentary fragments.
+- Aristotle — On Philosophy • ~62.7% confidence. Early metaphysics; multi‑fragment basis.
+- Eudoxus — Mirror • ~62.5% confidence. Celestial mechanics; mathematical model of the heavens.
+- Herophilus — Anatomy • ~62.4% confidence. Foundational anatomy; earliest systematic dissections.
+- Erasistratus — On Fevers • ~62.4% confidence. Pneumatic physiology; fever theory.
+
+Browse more: see the curated Gallery in README_GALLERY.md and per‑work directories in `callimachina/discoveries/`.
 
 ## 🏺 **Key Achievements v3.1**
 
@@ -188,9 +218,20 @@ Phase 8: Integration & Output
 - **[📖 API Reference](docs/API_REFERENCE.md)** - Complete API documentation
 - **[🏺 Examples](examples/)** - Practical tutorials & test scripts
 - **[🔬 Methodology](docs/METHODOLOGY.md)** - Bayesian approach explained
-- **[📊 Gallery](callimachina/discoveries/)** - Browse 854 reconstructions
+- **[📊 Gallery (Curated)](README_GALLERY.md)** - Top reconstructions and exhibits
+- **[📂 All Outputs](callimachina/discoveries/)** - Full run directories (demo + research)
 - **[📋 Development Notes](docs/AI_CONTINUATION_PROMPT.md)** - Advanced development guide
 - **[📈 Update Report](docs/CALLIMACHUS_v3.1_UPDATE_REPORT.md)** - Latest release notes
+
+## 🧭 **Roadmap**
+
+- Real-data expansion: deepen papyri.info coverage; add TLG/Perseus/OpenITI integration (subject to licenses and rate limits).
+- Confidence modeling: refine temporal decay, translation-chain bonuses, stylometry integration, and network centrality weighting.
+- Scholarly formats: TEI P5 apparatus, CTS URNs, JSON‑LD for linked data.
+- Review pipeline: tag outputs as “fragment‑verified,” “citation‑based,” or “demo.”
+- Reproducible runs: parameterized CLI recipes and audited logs for published results.
+
+If you plan a full reconstruction attempt with a writing‑capable LLM, see `docs/KIMI_RECONSTRUCTION_PROMPT.md` for a handoff prompt and expected outputs.
 
 ## 🏺 **Examples**
 

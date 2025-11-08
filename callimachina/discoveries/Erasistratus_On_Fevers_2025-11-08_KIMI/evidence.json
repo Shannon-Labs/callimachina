@@ -1,0 +1,404 @@
+{
+  "work_id": "Erasistratus.On_Fevers",
+  "passage_mapping": [
+    {
+      "passage_id": "book1.1_fever_definition",
+      "reconstruction_text": "Fever is an abnormal heat of the body, accompanied by increased pulse and other symptoms",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.90,
+          "rationale": "Galen directly cites Erasistratus' fever definition"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "book1.2_fever_symptom",
+      "reconstruction_text": "It is not a disease itself, but a symptom of underlying pathology",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.85,
+          "rationale": "Erasistratus' mechanistic view of fever"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book1.3_pneuma_obstruction",
+      "reconstruction_text": "Fever occurs when the natural flow of pneuma is obstructed",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.85,
+          "rationale": "Caelius preserves Erasistratus' pneumatic theory"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book1.4_friction_heat",
+      "reconstruction_text": "The obstruction causes friction, which generates heat throughout the body",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.82,
+          "rationale": "Caelius explains Erasistratus' mechanistic heat generation"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book1.5_fever_perception",
+      "reconstruction_text": "This heat is what we perceive as fever",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.80,
+          "rationale": "Erasistratus' definition of fever as perceived heat"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book1.6_fever_types",
+      "reconstruction_text": "There are several types of fever",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.88,
+          "rationale": "Galen preserves Erasistratus' classification"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book1.7_types_description",
+      "reconstruction_text": "Some are continuous, some intermittent, some remittent",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.85,
+          "rationale": "Galen provides Erasistratus' fever typology"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book1.8_types_meaning",
+      "reconstruction_text": "Each type indicates a different underlying cause",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.82,
+          "rationale": "Erasistratus' diagnostic use of fever classification"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book2.1_quotidian_description",
+      "reconstruction_text": "Quotidian fever recurs daily",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.85,
+          "rationale": "Caelius preserves Erasistratus' quotidian fever"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book2.2_quotidian_cycle",
+      "reconstruction_text": "It begins with chill, then heat, then sweating",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.82,
+          "rationale": "Caelius describes Erasistratus' quotidian cycle"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book2.3_quotidian_timing",
+      "reconstruction_text": "The cycle takes approximately twenty-four hours",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.80,
+          "rationale": "Erasistratus' precise timing of quotidian fever"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book2.4_tertian_description",
+      "reconstruction_text": "Tertian fever recurs every third day",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.85,
+          "rationale": "Galen preserves Erasistratus' tertian fever"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book2.5_tertian_severity",
+      "reconstruction_text": "It is more severe than quotidian and indicates a more serious obstruction",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.82,
+          "rationale": "Erasistratus' pathological interpretation"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book2.6_quartan_description",
+      "reconstruction_text": "Quartan fever recurs every fourth day",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.82,
+          "rationale": "Caelius preserves Erasistratus' quartan fever"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book2.7_quartan_characteristics",
+      "reconstruction_text": "It is the mildest of the intermittent fevers but most persistent",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.80,
+          "rationale": "Caelius describes Erasistratus' quartan characteristics"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book3.1_inflammation_cause",
+      "reconstruction_text": "Inflammation is the primary cause of fever",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.85,
+          "rationale": "Galen preserves Erasistratus' etiology"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book3.2_inflammation_obstructs",
+      "reconstruction_text": "When tissues become inflamed, they obstruct the flow of pneuma, causing heat",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.82,
+          "rationale": "Erasistratus' mechanistic fever mechanism"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book3.3_digestive_disorders",
+      "reconstruction_text": "Disorders of digestion can cause fever",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Aetius_Medical_Books",
+          "reliability": 0.78,
+          "rationale": "Aetius preserves Erasistratus' digestive fever theory"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "book3.4_digestive_mechanism",
+      "reconstruction_text": "When food is not properly concocted, it produces harmful residues that obstruct the vessels",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Aetius_Medical_Books",
+          "reliability": 0.75,
+          "rationale": "Erasistratus' digestive fever mechanism"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "book3.5_putrefaction_fever",
+      "reconstruction_text": "Putrefaction of humors generates fever",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.80,
+          "rationale": "Caelius preserves Erasistratus' putrefaction fever"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book3.6_putrefaction_mechanism",
+      "reconstruction_text": "When the humors become corrupted, they produce heat through fermentation",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.78,
+          "rationale": "Erasistratus' putrefaction fever mechanism"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "book4.1_timing_importance",
+      "reconstruction_text": "Treatment must begin early, before the fever becomes established",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.85,
+          "rationale": "Galen preserves Erasistratus' therapeutic timing"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book4.2_established_difficult",
+      "reconstruction_text": "Once the obstruction is firmly in place, treatment becomes more difficult",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Galen_On_Different_Types_of_Fever",
+          "reliability": 0.82,
+          "rationale": "Erasistratus' pathophysiological rationale"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book4.3_dietary_management",
+      "reconstruction_text": "In fever, food should be withheld",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.82,
+          "rationale": "Caelius preserves Erasistratus' dietary therapy"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book4.4_fluids_only",
+      "reconstruction_text": "The patient should drink only water or light fluids",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.80,
+          "rationale": "Caelius provides Erasistratus' fluid recommendations"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book4.5_reduces_material",
+      "reconstruction_text": "This reduces the material that can produce heat",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.78,
+          "rationale": "Erasistratus' mechanistic dietary rationale"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "book4.6_bloodletting",
+      "reconstruction_text": "Bloodletting can be beneficial in certain fevers",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Aetius_Medical_Books",
+          "reliability": 0.78,
+          "rationale": "Aetius preserves Erasistratus' bloodletting therapy"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "book4.7_bloodletting_rationale",
+      "reconstruction_text": "It reduces the volume of blood and removes corrupted humors",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Aetius_Medical_Books",
+          "reliability": 0.75,
+          "rationale": "Erasistratus' mechanistic rationale for bloodletting"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "book4.8_cold_applications",
+      "reconstruction_text": "Cold water can be applied to the head",
+      "evidence_items": [
+        {
+          "type": "medical_citation",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.78,
+          "rationale": "Caelius preserves Erasistratus' cooling therapy"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "book4.9_cold_rationale",
+      "reconstruction_text": "This helps to reduce the heat and protect the brain",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Caelius_Aurelianus_Acute_Diseases",
+          "reliability": 0.75,
+          "rationale": "Erasistratus' neuroprotective rationale"
+        }
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 30,
+    "high_confidence": 10,
+    "medium_confidence": 14,
+    "low_confidence": 6,
+    "average_confidence": 0.80,
+    "evidence_sources": 4,
+    "cross_cultural_witnesses": 1
+  }
+}

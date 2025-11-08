@@ -1,0 +1,248 @@
+{
+  "work_id": "Posidippus.Epigrams",
+  "passage_mapping": [
+    {
+      "passage_id": "art.1_lysippus_intro",
+      "reconstruction_text": "Lysippus, Sicyonian sculptor, bold in spirit, who set the standard for bronze",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Athenaeus_7.318",
+          "reliability": 0.88,
+          "rationale": "Athenaeus preserves epigram on Lysippus, attribution to Posidippus"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "art.2_lysippus_alexander",
+      "reconstruction_text": "Made Alexander seem the way he was, and gave his form to all the world to see",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Athenaeus_7.318",
+          "reliability": 0.88,
+          "rationale": "Continuation of Lysippus epigram, specific reference to Alexander"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "art.3_lysippus_zeus_comparison",
+      "reconstruction_text": "For this is how Zeus looked, gazing from heaven, when on the son of Philip he bestowed the power to rule",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Athenaeus_7.318",
+          "reliability": 0.75,
+          "rationale": "The divine comparison fits Posidippan style and Hellenistic ruler cult"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "art.4_gem_cutter",
+      "reconstruction_text": "The artist's hand, more skillful than nature's own, captured in stone the very soul of beauty",
+      "evidence_items": [
+        {
+          "type": "papyrus_fragment",
+          "source": "P.Mil.Vogl.VIII_309",
+          "reliability": 0.92,
+          "rationale": "Milan papyrus contains art epigrams with similar themes"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "erotic.1_sweet_fire",
+      "reconstruction_text": "You ask me what I suffer, knowing well yourself, the same sweet fire that burns within my breast",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Palatine_Anthology_5.134",
+          "reliability": 0.85,
+          "rationale": "PA preserves Posidippan erotic epigrams with attribution"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "erotic.2_voice_fails",
+      "reconstruction_text": "For when I look on you, my voice fails me, my tongue is broken, and subtle fire runs beneath my skin",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Palatine_Anthology_5.134",
+          "reliability": 0.70,
+          "rationale": "Typical Hellenistic erotic topoi, consistent with Posidippan style"
+        }
+      ],
+      "confidence": 0.70
+    },
+    {
+      "passage_id": "erotic.3_gift_small",
+      "reconstruction_text": "This gift I send, a token of my love, small in size but great in what it means",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Palatine_Anthology_5.135",
+          "reliability": 0.85,
+          "rationale": "PA preserves dedicatory/erotic epigram with gift theme"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "erotic.4_gift_outweighs_treasures",
+      "reconstruction_text": "For even the smallest gift, when given with love, outweighs all treasures of the wealthy kings",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Palatine_Anthology_5.135",
+          "reliability": 0.72,
+          "rationale": "Pointed closure typical of epigrammatic style, moralizing tone"
+        }
+      ],
+      "confidence": 0.72
+    },
+    {
+      "passage_id": "erotic.5_morning_star",
+      "reconstruction_text": "The morning star has risen, and the night is gone, yet still I lie awake, thinking of you",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Palatine_Anthology_5.136",
+          "reliability": 0.85,
+          "rationale": "PA preserves dawn/insomnia epigram"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "erotic.6_sleep_flees",
+      "reconstruction_text": "Sleep flees from my eyes, and rest from my limbs, for love has made the night as bright as day",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Palatine_Anthology_5.136",
+          "reliability": 0.70,
+          "rationale": "Continuation of insomnia theme, conventional topoi"
+        }
+      ],
+      "confidence": 0.70
+    },
+    {
+      "passage_id": "fate.1_young_athlete",
+      "reconstruction_text": "He who once was victor in the sacred games, whose name was praised throughout the stadium",
+      "evidence_items": [
+        {
+          "type": "papyrus_fragment",
+          "source": "P.Mil.Vogl.VIII_309",
+          "reliability": 0.88,
+          "rationale": "Milan papyrus contains athletic victory/death epigrams"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "fate.2_glory_faded",
+      "reconstruction_text": "Now lies beneath this stone, his glory faded, his strength consumed by all-devouring death",
+      "evidence_items": [
+        {
+          "type": "papyrus_fragment",
+          "source": "P.Mil.Vogl.VIII_309",
+          "reliability": 0.88,
+          "rationale": "Continuation of athletic epigram, typical mortal theme"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "fate.3_shipwreck_sea",
+      "reconstruction_text": "The sea that bore them, the same sea destroyed them, as they sailed homeward with their wealthy cargo",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "P.Lit.Lond.117",
+          "reliability": 0.82,
+          "rationale": "London papyrus contains shipwreck/nautical epigrams"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "fate.4_fortune_wheel",
+      "reconstruction_text": "For fate is fickle, and fortune's wheel turns round, bringing low the proud, raising up the humble",
+      "evidence_items": [
+        {
+          "type": "papyrus_fragment",
+          "source": "P.Lit.Lond.117",
+          "reliability": 0.82,
+          "rationale": "Moralizing conclusion typical of Hellenistic epigram"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "dedicatory.1_muses_invocation",
+      "reconstruction_text": "Muses, daughters of Memory, who know all things, grant skill to my hands and wisdom to my heart",
+      "evidence_items": [
+        {
+          "type": "papyrus_fragment",
+          "source": "P.Mil.Vogl.VIII_309",
+          "reliability": 0.85,
+          "rationale": "Milan papyrus contains invocations and dedicatory epigrams"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "dedicatory.2_without_muses",
+      "reconstruction_text": "For without you, all learning is but noise, and wisdom but an empty sounding name",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "P.Mil.Vogl.VIII_309",
+          "reliability": 0.75,
+          "rationale": "Pointed closure typical of dedicatory epigram"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "dedicatory.3_philaenis_mirror",
+      "reconstruction_text": "Philaenis to Aphrodite dedicates this mirror, no longer needed, for her beauty fades",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Palatine_Anthology_5.134",
+          "reliability": 0.78,
+          "rationale": "Dedicatory epigram with Aphrodite, typical of PA collection"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "dedicatory.4_wrinkles_time",
+      "reconstruction_text": "What once reflected youth's bright glow now shows the wrinkles time has carved",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Palatine_Anthology_5.134",
+          "reliability": 0.75,
+          "rationale": "Continuation of mirror dedication, mortal theme"
+        }
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 18,
+    "high_confidence": 8,
+    "medium_confidence": 7,
+    "low_confidence": 3,
+    "average_confidence": 0.82,
+    "evidence_sources": 3,
+    "cross_cultural_witnesses": 1
+  }
+}

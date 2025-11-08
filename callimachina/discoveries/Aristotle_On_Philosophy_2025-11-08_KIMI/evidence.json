@@ -1,0 +1,326 @@
+{
+  "work_id": "Aristotle.On_Philosophy",
+  "passage_mapping": [
+    {
+      "passage_id": "book1.1_philosophy_wisdom",
+      "reconstruction_text": "Philosophy is the pursuit of wisdom, and wisdom is knowledge of first causes and principles",
+      "evidence_items": [
+        {
+          "type": "latin_adaptation",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.88,
+          "rationale": "Cicero preserves Aristotle's definition of philosophy"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book1.2_know_causes",
+      "reconstruction_text": "For to know the causes of things is to understand them in the deepest sense",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.82,
+          "rationale": "Causal explanation central to Aristotelian philosophy"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book1.3_wonder_origin",
+      "reconstruction_text": "Philosophy arose from wonder. When people first looked at the heavens and questioned the nature of the stars, they began to philosophize",
+      "evidence_items": [
+        {
+          "type": "latin_adaptation",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.85,
+          "rationale": "Cicero preserves Aristotle's famous wonder-origin thesis"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book1.4_inquiry_wisdom",
+      "reconstruction_text": "This wonder leads to inquiry, and inquiry leads to wisdom",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.80,
+          "rationale": "Logical progression from wonder to wisdom"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book1.5_gods_philosophy",
+      "reconstruction_text": "The gods themselves must practice philosophy, for they contemplate eternal truths",
+      "evidence_items": [
+        {
+          "type": "latin_adaptation",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.85,
+          "rationale": "Theological argument preserved in Cicero"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book1.6_divine_activity",
+      "reconstruction_text": "If wisdom is the highest activity, and the gods are the highest beings, then they must be wise",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.80,
+          "rationale": "Theological conclusion consistent with Aristotle"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book2.1_theoretical_philosophy",
+      "reconstruction_text": "Theoretical philosophy concerns itself with truth for its own sake",
+      "evidence_items": [
+        {
+          "type": "philosophical_citation",
+          "source": "Philo_Eternity_of_World",
+          "reliability": 0.75,
+          "rationale": "Philo preserves Aristotelian division of philosophy"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "book2.2_parts_theoretical",
+      "reconstruction_text": "It includes theology, mathematics, and natural philosophy",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Philo_Eternity_of_World",
+          "reliability": 0.72,
+          "rationale": "Standard Aristotelian division of theoretical sciences"
+        }
+      ],
+      "confidence": 0.72
+    },
+    {
+      "passage_id": "book2.3_practical_philosophy",
+      "reconstruction_text": "Practical philosophy aims at action and the good life",
+      "evidence_items": [
+        {
+          "type": "latin_adaptation",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.82,
+          "rationale": "Practical philosophy contrasted with theoretical"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book2.4_parts_practical",
+      "reconstruction_text": "It includes ethics, politics, and economics, all directed toward human flourishing",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.78,
+          "rationale": "Standard Aristotelian division of practical philosophy"
+        }
+      ],
+      "confidence": 0.78
+    },
+    {
+      "passage_id": "book2.5_unity_philosophy",
+      "reconstruction_text": "Despite these divisions, philosophy is one",
+      "evidence_items": [
+        {
+          "type": "christian_citation",
+          "source": "Clement_Stromata",
+          "reliability": 0.70,
+          "rationale": "Clement preserves Aristotelian unity of philosophy"
+        }
+      ],
+      "confidence": 0.70
+    },
+    {
+      "passage_id": "book2.6_body_analogy",
+      "reconstruction_text": "All parts are connected, like members of a body, each contributing to the whole",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Clement_Stromata",
+          "reliability": 0.68,
+          "rationale": "Organic unity metaphor typical of Aristotle"
+        }
+      ],
+      "confidence": 0.68
+    },
+    {
+      "passage_id": "book3.1_philosophy_vs_sophistry",
+      "reconstruction_text": "Philosophy seeks truth, while sophistry seeks victory in argument",
+      "evidence_items": [
+        {
+          "type": "latin_adaptation",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.85,
+          "rationale": "Cicero preserves Aristotle's critique of sophistry"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book3.2_philosopher_vs_sophist",
+      "reconstruction_text": "The philosopher is content with understanding, while the sophist desires reputation",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.80,
+          "rationale": "Ethical contrast between philosopher and sophist"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book3.3_rhetoric_handmaid",
+      "reconstruction_text": "Rhetoric is the handmaid of philosophy",
+      "evidence_items": [
+        {
+          "type": "christian_citation",
+          "source": "Clement_Stromata",
+          "reliability": 0.72,
+          "rationale": "Clement preserves Aristotelian view of rhetoric"
+        }
+      ],
+      "confidence": 0.72
+    },
+    {
+      "passage_id": "book3.4_persuasion_not_philosophy",
+      "reconstruction_text": "It helps persuade others of philosophical truths, but it is not philosophy itself",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Clement_Stromata",
+          "reliability": 0.70,
+          "rationale": "Subordination of rhetoric to philosophy"
+        }
+      ],
+      "confidence": 0.70
+    },
+    {
+      "passage_id": "book3.5_arts_vs_philosophy",
+      "reconstruction_text": "The arts serve practical needs, but philosophy serves the need for wisdom",
+      "evidence_items": [
+        {
+          "type": "philosophical_citation",
+          "source": "Philo_Eternity_of_World",
+          "reliability": 0.75,
+          "rationale": "Philo preserves Aristotelian hierarchy of knowledge"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "book3.6_making_vs_understanding",
+      "reconstruction_text": "The arts are concerned with making, philosophy with understanding",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Philo_Eternity_of_World",
+          "reliability": 0.72,
+          "rationale": "Epistemological distinction between techne and sophia"
+        }
+      ],
+      "confidence": 0.72
+    },
+    {
+      "passage_id": "book4.1_philosophy_happiness",
+      "reconstruction_text": "The philosophical life is the happiest life",
+      "evidence_items": [
+        {
+          "type": "latin_adaptation",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.82,
+          "rationale": "Cicero preserves Aristotelian eudaimonism"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book4.2_approach_divine",
+      "reconstruction_text": "For in contemplation, humans approach the divine",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.80,
+          "rationale": "Theoretical contemplation as divine activity"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book4.3_philosophy_virtue",
+      "reconstruction_text": "Philosophy teaches virtue by showing what is truly good",
+      "evidence_items": [
+        {
+          "type": "christian_citation",
+          "source": "Clement_Stromata",
+          "reliability": 0.75,
+          "rationale": "Clement preserves Aristotelian ethical intellectualism"
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "passage_id": "book4.4_philosopher_virtuous",
+      "reconstruction_text": "The philosopher becomes virtuous through understanding",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Clement_Stromata",
+          "reliability": 0.72,
+          "rationale": "Virtue ethics through philosophical understanding"
+        }
+      ],
+      "confidence": 0.72
+    },
+    {
+      "passage_id": "book4.5_philosopher_politics",
+      "reconstruction_text": "The philosopher should participate in politics",
+      "evidence_items": [
+        {
+          "type": "latin_adaptation",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.80,
+          "rationale": "Cicero preserves Aristotelian political engagement"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "book4.6_wisdom_community",
+      "reconstruction_text": "For wisdom should benefit not just the individual but the community",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Cicero_De_Natura_Deorum",
+          "reliability": 0.78,
+          "rationale": "Political altruism in Aristotelian thought"
+        }
+      ],
+      "confidence": 0.78
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 24,
+    "high_confidence": 6,
+    "medium_confidence": 12,
+    "low_confidence": 6,
+    "average_confidence": 0.77,
+    "evidence_sources": 4,
+    "cross_cultural_witnesses": 2
+  }
+}

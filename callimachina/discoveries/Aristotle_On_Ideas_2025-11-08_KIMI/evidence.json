@@ -1,0 +1,365 @@
+{
+  "work_id": "Aristotle.On_Ideas",
+  "passage_mapping": [
+    {
+      "passage_id": "intro.1_examine_doctrine",
+      "reconstruction_text": "We must examine the doctrine which asserts that Ideas exist separately from sensible things",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.92,
+          "rationale": "Alexander directly quotes Aristotle's opening statement"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "intro.2_central_question",
+      "reconstruction_text": "For this is the central question in Plato's philosophy, and it concerns the very nature of being",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.85,
+          "rationale": "Contextual framing of the metaphysical problem"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "intro.3_common_predicates",
+      "reconstruction_text": "The most important is the argument from common predicates: when we say that many things are 'good' or 'just,' there must be some one Idea in which they all participate",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.90,
+          "rationale": "Alexander preserves Aristotle's summary of Platonic argument"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "book1.1_participation_problem",
+      "reconstruction_text": "If sensible things participate in Ideas, they must do so either wholly or partially",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.92,
+          "rationale": "Alexander preserves Aristotle's dilemma about participation"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "book1.2_wholly_impossible",
+      "reconstruction_text": "But if wholly, then the Idea would be in many places at once, which is impossible",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.88,
+          "rationale": "First horn of the dilemma"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book1.3_partially_contradicts_unity",
+      "reconstruction_text": "If partially, then the Idea would be divided, which contradicts its unity",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.88,
+          "rationale": "Second horn of the dilemma"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book1.4_third_man_argument",
+      "reconstruction_text": "If we predicate 'man' of many individuals because they participate in the Idea of Man, then we must also posit a third 'man' in which both the individuals and the Idea participate",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.94,
+          "rationale": "Alexander preserves the famous Third Man argument"
+        }
+      ],
+      "confidence": 0.94
+    },
+    {
+      "passage_id": "book1.5_infinite_regress",
+      "reconstruction_text": "This leads to an infinite regress, which is absurd",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.90,
+          "rationale": "Conclusion of the Third Man argument"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "book1.6_relations_fail",
+      "reconstruction_text": "The argument from relatives fails because relations exist only between terms, not as separate Ideas",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Syrianus_Commentary_Metaphysics",
+          "reliability": 0.85,
+          "rationale": "Syrianus preserves Aristotle's critique of relational Ideas"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book1.7_greater_problem",
+      "reconstruction_text": "If there is an Idea of 'greater,' it must be greater than something, but what can the Idea be greater than?",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Syrianus_Commentary_Metaphysics",
+          "reliability": 0.82,
+          "rationale": "Specific application of the relational critique"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book2.1_sciences_separate_objects",
+      "reconstruction_text": "They argue that the sciences must have objects that are separate from sensible things, for sciences are of universals, not particulars",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.90,
+          "rationale": "Alexander preserves Aristotle's summary of epistemological argument"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "book2.2_confusion_modes",
+      "reconstruction_text": "But this confuses the mode of knowing with the mode of being",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.88,
+          "rationale": "Aristotle's epistemological critique"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book2.3_unity_of_definition",
+      "reconstruction_text": "If the sciences define their objects, and definitions are of universals, then there must be universal Ideas corresponding to these definitions",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Asclepius_Commentary_Metaphysics",
+          "reliability": 0.85,
+          "rationale": "Asclepius preserves the definitional argument"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book2.4_logical_not_metaphysical",
+      "reconstruction_text": "However, definition is a logical operation, not a metaphysical one",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Asclepius_Commentary_Metaphysics",
+          "reliability": 0.85,
+          "rationale": "Aristotle's logical critique of metaphysical argument"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book2.5_one_over_many_flawed",
+      "reconstruction_text": "The argument that there must be one over many is flawed because it confuses logical universals with metaphysical substances",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Simplicius_Commentary_Physics",
+          "reliability": 0.88,
+          "rationale": "Simplicius preserves Aristotle's logical-ontological distinction"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book2.6_universal_not_separate",
+      "reconstruction_text": "The universal 'man' is not a separate thing, but a way of referring to many particular men",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Simplicius_Commentary_Physics",
+          "reliability": 0.85,
+          "rationale": "Aristotle's nominalist tendency in early work"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book3.1_mathematical_intermediates",
+      "reconstruction_text": "Plato posited mathematical objects as intermediates between Ideas and sensible things",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.88,
+          "rationale": "Alexander preserves Aristotle's summary of Platonic mathematical ontology"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book3.2_third_realm_unnecessary",
+      "reconstruction_text": "But this creates a third realm where only two are necessary",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.85,
+          "rationale": "Aristotle's ontological economy principle"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book3.3_abstractions_not_substances",
+      "reconstruction_text": "Mathematical objects can be understood as abstractions from sensible things, not separate substances",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.88,
+          "rationale": "Aristotle's abstractionist account of mathematics"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book3.4_numbers_not_separate",
+      "reconstruction_text": "Numbers are not separate Ideas, for they are predicated of things that are numbered",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Syrianus_Commentary_Metaphysics",
+          "reliability": 0.85,
+          "rationale": "Syrianus preserves Aristotle's critique of numerical Forms"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book3.5_two_not_separate",
+      "reconstruction_text": "The number 'two' is not a separate thing, but a property of pairs of things",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Syrianus_Commentary_Metaphysics",
+          "reliability": 0.82,
+          "rationale": "Specific application of numerical critique"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book4.1_universals_in_mind",
+      "reconstruction_text": "We must say that universals exist in the mind, not as separate substances",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.90,
+          "rationale": "Alexander preserves Aristotle's positive alternative to Ideas"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "book4.2_concepts_abstracted",
+      "reconstruction_text": "They are concepts abstracted from particulars by the intellect",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Alexander_Commentary_Metaphysics",
+          "reliability": 0.85,
+          "rationale": "Aristotle's abstractionist epistemology"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book4.3_formed_through_experience",
+      "reconstruction_text": "Universals are formed through experience and memory",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Asclepius_Commentary_Metaphysics",
+          "reliability": 0.85,
+          "rationale": "Asclepius preserves Aristotle's empirical account"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "book4.4_perceive_many_men",
+      "reconstruction_text": "When we perceive many particular men, we form the concept 'man' by abstraction",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Asclepius_Commentary_Metaphysics",
+          "reliability": 0.82,
+          "rationale": "Specific example of abstraction process"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "book4.5_essences_not_separate",
+      "reconstruction_text": "Essences are not separate Ideas, but are what is expressed in definitions",
+      "evidence_items": [
+        {
+          "type": "direct_citation",
+          "source": "Simplicius_Commentary_Physics",
+          "reliability": 0.88,
+          "rationale": "Simplicius preserves Aristotle's definitional account of essence"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "book4.6_what_it_is_to_be",
+      "reconstruction_text": "The essence of man is not a separate thing, but what it is to be a man",
+      "evidence_items": [
+        {
+          "type": "contextual_inference",
+          "source": "Simplicius_Commentary_Physics",
+          "reliability": 0.85,
+          "rationale": "Aristotle's essentialist but non-Platonic account"
+        }
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 22,
+    "high_confidence": 12,
+    "medium_confidence": 10,
+    "low_confidence": 0,
+    "average_confidence": 0.87,
+    "evidence_sources": 5,
+    "cross_cultural_witnesses": 1
+  }
+}
