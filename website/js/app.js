@@ -1,7 +1,7 @@
 // CALLIMACHINA Main Application
 // Handles UI interactions and data visualization
 
-class CallimachusApp {
+class CallimachinaApp {
     constructor() {
         this.api = null;
         this.currentView = 'overview';
@@ -409,7 +409,7 @@ next_steps:
 
 // Initialize app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    window.callimachinaApp = new CallimachusApp();
+    window.callimachinaApp = new CallimachinaApp();
 });
 
 // Global functions for onclick handlers

@@ -1,7 +1,7 @@
 // CALLIMACHINA Web API Client
 // Handles communication with the backend system
 
-class CallimachusAPI {
+class CallimachinaAPI {
     constructor() {
         this.baseURL = '/pinakes';
         this.data = {};
@@ -217,8 +217,8 @@ class CallimachusAPI {
 }
 
 // Initialize API
-const api = new CallimachusAPI();
+const api = new CallimachinaAPI();
 
 // Make available globally
-window.CallimachusAPI = CallimachusAPI;
+window.CallimachinaAPI = CallimachusAPI;
 window.callimachinaAPI = api;

@@ -22,7 +22,7 @@ from papyri_scraper_enhanced import PapyriScraperEnhanced
 from citation_triangulator import CitationTriangulator
 from reconstruction_engine import ReconstructionEngine
 
-class CallimachusOrchestrator:
+class CallimachinaOrchestrator:
     def __init__(self):
         self.version = "2.0"
         self.activation_time = datetime.now()
@@ -263,7 +263,7 @@ class CallimachusOrchestrator:
         print("[STANDING BY] Awaiting bibliographic ghosts...")
 
 def main():
-    orchestrator = CallimachusOrchestrator()
+    orchestrator = CallimachinaOrchestrator()
     
     if len(sys.argv) > 1 and sys.argv[1] == '--monitor':
         orchestrator.continuous_monitoring_mode()

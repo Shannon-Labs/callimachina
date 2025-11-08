@@ -10,7 +10,7 @@ This package provides tools for:
 - Recoverability prediction
 """
 
-__version__ = "3.0.0"
+__version__ = "3.1.1"
 __author__ = "Hunter Shannon"
 __email__ = "hunter@shannonlabs.dev"
 

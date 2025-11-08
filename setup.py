@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="callimachina",
-    version="3.1.0",
+    version="3.1.1",
     author="Hunter Shannon",
     author_email="hunter@shannonlabs.dev",
     description="The Alexandria Reconstruction Protocol - Autonomous Digital Archaeology",

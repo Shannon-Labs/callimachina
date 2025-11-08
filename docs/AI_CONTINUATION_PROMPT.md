@@ -1,17 +1,17 @@
-# CALLIMACHUS v3.1: AI Continuation Prompt
+# CALLIMACHINA v3.1: AI Continuation Prompt
 ## Specific Development Instructions for AI Assistant
 
-**Project**: CALLIMACHUS - The Alexandria Reconstruction Protocol  
-**Current Version**: 3.1.0 (research prototype)  
-**Status**: Prototype with demo runs (see notes below)  
-**Repository**: `/Volumes/VIXinSSD/callimachus`  
-**Last Updated**: 2025-11-06
+**Project**: CALLIMACHINA - The Alexandria Reconstruction Protocol
+**Current Version**: 3.1.0 (research prototype)
+**Status**: Prototype with demo runs (see notes below)
+**Repository**: `https://github.com/Shannon-Labs/callimachina`
+**Last Updated**: 2025-11-08
 
 ---
 
 ## 🎯 PROJECT MISSION
 
-CALLIMACHUS is an **autonomous digital archaeology system** that reconstructs lost classical texts using:
+CALLIMACHINA is an **autonomous digital archaeology system** that reconstructs lost classical texts using:
 - **Bayesian inference** (PyMC) for confidence scoring
 - **Citation network analysis** (NetworkX) to map knowledge transmission
 - **Cross-lingual mapping** (Greek → Arabic → Latin → Syriac) to track translations
@@ -35,7 +35,7 @@ Note on metrics: Prior claims such as “393 works, 100% success” reflect demo
 
 ### Architecture
 ```
-callimachus/
+callimachina/
 ├── callimachina/
 │   ├── src/                          # Core modules
 │   │   ├── database.py              # SQLite backend (393 works)
@@ -556,7 +556,7 @@ class TestNewClass:
 
 ## 📞 CONTEXT FOR AI ASSISTANT
 
-**You are continuing development of CALLIMACHUS v3.1, an autonomous digital archaeology system that reconstructs lost classical texts.**
+**You are continuing development of CALLIMACHINA v3.1, an autonomous digital archaeology system that reconstructs lost classical texts.**
 
 **Current State**:
 - 393 works successfully reconstructed

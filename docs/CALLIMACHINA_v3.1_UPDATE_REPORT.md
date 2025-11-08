@@ -1,4 +1,4 @@
-# CALLIMACHUS v3.1: Development Update Report
+# CALLIMACHINA v3.1: Development Update Report
 
 **Date:** 2025-11-06
 **Status:** ✅ **7/9 Tasks Completed (78%)**
@@ -8,7 +8,7 @@
 
 ## 🎯 Mission Accomplished
 
-Successfully continued development of CALLIMACHUS v3.1, an autonomous digital archaeology system that reconstructs lost classical texts using Bayesian inference, citation network analysis, and cross-lingual mapping.
+Successfully continued development of CALLIMACHINA v3.1, an autonomous digital archaeology system that reconstructs lost classical texts using Bayesian inference, citation network analysis, and cross-lingual mapping.
 
 ---
 
@@ -259,9 +259,9 @@ Enhanced confidence: 73.3% (projected with new features)
 
 ## 📞 Contact & Contribution
 
-**Project:** CALLIMACHUS - The Alexandria Reconstruction Protocol  
-**Repository:** `/Volumes/VIXinSSD/callimachus`  
-**Version:** 3.1.0  
+**Project:** CALLIMACHINA - The Alexandria Reconstruction Protocol
+**Repository:** `https://github.com/Shannon-Labs/callimachina`
+**Version:** 3.1.0
 **Status:** Production-ready with real API integration  
 
 **Next Development Session:** Continue with web dashboard implementation

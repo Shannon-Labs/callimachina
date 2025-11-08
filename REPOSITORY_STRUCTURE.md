@@ -5,7 +5,7 @@ This document outlines the organized structure of the CALLIMACHINA repository fo
 ## 🏗️ Directory Organization
 
 ```
-callimachus/
+callimachina/
 ├── 📁 callimachina/                    # Main reconstruction engine
 │   ├── 📁 src/                         # Core Python modules
 │   │   ├── 🐍 bayesian_reconstructor.py    # Bayesian confidence scoring
@@ -48,7 +48,7 @@ callimachus/
 │   ├── 📖 API_REFERENCE.md                   # Complete API documentation
 │   ├── 🔬 METHODOLOGY.md                     # Bayesian methodology
 │   ├── 📋 AI_CONTINUATION_PROMPT.md          # Development guide
-│   └── 📈 CALLIMACHUS_v3.1_UPDATE_REPORT.md  # Release notes
+│   └── 📈 CALLIMACHINA_v3.1_UPDATE_REPORT.md  # Release notes
 │
 ├── 📁 .github/                           # GitHub repository configuration
 │   ├── 📁 ISSUE_TEMPLATE/                  # Issue templates
