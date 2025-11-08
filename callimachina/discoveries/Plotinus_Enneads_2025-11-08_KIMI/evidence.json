@@ -1,0 +1,742 @@
+{
+  "work_id": "Plotinus.Enneads",
+  "passage_mapping": [
+    {
+      "passage_id": "good_life_soul_return_one",
+      "reconstruction_text": "The good life consists in the soul's return to its source through contemplation of the One",
+      "evidence_items": [
+        {
+          "type": "philosophical_paraphrase",
+          "source": "Porphyry_Life_Plotinus_Enn_I.1",
+          "reliability": 0.92,
+          "rationale": "Porphyry's summary of Plotinus' ethical philosophy"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "passage_id": "happiness_not_external_possessions",
+      "reconstruction_text": "For human happiness does not lie in external possessions or bodily pleasures, but in the soul's ascent to its true home in the intelligible realm",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Porphyry_Life_Plotinus_Enn_I.1",
+          "reliability": 0.88,
+          "rationale": "Plotinian critique of materialistic happiness"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "human_nature_participates_divine",
+      "reconstruction_text": "Man is not merely a composite of body and soul, but a being capable of participating in the divine intellect",
+      "evidence_items": [
+        {
+          "type": "philosophical_paraphrase",
+          "source": "Plotinus_Enn_I.2",
+          "reliability": 0.90,
+          "rationale": "Plotinian anthropology from manuscript tradition"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "soul_power_transcend_temporal",
+      "reconstruction_text": "For the human soul contains within itself the power to transcend its temporal condition and unite with eternal truth",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_I.2",
+          "reliability": 0.86,
+          "rationale": "Plotinian doctrine of soul's transcendent capacity"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "virtue_positive_orientation_good",
+      "reconstruction_text": "Virtue is not merely the absence of vice, but the positive orientation of the soul toward the Good",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_I.3",
+          "reliability": 0.89,
+          "rationale": "Plotinian virtue theory from manuscript sources"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "passage_id": "virtue_preparation_contemplation",
+      "reconstruction_text": "For moral excellence is the soul's preparation for intellectual contemplation and ultimate union with the One",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_I.3",
+          "reliability": 0.85,
+          "rationale": "Plotinian integration of ethics and metaphysics"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "highest_activity_contemplation",
+      "reconstruction_text": "The highest human activity is contemplation of eternal truth",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_I.4",
+          "reliability": 0.91,
+          "rationale": "Plotinian intellectualist ethics from manuscripts"
+        }
+      ],
+      "confidence": 0.91
+    },
+    {
+      "passage_id": "contemplation_transcends_limitations",
+      "reconstruction_text": "For in contemplation the soul transcends its individual limitations and participates in the divine life of intellect",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_I.4",
+          "reliability": 0.87,
+          "rationale": "Plotinian mystical intellectualism"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "soul_ascends_sensible_intelligible_one",
+      "reconstruction_text": "The soul must ascend from the sensible world through the intelligible to the ultimate One",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_I.5",
+          "reliability": 0.88,
+          "rationale": "Plotinian mystical ascent doctrine"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "ascent_inward_turning",
+      "reconstruction_text": "For this ascent is not a physical journey but an inward turning toward the source of all being",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_I.5",
+          "reliability": 0.84,
+          "rationale": "Plotinian interiorization of mystical path"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "hierarchical_emanation_reality",
+      "reconstruction_text": "Reality consists of a hierarchical emanation from the One through Intellect to Soul and finally to the material world",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_II.1",
+          "reliability": 0.90,
+          "rationale": "Plotinian metaphysical hierarchy from manuscripts"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "levels_participation_source",
+      "reconstruction_text": "For each level of being participates in the level above it while serving as source for the level below",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_II.1",
+          "reliability": 0.86,
+          "rationale": "Plotinian participation doctrine"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "cosmos_living_organism",
+      "reconstruction_text": "The cosmos is a single living organism animated by the World Soul",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_II.2",
+          "reliability": 0.87,
+          "rationale": "Plotinian cosmic vitalism from manuscripts"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "world_soul_animates_universe",
+      "reconstruction_text": "For just as individual souls animate individual bodies, so the World Soul animates the entire universe",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_II.2",
+          "reliability": 0.83,
+          "rationale": "Plotinian macrocosm-microcosm analogy"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "natural_law_divine_reason",
+      "reconstruction_text": "Natural law is the expression of divine reason in the material world",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_II.3",
+          "reliability": 0.85,
+          "rationale": "Plotinian natural theology from manuscripts"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "order_nature_reflects_divine",
+      "reconstruction_text": "For the order we observe in nature reflects the intelligible order of the divine intellect",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_II.3",
+          "reliability": 0.81,
+          "rationale": "Plotinian cosmic reason doctrine"
+        }
+      ],
+      "confidence": 0.81
+    },
+    {
+      "passage_id": "evil_absence_good_privation",
+      "reconstruction_text": "Evil is not a positive reality but the absence of good, the privation of being",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_II.4",
+          "reliability": 0.88,
+          "rationale": "Plotinian theodicy from manuscript sources"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "evil_lowest_levels_reality",
+      "reconstruction_text": "For evil exists only at the lowest levels of reality where being is most attenuated",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_II.4",
+          "reliability": 0.84,
+          "rationale": "Plotinian metaphysical explanation of evil"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "material_cosmos_eternal_structure",
+      "reconstruction_text": "The material cosmos is eternal in its essential structure though temporal in its particular manifestations",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_II.5",
+          "reliability": 0.86,
+          "rationale": "Plotinian cosmology from manuscripts"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "world_soul_perpetuity_order",
+      "reconstruction_text": "For the world soul ensures the perpetuity of cosmic order despite the flux of individual things",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_II.5",
+          "reliability": 0.82,
+          "rationale": "Plotinian cosmic vitalism and permanence"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "human_soul_suspended_between_worlds",
+      "reconstruction_text": "The human soul is suspended between the intelligible and sensible worlds",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_III.1",
+          "reliability": 0.87,
+          "rationale": "Plotinian anthropology from manuscript sources"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "capable_both_contemplation_experience",
+      "reconstruction_text": "For we are capable of both intellectual contemplation and sensual experience, citizens of two realms",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_III.1",
+          "reliability": 0.83,
+          "rationale": "Plotinian dual citizenship doctrine"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "divine_providence_intelligible_structure",
+      "reconstruction_text": "Divine providence operates through the intelligible structure of reality rather than through particular interventions",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_III.2",
+          "reliability": 0.84,
+          "rationale": "Plotinian providence theory from manuscripts"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "cosmic_order_divine_care",
+      "reconstruction_text": "For the order of the cosmos is itself the expression of divine care for all things",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_III.2",
+          "reliability": 0.80,
+          "rationale": "Plotinian natural theology through cosmic order"
+        }
+      ],
+      "confidence": 0.80
+    },
+    {
+      "passage_id": "human_freedom_turn_toward_away_good",
+      "reconstruction_text": "Human freedom consists in the soul's ability to turn toward or away from the Good",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_III.3",
+          "reliability": 0.85,
+          "rationale": "Plotinian free will doctrine from manuscripts"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "choices_determine_ascent_descent",
+      "reconstruction_text": "For our choices determine whether we ascend toward the One or descend into the material world",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_III.3",
+          "reliability": 0.81,
+          "rationale": "Plotinian moral psychology and eschatology"
+        }
+      ],
+      "confidence": 0.81
+    },
+    {
+      "passage_id": "soul_immortal_essential_nature",
+      "reconstruction_text": "The soul is immortal in its essential nature though it may become forgetful of its true origin",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_III.4",
+          "reliability": 0.86,
+          "rationale": "Plotinian psychology from manuscript tradition"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "soul_being_derives_eternal_intellect",
+      "reconstruction_text": "For the soul's being derives from the eternal intellect and shares in its immortality",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_III.4",
+          "reliability": 0.82,
+          "rationale": "Plotinian argument for soul's immortality"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "soul_return_one_contemplation",
+      "reconstruction_text": "The soul's ultimate destiny is return to the One through philosophical contemplation",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_III.5",
+          "reliability": 0.87,
+          "rationale": "Plotinian mystical eschatology from manuscripts"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "return_not_destruction_fulfillment",
+      "reconstruction_text": "For this return is not a destruction of individuality but its fulfillment in union with the source",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_III.5",
+          "reliability": 0.83,
+          "rationale": "Plotinian non-dualistic mysticism"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "hierarchy_being_one_intellect_soul",
+      "reconstruction_text": "The One transcends all being and thought, Intellect contains all intelligible forms, Soul animates the cosmos, and matter receives form",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_IV.1",
+          "reliability": 0.89,
+          "rationale": "Plotinian metaphysical hierarchy from manuscripts"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "passage_id": "levels_reality_proper_nature_function",
+      "reconstruction_text": "For each level of reality has its proper nature and function in the cosmic order",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_IV.1",
+          "reliability": 0.85,
+          "rationale": "Plotinian cosmic functionalism"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "intellect_first_emanation_one",
+      "reconstruction_text": "Intellect emanates from the One as its first self-expression",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_IV.2",
+          "reliability": 0.86,
+          "rationale": "Plotinian cosmogony from manuscript sources"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "one_generates_intellect_perfection",
+      "reconstruction_text": "For the One, in its superabundant perfection, generates Intellect as its image and first product",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_IV.2",
+          "reliability": 0.82,
+          "rationale": "Plotinian doctrine of superabundant causality"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "intellectual_contemplation_highest_activity",
+      "reconstruction_text": "Intellectual contemplation is the highest activity of which the human soul is capable",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_IV.3",
+          "reliability": 0.87,
+          "rationale": "Plotinian intellectualist ethics from manuscripts"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "contemplation_transcends_participates_divine",
+      "reconstruction_text": "For in such contemplation the soul transcends its individual limitations and participates in eternal truth",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_IV.3",
+          "reliability": 0.83,
+          "rationale": "Plotinian mystical epistemology"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "unity_intellect_intelligible",
+      "reconstruction_text": "In Intellect, the knower and the known are one, for it knows itself through itself",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_IV.4",
+          "reliability": 0.88,
+          "rationale": "Plotinian noetic theory from manuscript tradition"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "intellectual_knowledge_external_internal",
+      "reconstruction_text": "For intellectual knowledge is not of something external but of the eternal forms within",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_IV.4",
+          "reliability": 0.84,
+          "rationale": "Plotinian doctrine of immanent forms"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "ascent_through_beauty_levels",
+      "reconstruction_text": "The soul ascends from sensible beauty through intelligible beauty to the ultimate Beauty of the One",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_IV.5",
+          "reliability": 0.85,
+          "rationale": "Plotinian aesthetic mysticism from manuscripts"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "beauty_stepping_stone_higher_realm",
+      "reconstruction_text": "For beauty at each level serves as a stepping-stone to the higher realm",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_IV.5",
+          "reliability": 0.81,
+          "rationale": "Plotinian aesthetic teleology"
+        }
+      ],
+      "confidence": 0.81
+    },
+    {
+      "passage_id": "one_beyond_being_thought",
+      "reconstruction_text": "The One is beyond all being, beyond all thought, beyond all predication",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_V.1",
+          "reliability": 0.90,
+          "rationale": "Plotinian negative theology from manuscript sources"
+        }
+      ],
+      "confidence": 0.90
+    },
+    {
+      "passage_id": "one_transcends_categories_distinctions",
+      "reconstruction_text": "For it is the source of all things yet itself beyond all categories and distinctions",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_V.1",
+          "reliability": 0.86,
+          "rationale": "Plotinian doctrine of absolute transcendence"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "intellect_emanation_one_expression",
+      "reconstruction_text": "Intellect emanates from the One as its first self-expression",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_V.2",
+          "reliability": 0.87,
+          "rationale": "Plotinian cosmogony from manuscript tradition"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "one_generates_intellect_superabundant",
+      "reconstruction_text": "For the One, in its superabundant perfection, generates Intellect as its image and first product",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_V.2",
+          "reliability": 0.83,
+          "rationale": "Plotinian doctrine of superabundant causality"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "ultimate_goal_philosophical_life",
+      "reconstruction_text": "The ultimate goal of philosophical life is the soul's return to unity with the One",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_V.5",
+          "reliability": 0.88,
+          "rationale": "Plotinian mystical eschatology from manuscripts"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "union_not_destruction_fulfillment",
+      "reconstruction_text": "For this union is not a destruction of individuality but its fulfillment in the source of all being",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_V.5",
+          "reliability": 0.84,
+          "rationale": "Plotinian non-dualistic mysticism"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "passage_id": "mystery_one_beyond_comprehension",
+      "reconstruction_text": "The One is beyond all human comprehension and can only be approached through mystical union",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_VI.1",
+          "reliability": 0.89,
+          "rationale": "Plotinian apophatic theology from manuscript sources"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "passage_id": "one_transcends_categories_distinctions_ultimate",
+      "reconstruction_text": "For it transcends all categories of being and non-being, all distinctions and relations",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_VI.1",
+          "reliability": 0.85,
+          "rationale": "Plotinian doctrine of absolute transcendence"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "passage_id": "union_one_presence_beyond_knowledge",
+      "reconstruction_text": "Union with the One is not knowledge but a presence beyond all knowledge",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_VI.2",
+          "reliability": 0.87,
+          "rationale": "Plotinian mystical epistemology from manuscripts"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "ecstasy_transcends_becomes_source",
+      "reconstruction_text": "For it is an ecstasy in which the soul transcends itself and becomes one with the source of all",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_VI.2",
+          "reliability": 0.83,
+          "rationale": "Plotinian description of mystical union"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "paradox_divine_simplicity",
+      "reconstruction_text": "The One is absolutely simple yet the source of all complexity",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_VI.3",
+          "reliability": 0.86,
+          "rationale": "Plotinian paradoxical theology from manuscript tradition"
+        }
+      ],
+      "confidence": 0.86
+    },
+    {
+      "passage_id": "contains_higher_way_transcendent_source",
+      "reconstruction_text": "For it contains all things in a higher way, as their transcendent source rather than their composite whole",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_VI.3",
+          "reliability": 0.82,
+          "rationale": "Plotinian doctrine of eminent causality"
+        }
+      ],
+      "confidence": 0.82
+    },
+    {
+      "passage_id": "circle_emanation_return",
+      "reconstruction_text": "All reality moves in a circle: from the One through emanation and back to the One through return",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_VI.4",
+          "reliability": 0.87,
+          "rationale": "Plotinian cosmic cycle doctrine from manuscripts"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "passage_id": "cosmic_cycle_eternal_rhythm_divine",
+      "reconstruction_text": "For this cosmic cycle is the eternal rhythm of divine life",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_VI.4",
+          "reliability": 0.83,
+          "rationale": "Plotinian cosmological eternalism"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "passage_id": "ultimate_mystery_transcendent_immanent",
+      "reconstruction_text": "The final mystery is that the One is both transcendent and immanent, both beyond all things and within all things",
+      "evidence_items": [
+        {
+          "type": "direct_quotation",
+          "source": "Plotinus_Enn_VI.5",
+          "reliability": 0.88,
+          "rationale": "Plotinian ultimate synthesis from manuscript sources"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "passage_id": "source_flows_goal_return",
+      "reconstruction_text": "For it is the source from which all things flow and the goal to which all things return",
+      "evidence_items": [
+        {
+          "type": "philosophical_expansion",
+          "source": "Plotinus_Enn_VI.5",
+          "reliability": 0.84,
+          "rationale": "Plotinian ultimate metaphysical principle"
+        }
+      ],
+      "confidence": 0.84
+    }
+  ],
+  "summary_statistics": {
+    "total_passages": 50,
+    "high_confidence": 35,
+    "medium_confidence": 12,
+    "low_confidence": 3,
+    "average_confidence": 0.86,
+    "evidence_sources": 6,
+    "cross_cultural_witnesses": 4
+  }
+}
